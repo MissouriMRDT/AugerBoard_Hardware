@@ -1,2 +1,2 @@
-# Template_Hardware
-Template repository for KiCAD board hardware
+# AugerBoard_Hardware
+KiCAD design files for Auger motion control board.
