@@ -4696,6 +4696,16 @@
 		)
 		(uuid "940c4bac-8553-42a3-a87e-475d8cb35253")
 	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 85.598 190.246 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "d10c8ac9-4b52-4a23-8d76-0f59a27bb5f4")
+	)
 	(global_label "T+"
 		(shape input)
 		(at 198.12 170.18 270)
@@ -7631,19 +7641,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "99f5ecf5-9243-4f1b-95ad-d72b5d1dcfc6")
+			(uuid "99f5ecf5-9243-4f1b-95ad-d72b5d1dcfc7")
 		)
 		(pin "3"
-			(uuid "a9861885-db38-4221-b85f-cbbb9bc0518e")
+			(uuid "a9861885-db38-4221-b85f-cbbb9bc0518f")
 		)
 		(pin "1"
-			(uuid "66e50b2f-34db-4d04-8238-2eb03fcd11ed")
+			(uuid "66e50b2f-34db-4d04-8238-2eb03fcd11ee")
 		)
 		(pin "2"
-			(uuid "e7b860f6-13fc-4091-8290-0483bd8bc032")
+			(uuid "e7b860f6-13fc-4091-8290-0483bd8bc033")
 		)
 		(pin "1"
-			(uuid "9f4ab9c5-17d2-4700-8cd2-716c0b780ba3")
+			(uuid "9f4ab9c5-17d2-4700-8cd2-716c0b780ba4")
 		)
 		(instances
 			(project ""
