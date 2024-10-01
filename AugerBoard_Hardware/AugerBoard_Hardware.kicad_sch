@@ -4170,12 +4170,6 @@
 		(uuid "055afbec-8065-40d3-bc21-227390d806bc")
 	)
 	(junction
-		(at 142.24 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07592fd8-19c5-491b-bf0e-5ad4a9d5ffbc")
-	)
-	(junction
 		(at 46.99 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4418,16 +4412,6 @@
 			(type default)
 		)
 		(uuid "1355f55c-f0cb-4dce-8d7d-26c58bee0686")
-	)
-	(wire
-		(pts
-			(xy 142.24 232.41) (xy 142.24 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d17486-0f3f-47b8-9dda-17b6e436da18")
 	)
 	(wire
 		(pts
@@ -4971,16 +4955,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 205.74) (xy 142.24 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6843a6c8-b7f8-4f0c-97fe-a8a4255505b6")
-	)
-	(wire
-		(pts
 			(xy 46.99 132.08) (xy 46.99 137.16)
 		)
 		(stroke
@@ -5248,16 +5222,6 @@
 			(type default)
 		)
 		(uuid "8cc9825d-101b-4b2b-9877-778ad9c4595e")
-	)
-	(wire
-		(pts
-			(xy 142.24 223.52) (xy 142.24 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d68ddcc-6d19-4bdb-8ca1-2dc03a7ef2d2")
 	)
 	(wire
 		(pts
@@ -5918,16 +5882,6 @@
 			(type default)
 		)
 		(uuid "ebf8c502-799b-4d22-a38e-d172d42745af")
-	)
-	(wire
-		(pts
-			(xy 135.89 223.52) (xy 142.24 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee0b547-3b45-4416-b6ec-df8e2aeafbdd")
 	)
 	(wire
 		(pts
@@ -7075,28 +7029,6 @@
 			)
 		)
 	)
-	(global_label "SW1"
-		(shape output)
-		(at 135.89 223.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df825803-cd3b-43be-8fb4-93642eece68d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.0344 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SW4"
 		(shape output)
 		(at 102.87 127 180)
@@ -7226,76 +7158,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 228.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00dc4dc3-4f91-49c7-bca4-0e5643b4286f")
-		(property "Reference" "R11"
-			(at 144.7876 227.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 144.7876 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.018 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "987438a4-7d6d-4540-9da7-8efcaf5afa4d")
-		)
-		(pin "1"
-			(uuid "f7ceaf36-e40d-4890-8009-141bc5fbda79")
-		)
-		(instances
-			(project "AugerBoard_Hardware"
-				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
-					(reference "R11")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7565,72 +7427,6 @@
 			(project ""
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19aeaff9-4d2d-44c9-97c3-c56af8956f13")
-		(property "Reference" "#PWR040"
-			(at 142.24 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57f61959-3e82-469b-b13e-fa4d5afa2f40")
-		)
-		(instances
-			(project "AugerBoard_Hardware"
-				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8492,72 +8288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 142.24 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "477de85a-739c-4e5a-977b-d11a0d89a1ea")
-		(property "Reference" "#PWR039"
-			(at 142.24 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 142.24 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 142.24 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f96c00f0-785a-4739-bb04-5fc6cf8564eb")
-		)
-		(instances
-			(project "AugerBoard_Hardware"
-				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 104.14 54.61 0)
 		(unit 1)
@@ -8752,76 +8482,6 @@
 			(project "AugerBoard_Hardware"
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 142.24 218.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e3a5747-362c-451a-85d1-20861df3eb15")
-		(property "Reference" "SW6"
-			(at 146.05 217.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 146.05 219.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 142.24 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de1c908d-90cc-448c-9ae9-c37ff803c2ae")
-		)
-		(pin "1"
-			(uuid "363523b8-246b-47ea-acd3-4e4afc8b2903")
-		)
-		(instances
-			(project "AugerBoard_Hardware"
-				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
