@@ -14128,7 +14128,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 146.05 115.57 90)
 			(effects
 				(font
