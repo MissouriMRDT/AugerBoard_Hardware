@@ -4666,12 +4666,6 @@
 		)
 	)
 	(junction
-		(at 46.99 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11256c36-714a-4275-b65a-845956cbe3ac")
-	)
-	(junction
 		(at 167.64 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4690,18 +4684,6 @@
 		(uuid "3d962972-0cad-4432-a951-d77183fa8321")
 	)
 	(junction
-		(at 46.99 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46207e91-7fa1-4d7f-9968-efd8e2033674")
-	)
-	(junction
-		(at 46.99 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "516807a3-0c84-444d-889b-5faf8875dd24")
-	)
-	(junction
 		(at 87.63 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4712,12 +4694,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b71c58d-cfe2-4267-87d7-0b87b601e507")
-	)
-	(junction
-		(at 46.99 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e01ab93-640f-4d17-bf64-e8facef056c9")
 	)
 	(junction
 		(at 104.14 52.07)
@@ -5051,16 +5027,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 109.22) (xy 46.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ea0092-4b5b-499e-bb2d-c98a99d1d0b9")
-	)
-	(wire
-		(pts
 			(xy 351.79 207.01) (xy 351.79 209.55)
 		)
 		(stroke
@@ -5161,16 +5127,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 162.56) (xy 46.99 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "350e3e83-3d6a-409d-9d45-4c44010f48e6")
-	)
-	(wire
-		(pts
 			(xy 323.85 40.64) (xy 323.85 43.18)
 		)
 		(stroke
@@ -5218,16 +5174,6 @@
 			(type default)
 		)
 		(uuid "3e46fcab-3b3b-47f5-99cd-b35a1edff12e")
-	)
-	(wire
-		(pts
-			(xy 30.48 137.16) (xy 46.99 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f5cae3a-7b12-4d57-97be-a211b313f91a")
 	)
 	(wire
 		(pts
@@ -5461,16 +5407,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 132.08) (xy 46.99 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6964bec5-31fb-4340-a6f6-f31124d686c9")
-	)
-	(wire
-		(pts
 			(xy 127 170.18) (xy 132.08 170.18)
 		)
 		(stroke
@@ -5668,16 +5604,6 @@
 			(type default)
 		)
 		(uuid "7ddb1292-9b5a-461f-a37e-224ec5c079b2")
-	)
-	(wire
-		(pts
-			(xy 46.99 104.14) (xy 46.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f37641d-8971-4c52-93ae-2aede1ede22d")
 	)
 	(wire
 		(pts
@@ -5928,16 +5854,6 @@
 			(type default)
 		)
 		(uuid "a9899edd-56ab-4cf3-91bf-7df440792af1")
-	)
-	(wire
-		(pts
-			(xy 30.48 198.12) (xy 46.99 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab2185e1-c08f-497f-a44b-f49d8d2e1b77")
 	)
 	(wire
 		(pts
@@ -6441,16 +6357,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 167.64) (xy 46.99 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e728e0c6-ff61-42c7-b602-afdabb3b3a4c")
-	)
-	(wire
-		(pts
 			(xy 220.98 105.41) (xy 224.79 105.41)
 		)
 		(stroke
@@ -6468,16 +6374,6 @@
 			(type default)
 		)
 		(uuid "e974860b-5b6b-4ab8-b0e1-7494af12d303")
-	)
-	(wire
-		(pts
-			(xy 46.99 193.04) (xy 46.99 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaebd6b1-a73b-4244-b63c-1f9bfda25237")
 	)
 	(wire
 		(pts
@@ -10201,72 +10097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59e148e2-a317-4565-a20a-f0916d2e56a5")
-		(property "Reference" "#PWR014"
-			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e17916d-adaf-4481-8cda-fcb0fcbcb64b")
-		)
-		(instances
-			(project ""
-				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 87.63 33.02 0)
 		(unit 1)
@@ -11981,72 +11811,6 @@
 			(project ""
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bdafe5d-89f9-424a-8984-031fdbb83f60")
-		(property "Reference" "#PWR035"
-			(at 30.48 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56187e99-8eb5-4f06-bc73-34b80fb8b2e6")
-		)
-		(instances
-			(project "AugerBoard_Hardware"
-				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -14699,7 +14463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:1P2T_Angled_Slide_GPI-152-3013"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 121.92 170.18 0)
 			(effects
 				(font
@@ -15153,72 +14917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f86c1117-5c4a-4095-9802-a7c6a768b1da")
-		(property "Reference" "#PWR015"
-			(at 30.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cbd4b89-83a2-427e-8cd0-b13bf59091ab")
-		)
-		(instances
-			(project "AugerBoard_Hardware"
-				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 156.21 0)
 		(unit 1)
@@ -15343,72 +15041,6 @@
 			(project "AugerBoard_Hardware"
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff504dc0-fd87-452d-bfe5-74fc1fec4cdf")
-		(property "Reference" "#PWR033"
-			(at 30.48 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa7aa7bd-995c-476c-b12e-43fde59bc72f")
-		)
-		(instances
-			(project "AugerBoard_Hardware"
-				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
