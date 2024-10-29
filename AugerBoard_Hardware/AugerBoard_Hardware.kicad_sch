@@ -4762,10 +4762,6 @@
 		(uuid "5d028961-b4aa-4733-a2fa-061de352fe86")
 	)
 	(no_connect
-		(at 265.43 31.75)
-		(uuid "638207e5-49b6-4b55-b963-157a66cb9219")
-	)
-	(no_connect
 		(at 265.43 34.29)
 		(uuid "715adb93-93b2-4867-be6f-f5d1eaf5b659")
 	)
@@ -5407,6 +5403,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 31.75) (xy 265.43 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b8b149-a2e4-4db2-84df-f14b685aef23")
+	)
+	(wire
+		(pts
 			(xy 127 170.18) (xy 132.08 170.18)
 		)
 		(stroke
@@ -5704,6 +5710,16 @@
 			(type default)
 		)
 		(uuid "8805d9e3-8560-4230-bc52-4a6741a6fe7a")
+	)
+	(wire
+		(pts
+			(xy 273.05 26.67) (xy 273.05 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a07c1bb-3bff-45fd-8ad1-9094b0c4c368")
 	)
 	(wire
 		(pts
@@ -8358,6 +8374,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 273.05 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1088b21a-07c6-4317-b280-7750b2bbab9d")
+		(property "Reference" "#PWR014"
+			(at 273.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 273.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 273.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc68f91a-34d9-499e-a5b0-5ed81634f46d")
+		)
+		(instances
+			(project ""
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 111.76 93.98 0)
 		(unit 1)
@@ -9361,7 +9443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
 			(at 167.64 36.83 0)
 			(effects
 				(font
@@ -10590,7 +10672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 67.31 132.08 0)
 			(effects
 				(font
@@ -10880,7 +10962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 231.14 167.64 0)
 			(effects
 				(font
@@ -11287,7 +11369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
 			(at 167.64 59.69 0)
 			(effects
 				(font
@@ -12616,7 +12698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 67.31 104.14 0)
 			(effects
 				(font
@@ -13246,7 +13328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 387.35 118.11 0)
 			(effects
 				(font
@@ -13534,7 +13616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 67.31 193.04 0)
 			(effects
 				(font
@@ -13893,7 +13975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 386.08 229.87 0)
 			(effects
 				(font
@@ -14112,7 +14194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 387.35 175.26 0)
 			(effects
 				(font
@@ -14672,7 +14754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 67.31 162.56 0)
 			(effects
 				(font
