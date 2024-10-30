@@ -4718,6 +4718,10 @@
 		(uuid "0398d0b8-25ff-442f-aa35-6af6223b063a")
 	)
 	(no_connect
+		(at 224.79 85.09)
+		(uuid "0564e19e-5942-4f04-93dd-466895f7ca7b")
+	)
+	(no_connect
 		(at 170.18 110.49)
 		(uuid "0b11a7de-f181-4245-bfbe-6252ba093894")
 	)
@@ -4762,6 +4766,10 @@
 		(uuid "5d028961-b4aa-4733-a2fa-061de352fe86")
 	)
 	(no_connect
+		(at 271.78 97.79)
+		(uuid "691abd96-7911-40ee-ab14-e7117bf663d9")
+	)
+	(no_connect
 		(at 265.43 34.29)
 		(uuid "715adb93-93b2-4867-be6f-f5d1eaf5b659")
 	)
@@ -4796,6 +4804,10 @@
 	(no_connect
 		(at 265.43 67.31)
 		(uuid "cdbd3240-b40f-4d64-a346-97dd9cf09d19")
+	)
+	(no_connect
+		(at 224.79 92.71)
+		(uuid "f2681c5b-ce44-4b3b-b6fe-491ce6f8678a")
 	)
 	(no_connect
 		(at 157.48 90.17)
@@ -7929,28 +7941,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SEL3"
-		(shape output)
-		(at 271.78 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c080a792-9358-48e2-8e09-a280d096685d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.3613 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
