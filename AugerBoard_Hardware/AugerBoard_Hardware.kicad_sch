@@ -4798,10 +4798,6 @@
 		(uuid "bcc05158-55b8-48b5-b257-9f844b48d4fb")
 	)
 	(no_connect
-		(at 224.79 113.03)
-		(uuid "c1ebeeeb-6599-4db4-a8cc-a806775b3b69")
-	)
-	(no_connect
 		(at 265.43 67.31)
 		(uuid "cdbd3240-b40f-4d64-a346-97dd9cf09d19")
 	)
@@ -5192,6 +5188,16 @@
 			(type default)
 		)
 		(uuid "40310f61-3f6a-4bea-89d5-104839ed4e48")
+	)
+	(wire
+		(pts
+			(xy 96.52 184.15) (xy 100.33 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f46a75-da4c-4634-9f33-1475ec7fcbd9")
 	)
 	(wire
 		(pts
@@ -5745,6 +5751,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 189.23) (xy 138.43 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c650571-f557-4a65-8963-31fa0009c823")
+	)
+	(wire
+		(pts
 			(xy 265.43 49.53) (xy 270.51 49.53)
 		)
 		(stroke
@@ -5802,6 +5818,16 @@
 			(type default)
 		)
 		(uuid "9ce82341-53c3-460f-b1fc-e0055992f84d")
+	)
+	(wire
+		(pts
+			(xy 135.89 184.15) (xy 138.43 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da1c929-ad3f-4550-8ccc-f2772d4838c0")
 	)
 	(wire
 		(pts
@@ -5872,6 +5898,16 @@
 			(type default)
 		)
 		(uuid "a688a8f1-2c2e-4be4-8d29-17bb317cacc7")
+	)
+	(wire
+		(pts
+			(xy 96.52 186.69) (xy 100.33 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91d8ebd-d094-402a-9754-d396696b1fff")
 	)
 	(wire
 		(pts
@@ -6175,6 +6211,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 186.69) (xy 138.43 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d030e183-b449-40b1-b9fd-97e7dbb51567")
+	)
+	(wire
+		(pts
 			(xy 62.23 97.79) (xy 55.88 97.79)
 		)
 		(stroke
@@ -6435,6 +6481,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 113.03) (xy 224.79 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed675aa2-9cef-46ef-8456-173fda172e06")
+	)
+	(wire
+		(pts
 			(xy 162.56 27.94) (xy 158.75 27.94)
 		)
 		(stroke
@@ -6664,6 +6720,18 @@
 		(uuid 314d673a-8e78-4645-8a59-e99902a7476d)
 	)
 	(rectangle
+		(start 91.44 175.26)
+		(end 163.83 207.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5f169ce0-b748-4121-91fd-3b8b2f5d24c3)
+	)
+	(rectangle
 		(start 288.29 13.97)
 		(end 334.01 63.5)
 		(stroke
@@ -6784,6 +6852,16 @@
 			)
 		)
 		(uuid "5e72b525-b631-4ae3-a62d-635a87be1e63")
+	)
+	(text "IR Emmiter and Receiver\n"
+		(exclude_from_sim no)
+		(at 127.508 201.422 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "690b232f-45bf-4f5e-9ab1-aca468e45fe8")
 	)
 	(text "Power\n"
 		(exclude_from_sim no)
@@ -7747,6 +7825,28 @@
 			)
 		)
 	)
+	(global_label "VIR"
+		(shape output)
+		(at 132.08 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f524e4b-1fd2-4e19-b1c7-3d209cfda93f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.1314 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW1"
 		(shape output)
 		(at 102.87 93.98 180)
@@ -7848,6 +7948,28 @@
 		(uuid "b398d745-e90c-452d-87ad-4056efcb8726")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 212.8544 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIR"
+		(shape input)
+		(at 220.98 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5fe2482-5e20-413b-a834-4a10addfa9a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.0314 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 293.37 120.65 0)
 			(effects
 				(font
@@ -9684,6 +9806,76 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_02")
+		(at 105.41 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "459789b6-8277-4f63-bd2e-f285514a70d6")
+		(property "Reference" "Conn6"
+			(at 109.22 184.1499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_02"
+			(at 109.22 186.6899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa6dd510-91ae-4f99-bc22-8f5bbb2d25d8")
+		)
+		(pin "1"
+			(uuid "215be20e-000a-4061-a3a0-2ff69b39bbfa")
+		)
+		(instances
+			(project ""
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "Conn6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 54.61 0)
 		(unit 1)
@@ -9909,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 293.37 106.68 0)
 			(effects
 				(font
@@ -10299,6 +10491,72 @@
 			(project "AugerBoard_Hardware"
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 96.52 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f188ef8-7a99-498c-9891-45d8801afb03")
+		(property "Reference" "#PWR033"
+			(at 96.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 96.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3c520d3-96be-4a33-a44c-f7b3e5f64144")
+		)
+		(instances
+			(project ""
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10796,7 +11054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 293.37 171.45 0)
 			(effects
 				(font
@@ -10873,7 +11131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 15.24 68.58 0)
 			(effects
 				(font
@@ -11771,7 +12029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 293.37 152.4 0)
 			(effects
 				(font
@@ -12797,6 +13055,79 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_03")
+		(at 143.51 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c42f8f5-7bcd-4c45-9113-76b52a03995b")
+		(property "Reference" "Conn16"
+			(at 147.32 185.4199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_03"
+			(at 147.32 187.9599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
+			(at 143.51 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "780f840e-cae0-4354-96ab-376b88ebcd9e")
+		)
+		(pin "2"
+			(uuid "d654a031-1d7e-4617-b253-8c5b2642f17c")
+		)
+		(pin "1"
+			(uuid "d827fa20-6a7b-49aa-a363-3737d1bed444")
+		)
+		(instances
+			(project ""
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "Conn16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 311.15 54.61 0)
 		(unit 1)
@@ -12857,6 +13188,72 @@
 			(project "AugerBoard_Hardware"
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 135.89 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a37046ac-9b92-4205-b7b7-f8d22595f197")
+		(property "Reference" "#PWR035"
+			(at 135.89 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 135.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f737d26-bd43-4afc-b198-40d8742ad961")
+		)
+		(instances
+			(project "AugerBoard_Hardware"
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13239,7 +13636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 293.37 138.43 0)
 			(effects
 				(font
@@ -13395,7 +13792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 293.37 185.42 0)
 			(effects
 				(font
@@ -13507,6 +13904,72 @@
 			(project ""
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b43f0b-66de-42aa-81fd-b7ed90961d5b")
+		(property "Reference" "#PWR026"
+			(at 135.89 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90546dc0-f005-4bb6-8751-5cfccd5a1feb")
+		)
+		(instances
+			(project ""
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13740,7 +14203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 15.24 55.88 0)
 			(effects
 				(font
@@ -14781,6 +15244,72 @@
 			(project "AugerBoard_Hardware"
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "Conn10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6d9e0d3-ac08-41ee-aaed-4f33536a3618")
+		(property "Reference" "#PWR015"
+			(at 96.52 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3acf3e-767f-4792-ad61-3ae4d28823e9")
+		)
+		(instances
+			(project ""
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
