@@ -4802,10 +4802,6 @@
 		(uuid "cdbd3240-b40f-4d64-a346-97dd9cf09d19")
 	)
 	(no_connect
-		(at 224.79 92.71)
-		(uuid "f2681c5b-ce44-4b3b-b6fe-491ce6f8678a")
-	)
-	(no_connect
 		(at 157.48 90.17)
 		(uuid "f94566c0-2312-40f0-9918-97ef641dc466")
 	)
@@ -5091,6 +5087,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 187.96) (xy 184.15 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb3b2db-5fd9-4b16-94c7-2619d0a48e9a")
+	)
+	(wire
+		(pts
 			(xy 220.98 97.79) (xy 224.79 97.79)
 		)
 		(stroke
@@ -5188,6 +5194,16 @@
 			(type default)
 		)
 		(uuid "3e46fcab-3b3b-47f5-99cd-b35a1edff12e")
+	)
+	(wire
+		(pts
+			(xy 219.71 92.71) (xy 224.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6642dc-dafc-4226-854f-3499eca59fe8")
 	)
 	(wire
 		(pts
@@ -5298,6 +5314,16 @@
 			(type default)
 		)
 		(uuid "53bccb5d-57c5-4f51-bc36-1c1f30ac597f")
+	)
+	(wire
+		(pts
+			(xy 181.61 190.5) (xy 184.15 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56727183-c6eb-4eb9-9c1c-a6b4777a5aa7")
 	)
 	(wire
 		(pts
@@ -6141,6 +6167,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 190.5) (xy 184.15 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53ceba0-a0f4-4719-8faf-fb67d412c5ca")
+	)
+	(wire
+		(pts
 			(xy 307.34 90.17) (xy 316.23 90.17)
 		)
 		(stroke
@@ -6756,6 +6792,18 @@
 		(uuid 707491f9-a312-4627-b122-cf887d7a3ac9)
 	)
 	(rectangle
+		(start 163.83 175.26)
+		(end 196.85 207.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 80ad1c02-45a5-4d47-bf13-64ca69280932)
+	)
+	(rectangle
 		(start 153.67 135.89)
 		(end 250.19 175.26)
 		(stroke
@@ -6842,6 +6890,16 @@
 			)
 		)
 		(uuid "4f6fe938-f62b-40b3-83f8-1d2a68bf18d5")
+	)
+	(text "UV Led\n"
+		(exclude_from_sim no)
+		(at 180.594 202.184 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "539a66d8-4954-41e7-9a4c-9f3e432e990f")
 	)
 	(text "DumbMoCo Connections"
 		(exclude_from_sim no)
@@ -7429,6 +7487,28 @@
 			)
 		)
 	)
+	(global_label "UV Led"
+		(shape output)
+		(at 219.71 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e5b8aef-bd1c-4ce8-a032-a726f88de955")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.0724 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CS2"
 		(shape output)
 		(at 378.46 168.91 180)
@@ -7469,6 +7549,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UV Led"
+		(shape input)
+		(at 184.15 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64ef69c1-136b-4be1-850b-970423741b98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.7876 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8480,6 +8582,72 @@
 			(project "AugerBoard_Hardware"
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09ef7d5e-91b2-4ad8-a46f-5654b21fed34")
+		(property "Reference" "#PWR027"
+			(at 184.15 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08cf6a79-eced-44f7-af6f-b50aac8b2596")
+		)
+		(instances
+			(project ""
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9522,6 +9690,74 @@
 			(project "AugerBoard_Hardware"
 				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_02")
+		(at 176.53 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2efedc7d-d8b6-4250-9e93-1c366bdb3bd4")
+		(property "Reference" "Conn17"
+			(at 175.26 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Molex_SL_02"
+			(at 175.26 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
+			(at 176.53 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b8fec1f-a9c7-4960-a389-684b549b421f")
+		)
+		(pin "2"
+			(uuid "e10b2939-9d77-44f5-879b-cf52f0356de0")
+		)
+		(instances
+			(project ""
+				(path "/eb675789-6cce-4465-8b28-94d3d6dee9aa"
+					(reference "Conn17")
 					(unit 1)
 				)
 			)
