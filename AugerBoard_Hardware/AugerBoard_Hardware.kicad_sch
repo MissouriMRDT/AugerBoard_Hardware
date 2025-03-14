@@ -4746,6 +4746,10 @@
 		(uuid "29cae53a-825b-4177-8fcc-f35935c5626d")
 	)
 	(no_connect
+		(at 224.79 67.31)
+		(uuid "354b15f5-aa0d-4066-a496-ff9b6f407a9d")
+	)
+	(no_connect
 		(at 224.79 49.53)
 		(uuid "46eefcf0-5e45-4e0d-b245-691e8915cbd4")
 	)
@@ -4778,12 +4782,12 @@
 		(uuid "7d2785c2-f285-4920-a631-9f73526a4f36")
 	)
 	(no_connect
-		(at 265.43 100.33)
-		(uuid "8c9c7ad7-4928-4c5c-a640-102bf8295f7e")
+		(at 224.79 77.47)
+		(uuid "8553068d-8fd9-440b-b825-874af5d51dc1")
 	)
 	(no_connect
-		(at 265.43 113.03)
-		(uuid "a27c3075-9ce6-44f9-a2a7-30cb91c4031e")
+		(at 265.43 100.33)
+		(uuid "8c9c7ad7-4928-4c5c-a640-102bf8295f7e")
 	)
 	(no_connect
 		(at 265.43 118.11)
@@ -5509,16 +5513,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 67.31) (xy 224.79 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e83afbc-a94a-43e6-b277-19298f8e5d28")
-	)
-	(wire
-		(pts
 			(xy 102.87 107.95) (xy 106.68 107.95)
 		)
 		(stroke
@@ -5639,16 +5633,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 77.47) (xy 224.79 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a937920-af78-447a-88af-f8949b05ffed")
-	)
-	(wire
-		(pts
 			(xy 87.63 33.02) (xy 87.63 40.64)
 		)
 		(stroke
@@ -5746,6 +5730,16 @@
 			(type default)
 		)
 		(uuid "86c55706-03c6-45ec-80a9-9c38cee7b6ac")
+	)
+	(wire
+		(pts
+			(xy 265.43 113.03) (xy 271.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c69cdf-2d4f-4fb3-a2a8-8d68e3fb964d")
 	)
 	(wire
 		(pts
@@ -6917,7 +6911,7 @@
 		)
 		(uuid "f213175a-6eb3-49e6-915b-6d7eec5acbc5")
 	)
-	(global_label "IN_B2"
+	(global_label "IN_B1"
 		(shape input)
 		(at 375.92 106.68 180)
 		(fields_autoplaced yes)
@@ -6939,29 +6933,7 @@
 			)
 		)
 	)
-	(global_label "SW4"
-		(shape input)
-		(at 219.71 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d06eda1-6f89-4fda-8c94-5c7585c96376")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.8544 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS3"
+	(global_label "CS2"
 		(shape input)
 		(at 271.78 107.95 0)
 		(fields_autoplaced yes)
@@ -7005,7 +6977,7 @@
 			)
 		)
 	)
-	(global_label "PWM3"
+	(global_label "PWM2"
 		(shape input)
 		(at 335.28 177.8 180)
 		(fields_autoplaced yes)
@@ -7159,7 +7131,7 @@
 			)
 		)
 	)
-	(global_label "IN_A3"
+	(global_label "IN_A2"
 		(shape input)
 		(at 375.92 179.07 180)
 		(fields_autoplaced yes)
@@ -7247,7 +7219,7 @@
 			)
 		)
 	)
-	(global_label "IN_A2"
+	(global_label "IN_A1"
 		(shape input)
 		(at 375.92 114.3 180)
 		(fields_autoplaced yes)
@@ -7269,7 +7241,7 @@
 			)
 		)
 	)
-	(global_label "IN_A2"
+	(global_label "IN_A1"
 		(shape output)
 		(at 269.24 87.63 0)
 		(fields_autoplaced yes)
@@ -7291,7 +7263,7 @@
 			)
 		)
 	)
-	(global_label "IN_A3"
+	(global_label "IN_A2"
 		(shape output)
 		(at 269.24 97.79 0)
 		(fields_autoplaced yes)
@@ -7379,7 +7351,7 @@
 			)
 		)
 	)
-	(global_label "CS2"
+	(global_label "CS1"
 		(shape output)
 		(at 375.92 111.76 180)
 		(fields_autoplaced yes)
@@ -7489,7 +7461,7 @@
 			)
 		)
 	)
-	(global_label "PWM3"
+	(global_label "PWM2"
 		(shape output)
 		(at 271.78 115.57 0)
 		(fields_autoplaced yes)
@@ -7511,7 +7483,7 @@
 			)
 		)
 	)
-	(global_label "PWM2"
+	(global_label "PWM1"
 		(shape output)
 		(at 220.98 100.33 180)
 		(fields_autoplaced yes)
@@ -7599,7 +7571,7 @@
 			)
 		)
 	)
-	(global_label "IN_B3"
+	(global_label "IN_B2"
 		(shape input)
 		(at 375.92 171.45 180)
 		(fields_autoplaced yes)
@@ -7643,7 +7615,7 @@
 			)
 		)
 	)
-	(global_label "CS3"
+	(global_label "CS2"
 		(shape output)
 		(at 375.92 176.53 180)
 		(fields_autoplaced yes)
@@ -7665,7 +7637,7 @@
 			)
 		)
 	)
-	(global_label "CS2"
+	(global_label "CS1"
 		(shape input)
 		(at 220.98 97.79 180)
 		(fields_autoplaced yes)
@@ -7841,7 +7813,7 @@
 			)
 		)
 	)
-	(global_label "PWM2"
+	(global_label "PWM1"
 		(shape input)
 		(at 334.01 113.03 180)
 		(fields_autoplaced yes)
@@ -7997,22 +7969,22 @@
 	)
 	(global_label "Encoder_1b"
 		(shape input)
-		(at 222.25 67.31 180)
+		(at 271.78 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "cf64822a-d865-4fbc-8bf2-a998869c9bd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.3793 67.31 0)
+			(at 285.6507 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8039,7 +8011,7 @@
 			)
 		)
 	)
-	(global_label "IN_B3"
+	(global_label "IN_B2"
 		(shape output)
 		(at 269.24 72.39 0)
 		(fields_autoplaced yes)
@@ -8105,7 +8077,7 @@
 			)
 		)
 	)
-	(global_label "PWM3"
+	(global_label "PWM2"
 		(shape input)
 		(at 375.92 173.99 180)
 		(fields_autoplaced yes)
@@ -8127,7 +8099,7 @@
 			)
 		)
 	)
-	(global_label "PWM2"
+	(global_label "PWM1"
 		(shape input)
 		(at 375.92 109.22 180)
 		(fields_autoplaced yes)
@@ -8149,7 +8121,7 @@
 			)
 		)
 	)
-	(global_label "IN_B2"
+	(global_label "IN_B1"
 		(shape output)
 		(at 269.24 69.85 0)
 		(fields_autoplaced yes)
