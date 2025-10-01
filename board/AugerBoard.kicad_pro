@@ -617,6 +617,46 @@
     [
       "05fd3c2e-b986-4426-9c38-2a77d5c929de",
       "Root"
+    ],
+    [
+      "3b4d7bd3-b617-4540-8dc9-414a3afad923",
+      "Power"
+    ],
+    [
+      "23b17310-6f85-4d9a-8e16-579a52ef7695",
+      "Teensy"
+    ],
+    [
+      "3e0adf90-8662-411f-b4a7-580b75df6629",
+      "Servos"
+    ],
+    [
+      "2e8a1a4c-679b-4e28-aa1a-22908ea877e1",
+      "Communications"
+    ],
+    [
+      "f1c20728-7c40-49e0-910a-0c2b6b14cbc0",
+      "Soil Sensors"
+    ],
+    [
+      "a5c2b2a2-3752-449e-a565-debe21d8b508",
+      "VESC"
+    ],
+    [
+      "874d0dfc-2f90-4409-9fd5-46a48fc81ade",
+      "AF interface"
+    ],
+    [
+      "37d5b1b3-e7f7-4c6a-a8cd-21f759fbba04",
+      "mount"
+    ],
+    [
+      "590fcba9-6f33-46c6-897e-fddc0210fa05",
+      "Test Buttons"
+    ],
+    [
+      "b89e7fe4-e08b-4022-87ca-d5eca29a7423",
+      "Direction Switch"
     ]
   ],
   "text_variables": {}
