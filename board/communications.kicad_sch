@@ -3325,19 +3325,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "0c05f276-713b-43fb-8795-c4e2c6a99a17")
+			(uuid "0c05f276-713b-43fb-8795-c4e2c6a99a18")
 		)
 		(pin "1"
 			(uuid "6e766e63-3813-4951-8808-01d018e927cf")
 		)
 		(pin "1"
-			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddc")
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddd")
 		)
 		(pin "3"
-			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51bf")
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51c0")
 		)
 		(pin "4"
-			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c6")
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c7")
 		)
 		(instances
 			(project "AugerBoard"
@@ -3957,16 +3957,16 @@
 			(uuid "0c05f276-713b-43fb-8795-c4e2c6a99a16")
 		)
 		(pin "1"
-			(uuid "2524afd5-e287-453f-bd1b-131a0125b867")
+			(uuid "2524afd5-e287-453f-bd1b-131a0125b868")
 		)
 		(pin "1"
-			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddb")
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673dadde")
 		)
 		(pin "3"
-			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51be")
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51c1")
 		)
 		(pin "4"
-			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c5")
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c8")
 		)
 		(instances
 			(project ""
@@ -4100,16 +4100,16 @@
 			(uuid "10c9e8b9-b09e-4406-bd95-8727f2ecf256")
 		)
 		(pin "1"
-			(uuid "2524afd5-e287-453f-bd1b-131a0125b867")
+			(uuid "2524afd5-e287-453f-bd1b-131a0125b869")
 		)
 		(pin "1"
-			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddb")
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddf")
 		)
 		(pin "3"
-			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51be")
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51c2")
 		)
 		(pin "4"
-			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c5")
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c9")
 		)
 		(instances
 			(project "AugerBoard"
@@ -4174,19 +4174,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "0c05f276-713b-43fb-8795-c4e2c6a99a16")
+			(uuid "0c05f276-713b-43fb-8795-c4e2c6a99a19")
 		)
 		(pin "1"
-			(uuid "2524afd5-e287-453f-bd1b-131a0125b867")
+			(uuid "2524afd5-e287-453f-bd1b-131a0125b86a")
 		)
 		(pin "1"
-			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddb")
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673dade0")
 		)
 		(pin "3"
-			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51be")
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51c3")
 		)
 		(pin "4"
-			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c5")
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03ca")
 		)
 		(instances
 			(project ""
