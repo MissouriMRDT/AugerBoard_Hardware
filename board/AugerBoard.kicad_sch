@@ -27,6 +27,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267d988e-a6d8-41ec-9712-faf548f27bf5")
+	)
+	(wire
+		(pts
 			(xy 120.65 86.36) (xy 125.73 86.36)
 		)
 		(stroke
@@ -34,6 +44,26 @@
 			(type default)
 		)
 		(uuid "3439c482-fafe-4ada-b1f8-0a1412cc40af")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4139b80c-b9f4-4c8a-b8b6-1cefdf0d4ae6")
+	)
+	(wire
+		(pts
+			(xy 120.65 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487e7769-e556-483c-9bb7-66dc44bc537c")
 	)
 	(wire
 		(pts
@@ -134,6 +164,16 @@
 			(type default)
 		)
 		(uuid "e858a8e5-d7d0-4edc-8c7c-1240ae0b2f7e")
+	)
+	(wire
+		(pts
+			(xy 120.65 106.68) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3807bbf-c2b1-4dff-bb1b-b41440986331")
 	)
 	(wire
 		(pts
@@ -312,6 +352,46 @@
 		(pin "ServoPWM6" output
 			(at 125.73 93.98 180)
 			(uuid "51910579-69bb-4834-b841-97f337f05e69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dir_Switch" input
+			(at 125.73 101.6 180)
+			(uuid "230e67a1-647f-4c09-bf72-fbc972c20f13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW1" input
+			(at 125.73 104.14 180)
+			(uuid "8aa97e64-3873-4887-9f80-3f76a3e8584a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW2" input
+			(at 125.73 106.68 180)
+			(uuid "3d9e5fd3-444d-4ef4-af4e-4422f758eebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW3" input
+			(at 125.73 109.22 180)
+			(uuid "18818971-37b4-43e4-becf-e720e5c00d2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,6 +749,46 @@
 				(justify left top)
 			)
 		)
+		(pin "Dir_Switch" output
+			(at 120.65 101.6 0)
+			(uuid "90277cd2-01da-4cf2-92e6-8bf5a89eed49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW1" output
+			(at 120.65 104.14 0)
+			(uuid "c3a88fdf-95a9-4e8e-bae8-2b85f39ca84c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW2" output
+			(at 120.65 106.68 0)
+			(uuid "66ccffc2-968d-49ea-8677-52fec8ec8db5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW3" output
+			(at 120.65 109.22 0)
+			(uuid "488ec5f2-ea2d-498d-b1fd-d014ad52590e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de"
@@ -720,8 +840,8 @@
 		)
 	)
 	(sheet
-		(at 166.37 100.33)
-		(size 20.32 13.97)
+		(at 125.73 119.38)
+		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -736,7 +856,7 @@
 		)
 		(uuid "a5c2b2a2-3752-449e-a565-debe21d8b508")
 		(property "Sheetname" "VESC"
-			(at 166.37 99.6184 0)
+			(at 125.73 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +865,7 @@
 			)
 		)
 		(property "Sheetfile" "VESC.kicad_sch"
-			(at 166.37 114.8846 0)
+			(at 125.73 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,50 +882,8 @@
 		)
 	)
 	(sheet
-		(at 125.73 119.38)
-		(size 15.24 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b89e7fe4-e08b-4022-87ca-d5eca29a7423")
-		(property "Sheetname" "Direction Switch"
-			(at 125.73 118.6684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "direction_switch.kicad_sch"
-			(at 125.73 132.6646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "AugerBoard"
-				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 166.37 80.01)
-		(size 20.32 15.24)
+		(size 20.32 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -819,7 +897,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f1c20728-7c40-49e0-910a-0c2b6b14cbc0")
-		(property "Sheetname" "Soil Sensors"
+		(property "Sheetname" "Soil Sensors & NPK"
 			(at 166.37 79.2984 0)
 			(effects
 				(font
@@ -828,8 +906,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "soil_sensors.kicad_sch"
-			(at 166.37 95.8346 0)
+		(property "Sheetfile" "soil_sensors_npk.kicad_sch"
+			(at 166.37 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

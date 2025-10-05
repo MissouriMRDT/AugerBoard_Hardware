@@ -636,7 +636,7 @@
     ],
     [
       "f1c20728-7c40-49e0-910a-0c2b6b14cbc0",
-      "Soil Sensors"
+      "Soil Sensors & NPK"
     ],
     [
       "a5c2b2a2-3752-449e-a565-debe21d8b508",
@@ -653,10 +653,6 @@
     [
       "590fcba9-6f33-46c6-897e-fddc0210fa05",
       "Test Buttons"
-    ],
-    [
-      "b89e7fe4-e08b-4022-87ca-d5eca29a7423",
-      "Direction Switch"
     ]
   ],
   "text_variables": {}
