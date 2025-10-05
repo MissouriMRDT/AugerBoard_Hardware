@@ -97,6 +97,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 93.98) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd30ca7-399d-453e-b608-2f47c2ca2743")
+	)
+	(wire
+		(pts
 			(xy 144.78 74.93) (xy 144.78 80.01)
 		)
 		(stroke
@@ -297,6 +307,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ServoPWM6" output
+			(at 125.73 93.98 180)
+			(uuid "51910579-69bb-4834-b841-97f337f05e69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -590,6 +610,16 @@
 		(pin "ServoPWM5" input
 			(at 120.65 91.44 0)
 			(uuid "dcbc84c6-619e-4565-9ee8-3abd7b6d03fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ServoPWM6" input
+			(at 120.65 93.98 0)
+			(uuid "55034f9a-cf8b-41f6-9b06-d551f25a2167")
 			(effects
 				(font
 					(size 1.27 1.27)
