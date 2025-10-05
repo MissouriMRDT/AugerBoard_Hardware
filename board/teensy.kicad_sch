@@ -1950,7 +1950,7 @@
 		)
 		(uuid "82f0cb70-4073-4e31-b8f0-843d740dec59")
 	)
-	(hierarchical_label "TxD"
+	(hierarchical_label "TXD"
 		(shape output)
 		(at 109.22 118.11 180)
 		(effects

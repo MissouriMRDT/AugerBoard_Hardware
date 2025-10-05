@@ -299,7 +299,7 @@
 				(justify right)
 			)
 		)
-		(pin "TxD" output
+		(pin "TXD" output
 			(at 160.02 80.01 90)
 			(uuid "85c4f6da-b3a6-44d6-9d82-2c14b33a1de3")
 			(effects

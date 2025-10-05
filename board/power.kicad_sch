@@ -1347,6 +1347,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 179.07) (xy 44.45 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d4e0bf-07d4-4ca7-b5ba-948c67936003")
+	)
+	(wire
+		(pts
 			(xy 152.4 49.53) (xy 152.4 50.8)
 		)
 		(stroke
@@ -1377,6 +1387,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 142.24) (xy 44.45 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c961ff-0f74-46e2-a8a8-35a6191b5267")
+	)
+	(wire
+		(pts
+			(xy 38.1 90.17) (xy 44.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfe7977-d099-4263-9c0a-862ed053fc1a")
+	)
+	(wire
+		(pts
 			(xy 139.7 58.42) (xy 139.7 59.69)
 		)
 		(stroke
@@ -1384,6 +1414,16 @@
 			(type default)
 		)
 		(uuid "406e5d0b-12c0-48f0-8be2-71ae6a2ebcc7")
+	)
+	(wire
+		(pts
+			(xy 44.45 163.83) (xy 44.45 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44390f9c-c3cd-4924-80b8-21fb9168eec4")
 	)
 	(wire
 		(pts
@@ -1424,6 +1464,16 @@
 			(type default)
 		)
 		(uuid "5eb84a7f-1870-4b68-9300-a080ccc76d7d")
+	)
+	(wire
+		(pts
+			(xy 38.1 105.41) (xy 44.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649439aa-8dc4-498c-869e-50b43d178abd")
 	)
 	(wire
 		(pts
@@ -1477,6 +1527,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 105.41) (xy 44.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bedf81b-cf3b-495d-bbc8-cc8c03485a65")
+	)
+	(wire
+		(pts
 			(xy 139.7 49.53) (xy 139.7 50.8)
 		)
 		(stroke
@@ -1487,6 +1547,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 90.17) (xy 44.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b103ea-04dc-451e-a626-7978cf726b47")
+	)
+	(wire
+		(pts
 			(xy 165.1 39.37) (xy 165.1 41.91)
 		)
 		(stroke
@@ -1494,6 +1564,16 @@
 			(type default)
 		)
 		(uuid "8cdb1bf8-423f-4291-8bd2-84b10e03f3de")
+	)
+	(wire
+		(pts
+			(xy 38.1 142.24) (xy 44.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947d55bc-d259-4c73-95c0-c23e79aec821")
 	)
 	(wire
 		(pts
@@ -1517,6 +1597,36 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 127) (xy 44.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a373f4dc-f2fc-48c3-993e-6befbf7ae873")
+	)
+	(wire
+		(pts
+			(xy 38.1 163.83) (xy 44.45 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71cb433-8965-47f4-96cc-40a1d8c61c68")
+	)
+	(wire
+		(pts
+			(xy 38.1 179.07) (xy 44.45 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b661671d-31a5-4286-b6ee-bf7a17eb1392")
+	)
+	(wire
+		(pts
 			(xy 152.4 39.37) (xy 152.4 41.91)
 		)
 		(stroke
@@ -1534,6 +1644,16 @@
 			(type default)
 		)
 		(uuid "c286b8c9-c758-4630-9c37-844452e5ce4c")
+	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 44.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c726cb1b-d4d9-4664-b7c0-f1e1558413ef")
 	)
 	(wire
 		(pts
@@ -1731,6 +1851,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a3cb0a2-4608-422f-ad5d-d80c383a102b")
+		(property "Reference" "#PWR040"
+			(at 44.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd4f2ef-765c-46a0-b3eb-9a6e2e004229")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 88.9 52.07 0)
 		(unit 1)
@@ -1795,6 +1981,83 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 27.94 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2055bce0-836a-49b1-bf0c-aaa9535c7757")
+		(property "Reference" "Conn11"
+			(at 30.48 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c05f276-713b-43fb-8795-c4e2c6a99a19")
+		)
+		(pin "1"
+			(uuid "efd15dbb-6507-4b26-b7de-1a9eb20e8ca2")
+		)
+		(pin "1"
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673dade0")
+		)
+		(pin "3"
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51c3")
+		)
+		(pin "4"
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03ca")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Conn11")
 					(unit 1)
 				)
 			)
@@ -2083,6 +2346,83 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 27.94 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47b05e2a-ab35-443e-b3e0-eeac7757dc0f")
+		(property "Reference" "Conn15"
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 195.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 195.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c05f276-713b-43fb-8795-c4e2c6a99a18")
+		)
+		(pin "1"
+			(uuid "6e766e63-3813-4951-8808-01d018e927cf")
+		)
+		(pin "1"
+			(uuid "34eb8697-9a22-4d2d-8bdb-df1d8849d81f")
+		)
+		(pin "3"
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51c0")
+		)
+		(pin "4"
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c7")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Conn15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 27.94 50.8 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -2225,6 +2565,292 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f3cc1c5-41ac-4158-a0db-cbabd748e8c0")
+		(property "Reference" "#PWR038"
+			(at 44.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf1d7ebc-1334-4a65-8546-31c538807325")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 27.94 129.54 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f76ed4f-456b-43f8-99ca-b2f310d96c66")
+		(property "Reference" "Conn14"
+			(at 30.48 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "262efb2a-d3d0-4878-b954-23273cd0d668")
+		)
+		(pin "1"
+			(uuid "2524afd5-e287-453f-bd1b-131a0125b867")
+		)
+		(pin "1"
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddb")
+		)
+		(pin "3"
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51be")
+		)
+		(pin "4"
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c5")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Conn14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 44.45 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5029fae7-cb0d-45f5-bb66-8c1a70268d04")
+		(property "Reference" "#PWR041"
+			(at 44.45 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 44.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5eaa97d-ed0f-429a-a6b5-e2f27f16f268")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 27.94 92.71 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58a0ba68-5433-45eb-8316-1a3c2beed8e5")
+		(property "Reference" "Conn11"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c270c10e-8e45-434d-9f5e-d5086d563d9d")
+		)
+		(pin "1"
+			(uuid "2524afd5-e287-453f-bd1b-131a0125b868")
+		)
+		(pin "1"
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673dadde")
+		)
+		(pin "3"
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51c1")
+		)
+		(pin "4"
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c8")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Conn11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 152.4 45.72 0)
 		(unit 1)
@@ -2356,6 +2982,292 @@
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "#PWR03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 44.45 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72051cf8-f52f-4766-95bb-50f3facfbdd5")
+		(property "Reference" "#PWR039"
+			(at 44.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 44.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f09e18d4-bde4-47c3-8453-1c9ef5b0ca96")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8371bb3e-230f-4f03-9545-546c66150efb")
+		(property "Reference" "#PWR042"
+			(at 44.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec5c5412-2724-4be5-9be0-27b17f68bd60")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 27.94 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86047ca9-92ad-44d7-afb3-2a8ae4e54a16")
+		(property "Reference" "Conn14"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 30.48 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c05f276-713b-43fb-8795-c4e2c6a99a17")
+		)
+		(pin "1"
+			(uuid "05409541-7baf-4118-82e6-b91c82dbbd47")
+		)
+		(pin "1"
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddc")
+		)
+		(pin "3"
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51bf")
+		)
+		(pin "4"
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c6")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Conn14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 27.94 166.37 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "939e9ec3-cc17-4146-ab6e-94f0ac430e83")
+		(property "Reference" "Conn15"
+			(at 30.48 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 30.48 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15d9d10a-63e8-4fbd-8de9-29c0ebc1a517")
+		)
+		(pin "1"
+			(uuid "2524afd5-e287-453f-bd1b-131a0125b869")
+		)
+		(pin "1"
+			(uuid "a56530b9-70be-48a5-a1c3-09bd673daddf")
+		)
+		(pin "3"
+			(uuid "fe56e850-71c6-47d2-9ec2-2063b26d51c2")
+		)
+		(pin "4"
+			(uuid "d9e623a2-9d81-421a-b0e1-3ad4b78b03c9")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Conn15")
+					(unit 2)
 				)
 			)
 		)
@@ -2561,6 +3473,72 @@
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 44.45 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac9148e3-92ad-4979-8a13-5b5e6d06b6a3")
+		(property "Reference" "#PWR037"
+			(at 44.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d0b82f8-5486-4d31-8b79-f8725cb18f55")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
