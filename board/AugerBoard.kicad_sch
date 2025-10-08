@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 101.6 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126aea9f-407e-44d7-8b88-22b346efdae1")
+	)
+	(wire
+		(pts
 			(xy 152.4 74.93) (xy 152.4 80.01)
 		)
 		(stroke
@@ -17,53 +27,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 125.73 83.82)
+			(xy 101.6 111.76) (xy 106.68 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a6ad535-f53a-4b7d-b1e0-b8ca84f4232f")
+		(uuid "2fc69776-5ac6-43d1-b00f-b7a3a4061408")
 	)
 	(wire
 		(pts
-			(xy 120.65 104.14) (xy 125.73 104.14)
+			(xy 101.6 83.82) (xy 106.68 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "267d988e-a6d8-41ec-9712-faf548f27bf5")
+		(uuid "33fb5263-652f-419f-ac04-b08aefc722f1")
 	)
 	(wire
 		(pts
-			(xy 120.65 86.36) (xy 125.73 86.36)
+			(xy 132.08 74.93) (xy 132.08 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3439c482-fafe-4ada-b1f8-0a1412cc40af")
-	)
-	(wire
-		(pts
-			(xy 120.65 101.6) (xy 125.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4139b80c-b9f4-4c8a-b8b6-1cefdf0d4ae6")
-	)
-	(wire
-		(pts
-			(xy 120.65 109.22) (xy 125.73 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487e7769-e556-483c-9bb7-66dc44bc537c")
+		(uuid "4f4f90d3-c13e-4936-8051-ad80ff1cc701")
 	)
 	(wire
 		(pts
@@ -74,6 +64,16 @@
 			(type default)
 		)
 		(uuid "56613863-795d-476a-ac32-e115d45339a5")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b00008-abff-4442-88b3-60ef5f219cef")
 	)
 	(wire
 		(pts
@@ -97,6 +97,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecf0b84-3d86-473b-947c-5cac1ed4e82c")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61639270-8928-4513-83f6-72fafddd1008")
+	)
+	(wire
+		(pts
 			(xy 149.86 74.93) (xy 149.86 80.01)
 		)
 		(stroke
@@ -107,13 +127,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 91.44) (xy 125.73 91.44)
+			(xy 154.94 125.73) (xy 154.94 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "657374fb-db02-4deb-ada5-b0fb085f2ee0")
+		(uuid "65cc8f12-ca53-4121-bfba-b0072562adba")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735a4061-f7a5-4e84-b429-827753fc3d42")
 	)
 	(wire
 		(pts
@@ -127,13 +157,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 81.28) (xy 125.73 81.28)
+			(xy 160.02 125.73) (xy 160.02 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7df7ab84-9b7a-4a2e-b504-e56ccf16e9e7")
+		(uuid "75753e95-0889-493a-893e-cf6347f879c6")
+	)
+	(wire
+		(pts
+			(xy 101.6 121.92) (xy 106.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c4b43e-bf7d-4f55-9c7e-379633147b83")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 129.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c469a61-2210-4e6c-be71-f38cee967b28")
 	)
 	(wire
 		(pts
@@ -147,23 +197,53 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 88.9) (xy 125.73 88.9)
+			(xy 101.6 91.44) (xy 106.68 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ad81c9d-968d-4a64-9fb9-9e0af22fd0a3")
+		(uuid "9a866b9e-a2e6-430d-bc4c-3d29dfd8dc83")
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 125.73 93.98)
+			(xy 101.6 86.36) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acd30ca7-399d-453e-b608-2f47c2ca2743")
+		(uuid "a79c8770-fb28-4645-a74c-8b3139382689")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a935467f-5e2a-4909-abbc-64349f01741e")
+	)
+	(wire
+		(pts
+			(xy 101.6 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef1e075-c735-4f72-a5e1-4fb6c58768be")
+	)
+	(wire
+		(pts
+			(xy 134.62 74.93) (xy 134.62 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d05ad9-8641-4b28-9907-48f833fe0fba")
 	)
 	(wire
 		(pts
@@ -174,6 +254,16 @@
 			(type default)
 		)
 		(uuid "be7d814e-a137-40f8-8b8a-7329a4920457")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67e4173-350e-4292-9ad7-a4a0dcd8515a")
 	)
 	(wire
 		(pts
@@ -194,6 +284,16 @@
 			(type default)
 		)
 		(uuid "d48c0137-9bf6-452c-aecf-1409d3d489ac")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db322dfb-47a1-47a3-bb95-94cb349ac112")
 	)
 	(wire
 		(pts
@@ -227,13 +327,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 106.68) (xy 125.73 106.68)
+			(xy 101.6 116.84) (xy 106.68 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3807bbf-c2b1-4dff-bb1b-b41440986331")
+		(uuid "f51abd68-2f02-4137-8ce5-67996a6cc944")
+	)
+	(wire
+		(pts
+			(xy 101.6 124.46) (xy 106.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa143ac-68cf-4a62-bf4c-43b968ac0e7b")
+	)
+	(wire
+		(pts
+			(xy 157.48 125.73) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb38dbd8-44a0-4a6b-a376-7ea7fba6b17b")
 	)
 	(wire
 		(pts
@@ -246,8 +366,8 @@
 		(uuid "fe335f48-5f33-42a5-8bc6-3d3c50c48e3d")
 	)
 	(sheet
-		(at 125.73 80.01)
-		(size 35.56 44.45)
+		(at 106.68 80.01)
+		(size 54.61 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -262,7 +382,7 @@
 		)
 		(uuid "23b17310-6f85-4d9a-8e16-579a52ef7695")
 		(property "Sheetname" "Teensy"
-			(at 125.73 79.2984 0)
+			(at 106.68 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +391,7 @@
 			)
 		)
 		(property "Sheetfile" "teensy.kicad_sch"
-			(at 125.73 125.0446 0)
+			(at 106.68 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,8 +399,8 @@
 				(justify left top)
 			)
 		)
-		(pin "ServoPWM1" output
-			(at 125.73 81.28 180)
+		(pin "SoilTrapdoorPWM" output
+			(at 106.68 81.28 180)
 			(uuid "330dde64-0fe2-4dd3-9104-d3cd93eda722")
 			(effects
 				(font
@@ -289,8 +409,8 @@
 				(justify left)
 			)
 		)
-		(pin "ServoPWM2" output
-			(at 125.73 83.82 180)
+		(pin "AFLensPWM" output
+			(at 106.68 83.82 180)
 			(uuid "cd4e82f2-1007-4720-a259-d7e10ecede86")
 			(effects
 				(font
@@ -299,8 +419,8 @@
 				(justify left)
 			)
 		)
-		(pin "ServoPWM3" output
-			(at 125.73 86.36 180)
+		(pin "SoilCacheSparePWM" output
+			(at 106.68 86.36 180)
 			(uuid "634f2743-0628-4285-81b6-96819650a5d1")
 			(effects
 				(font
@@ -309,8 +429,8 @@
 				(justify left)
 			)
 		)
-		(pin "ServoPWM4" output
-			(at 125.73 88.9 180)
+		(pin "AFSparePWM" output
+			(at 106.68 88.9 180)
 			(uuid "db681700-4463-4f48-aa63-ba9be072671d")
 			(effects
 				(font
@@ -319,8 +439,8 @@
 				(justify left)
 			)
 		)
-		(pin "ServoPWM5" output
-			(at 125.73 91.44 180)
+		(pin "SparePWM1" output
+			(at 106.68 91.44 180)
 			(uuid "af09dfd1-53e7-4bf6-b574-3bfb6cbb21c1")
 			(effects
 				(font
@@ -409,8 +529,8 @@
 				(justify right)
 			)
 		)
-		(pin "ServoPWM6" output
-			(at 125.73 93.98 180)
+		(pin "SparePWM2" output
+			(at 106.68 93.98 180)
 			(uuid "51910579-69bb-4834-b841-97f337f05e69")
 			(effects
 				(font
@@ -420,7 +540,7 @@
 			)
 		)
 		(pin "Dir_Switch" input
-			(at 125.73 101.6 180)
+			(at 106.68 101.6 180)
 			(uuid "230e67a1-647f-4c09-bf72-fbc972c20f13")
 			(effects
 				(font
@@ -429,8 +549,8 @@
 				(justify left)
 			)
 		)
-		(pin "SW1" input
-			(at 125.73 104.14 180)
+		(pin "GantrySW" input
+			(at 106.68 104.14 180)
 			(uuid "8aa97e64-3873-4887-9f80-3f76a3e8584a")
 			(effects
 				(font
@@ -439,8 +559,8 @@
 				(justify left)
 			)
 		)
-		(pin "SW2" input
-			(at 125.73 106.68 180)
+		(pin "AugerSW" input
+			(at 106.68 106.68 180)
 			(uuid "3d9e5fd3-444d-4ef4-af4e-4422f758eebb")
 			(effects
 				(font
@@ -449,8 +569,8 @@
 				(justify left)
 			)
 		)
-		(pin "SW3" input
-			(at 125.73 109.22 180)
+		(pin "SpareSW_12V" input
+			(at 106.68 109.22 180)
 			(uuid "18818971-37b4-43e4-becf-e720e5c00d2b")
 			(effects
 				(font
@@ -517,6 +637,126 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GantryLED" output
+			(at 134.62 80.01 90)
+			(uuid "9b7cc589-ecf1-43e0-b6f0-c74050037370")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SpareLED" output
+			(at 132.08 80.01 90)
+			(uuid "a902a8b6-5f9e-46de-9467-2b2fc63cdd95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VescLED" output
+			(at 129.54 80.01 90)
+			(uuid "e1cdac87-fd14-4c05-a0a8-c768df3b8c4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFLED1" output
+			(at 160.02 125.73 270)
+			(uuid "54414b54-fffe-4c2d-bc25-817c867ffb08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFLED2" output
+			(at 157.48 125.73 270)
+			(uuid "bd8a1d12-466c-40b5-9e7f-402cc26064bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFLED3" output
+			(at 154.94 125.73 270)
+			(uuid "9c441ddc-917b-451e-8dde-deec6e20d970")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SoilDoorSW" input
+			(at 106.68 111.76 180)
+			(uuid "cb808c9e-291e-4233-86d8-de1f4a71995c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFLensSW" input
+			(at 106.68 114.3 180)
+			(uuid "a192c283-317d-4c43-9811-012e69dbce11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFSpareSW" input
+			(at 106.68 116.84 180)
+			(uuid "33362ae7-87c7-4e5f-8755-a6a79bc599b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCacheSpareSW" input
+			(at 106.68 119.38 180)
+			(uuid "9003a1a9-a9c2-4612-a717-90fdd9dcadf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SpareSW1" input
+			(at 106.68 121.92 180)
+			(uuid "3c8b1216-fb7b-4e05-ab9b-2d4e77679dd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SpareSW2" input
+			(at 106.68 124.46 180)
+			(uuid "7a5889c6-a60c-464f-91b3-5cf1b7f4370d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -692,8 +932,8 @@
 		)
 	)
 	(sheet
-		(at 101.6 59.69)
-		(size 34.29 15.24)
+		(at 106.68 59.69)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -708,7 +948,7 @@
 		)
 		(uuid "3b4d7bd3-b617-4540-8dc9-414a3afad923")
 		(property "Sheetname" "Power"
-			(at 101.6 58.9784 0)
+			(at 105.9684 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,12 +957,42 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 101.6 75.5146 0)
+			(at 136.4746 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GantryLED" input
+			(at 134.62 74.93 270)
+			(uuid "4e0cf512-2399-4d99-b87a-3666acc6512d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SpareLED" input
+			(at 132.08 74.93 270)
+			(uuid "3f9debe1-d6d2-4e5f-a109-35af2a7cefb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VescLED" input
+			(at 129.54 74.93 270)
+			(uuid "4c559f86-0fe9-4d0e-8125-73114a92417f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -734,8 +1004,8 @@
 		)
 	)
 	(sheet
-		(at 101.6 80.01)
-		(size 19.05 15.24)
+		(at 80.01 80.01)
+		(size 21.59 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -750,7 +1020,7 @@
 		)
 		(uuid "3e0adf90-8662-411f-b4a7-580b75df6629")
 		(property "Sheetname" "Servos"
-			(at 101.6 79.2984 0)
+			(at 80.01 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,7 +1029,7 @@
 			)
 		)
 		(property "Sheetfile" "servos.kicad_sch"
-			(at 101.6 95.8346 0)
+			(at 80.01 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,8 +1037,8 @@
 				(justify left top)
 			)
 		)
-		(pin "ServoPWM1" input
-			(at 120.65 81.28 0)
+		(pin "SoilTrapdoorPWM" input
+			(at 101.6 81.28 0)
 			(uuid "e8735185-78d4-4254-9e58-0a80039c1a60")
 			(effects
 				(font
@@ -777,8 +1047,8 @@
 				(justify right)
 			)
 		)
-		(pin "ServoPWM2" input
-			(at 120.65 83.82 0)
+		(pin "AFLensPWM" input
+			(at 101.6 83.82 0)
 			(uuid "aee5f151-0715-4939-856d-99aa36a7ba10")
 			(effects
 				(font
@@ -787,8 +1057,8 @@
 				(justify right)
 			)
 		)
-		(pin "ServoPWM3" input
-			(at 120.65 86.36 0)
+		(pin "SoilCacheSparePWM" input
+			(at 101.6 86.36 0)
 			(uuid "5c8da884-f1cf-43af-b517-60cb2bdc0939")
 			(effects
 				(font
@@ -797,8 +1067,8 @@
 				(justify right)
 			)
 		)
-		(pin "ServoPWM4" input
-			(at 120.65 88.9 0)
+		(pin "AFSparePWM" input
+			(at 101.6 88.9 0)
 			(uuid "fd45b9d9-bd08-441c-b2a8-2783a8eedcc5")
 			(effects
 				(font
@@ -807,8 +1077,8 @@
 				(justify right)
 			)
 		)
-		(pin "ServoPWM5" input
-			(at 120.65 91.44 0)
+		(pin "SparePWM1" input
+			(at 101.6 91.44 0)
 			(uuid "dcbc84c6-619e-4565-9ee8-3abd7b6d03fd")
 			(effects
 				(font
@@ -817,8 +1087,8 @@
 				(justify right)
 			)
 		)
-		(pin "ServoPWM6" input
-			(at 120.65 93.98 0)
+		(pin "SparePWM2" input
+			(at 101.6 93.98 0)
 			(uuid "55034f9a-cf8b-41f6-9b06-d551f25a2167")
 			(effects
 				(font
@@ -836,8 +1106,8 @@
 		)
 	)
 	(sheet
-		(at 101.6 100.33)
-		(size 19.05 24.13)
+		(at 80.01 100.33)
+		(size 21.59 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -852,7 +1122,7 @@
 		)
 		(uuid "590fcba9-6f33-46c6-897e-fddc0210fa05")
 		(property "Sheetname" "Test Buttons"
-			(at 101.6 99.6184 0)
+			(at 80.01 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +1131,7 @@
 			)
 		)
 		(property "Sheetfile" "test_buttons.kicad_sch"
-			(at 101.6 125.0446 0)
+			(at 80.01 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +1140,7 @@
 			)
 		)
 		(pin "Dir_Switch" output
-			(at 120.65 101.6 0)
+			(at 101.6 101.6 0)
 			(uuid "90277cd2-01da-4cf2-92e6-8bf5a89eed49")
 			(effects
 				(font
@@ -879,9 +1149,9 @@
 				(justify right)
 			)
 		)
-		(pin "SW1" output
-			(at 120.65 104.14 0)
-			(uuid "c3a88fdf-95a9-4e8e-bae8-2b85f39ca84c")
+		(pin "GantrySW" output
+			(at 101.6 104.14 0)
+			(uuid "01e27a46-b2b9-40a9-bfdf-a4ba3b9a80b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,9 +1159,9 @@
 				(justify right)
 			)
 		)
-		(pin "SW2" output
-			(at 120.65 106.68 0)
-			(uuid "66ccffc2-968d-49ea-8677-52fec8ec8db5")
+		(pin "AugerSW" output
+			(at 101.6 106.68 0)
+			(uuid "9386000c-5bd4-468f-975d-31096139248a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,9 +1169,69 @@
 				(justify right)
 			)
 		)
-		(pin "SW3" output
-			(at 120.65 109.22 0)
-			(uuid "488ec5f2-ea2d-498d-b1fd-d014ad52590e")
+		(pin "SpareSW_12V" output
+			(at 101.6 109.22 0)
+			(uuid "fb0ac6c2-3798-45e4-a9bc-f8004f1f65cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SoilDoorSW" output
+			(at 101.6 111.76 0)
+			(uuid "6ef8c071-19b8-40ba-8f8e-4d10452d3ee5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFLensSW" output
+			(at 101.6 114.3 0)
+			(uuid "c35298e7-5a54-4421-8282-be2e0474b92a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFSpareSW" output
+			(at 101.6 116.84 0)
+			(uuid "8eb52239-fad6-4b1d-8b89-b043fad5b698")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCacheSpareSW" output
+			(at 101.6 119.38 0)
+			(uuid "f5d97f9b-03e5-4494-bf1c-d802d68326b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SpareSW1" output
+			(at 101.6 121.92 0)
+			(uuid "8387d0f5-c86b-4973-8045-b0b01619e825")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SpareSW2" output
+			(at 101.6 124.46 0)
+			(uuid "92033c9e-1252-4fa0-a516-e68f8d8e95b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,8 +1248,8 @@
 		)
 	)
 	(sheet
-		(at 125.73 129.54)
-		(size 35.56 11.43)
+		(at 106.68 130.81)
+		(size 54.61 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -934,7 +1264,7 @@
 		)
 		(uuid "874d0dfc-2f90-4409-9fd5-46a48fc81ade")
 		(property "Sheetname" "AF interface"
-			(at 125.73 128.8284 0)
+			(at 105.9684 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,12 +1273,42 @@
 			)
 		)
 		(property "Sheetfile" "AFI.kicad_sch"
-			(at 125.73 141.5546 0)
+			(at 161.8746 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "AFLED1" input
+			(at 160.02 130.81 90)
+			(uuid "b5f3c6e8-d6d7-41ba-9dbe-e404287c389f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFLED2" input
+			(at 157.48 130.81 90)
+			(uuid "111dc1a3-1a15-427d-81ae-956f7c1b7777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFLED3" input
+			(at 154.94 130.81 90)
+			(uuid "e30f6fa2-cee0-4d1c-8a35-ce5957e2485c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

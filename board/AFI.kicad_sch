@@ -216,6 +216,154 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MRDT_Connectors:Molex_uF_D_04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Molex_uF_D_04"
+				(at 1.27 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "MRDT_Connectors:MOLEX_uF_D_04_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOLEX SL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_uF_D_04_0_1"
+				(rectangle
+					(start 0 10.16)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex_uF_D_04_1_1"
+				(pin input line
+					(at -5.08 8.89 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 3.81 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -443,9 +591,65 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 68.58 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45b26cb7-7a65-4026-89e1-0e93c62b092c)
+	)
+	(rectangle
+		(start 12.7 58.42)
+		(end 68.58 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47d031ad-436d-4d57-9de7-5c7c33fde537)
+	)
+	(text "LED Signal Out"
+		(exclude_from_sim no)
+		(at 40.386 61.722 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "98180c1b-d4f0-4f6d-b489-1087851d3d26")
+	)
+	(text "Power Out"
+		(exclude_from_sim no)
+		(at 37.846 15.748 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "b11af1b4-e665-4ef7-b7b8-005b2ed7ca49")
+	)
 	(wire
 		(pts
-			(xy 67.31 58.42) (xy 50.8 58.42)
+			(xy 30.48 81.28) (xy 39.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc1e4de-2e01-4911-b42c-a7f1b6237cfb")
+	)
+	(wire
+		(pts
+			(xy 53.34 45.72) (xy 36.83 45.72)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +659,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 44.45) (xy 67.31 46.99)
+			(xy 35.56 85.09) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4087c548-ab34-41a4-82d0-4aef1d6716c7")
+	)
+	(wire
+		(pts
+			(xy 53.34 31.75) (xy 53.34 34.29)
 		)
 		(stroke
 			(width 0)
@@ -465,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 46.99) (xy 50.8 46.99)
+			(xy 53.34 34.29) (xy 36.83 34.29)
 		)
 		(stroke
 			(width 0)
@@ -475,7 +689,27 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 60.96) (xy 67.31 58.42)
+			(xy 30.48 76.2) (xy 39.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf9f27f-309c-4404-affb-bf176197dea8")
+	)
+	(wire
+		(pts
+			(xy 35.56 83.82) (xy 39.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d1967f-1ab1-4afe-aa5d-b17a347236b5")
+	)
+	(wire
+		(pts
+			(xy 53.34 48.26) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -483,9 +717,52 @@
 		)
 		(uuid "e7b11eb2-dde6-4f37-8a0f-f16f7bbef9da")
 	)
+	(wire
+		(pts
+			(xy 30.48 78.74) (xy 39.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e986e497-e18e-456e-bfc4-e8f8e1d4a291")
+	)
+	(hierarchical_label "AFLED2"
+		(shape input)
+		(at 30.48 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae328d7a-b12a-4ace-8f13-005dca58323b")
+	)
+	(hierarchical_label "AFLED3"
+		(shape input)
+		(at 30.48 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b112533b-2700-475d-8ff5-531bcb9f9e16")
+	)
+	(hierarchical_label "AFLED1"
+		(shape input)
+		(at 30.48 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eab0a8e3-2e33-481f-9381-9416c67b9be8")
+	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 40.64 49.53 0)
+		(at 26.67 36.83 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -494,7 +771,7 @@
 		(fields_autoplaced yes)
 		(uuid "1250a3fe-1bd2-4500-8a11-dcef0f2c31cb")
 		(property "Reference" "Conn7"
-			(at 43.18 39.37 0)
+			(at 29.21 26.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -502,7 +779,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 43.18 41.91 0)
+			(at 29.21 29.21 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -510,7 +787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 63.5 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -519,7 +796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 63.5 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -528,7 +805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 49.53 0)
+			(at 26.67 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,7 +839,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 67.31 44.45 0)
+		(at 53.34 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -571,7 +848,7 @@
 		(fields_autoplaced yes)
 		(uuid "7142fb2d-7db5-45df-b08f-c459378dbcc5")
 		(property "Reference" "#PWR030"
-			(at 67.31 48.26 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +857,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 67.31 39.37 0)
+			(at 53.34 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 44.45 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 44.45 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,7 +883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 67.31 44.45 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +905,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 40.64 60.96 0)
+		(at 26.67 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -637,7 +914,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fad7992-f14f-4833-bcb1-099d71df9d00")
 		(property "Reference" "Conn7"
-			(at 43.18 50.8 0)
+			(at 29.21 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -645,7 +922,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 43.18 53.34 0)
+			(at 29.21 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -653,7 +930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 74.93 0)
+			(at 22.86 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -662,7 +939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 74.93 0)
+			(at 22.86 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -671,7 +948,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 60.96 0)
+			(at 26.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +982,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 60.96 0)
+		(at 53.34 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -714,7 +991,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa28ac22-8664-480a-9bbb-66343e9d4250")
 		(property "Reference" "#PWR043"
-			(at 67.31 67.31 0)
+			(at 53.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +1000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 66.04 0)
+			(at 53.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,7 +1008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 60.96 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,7 +1017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 60.96 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +1026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 60.96 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,6 +1041,148 @@
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/874d0dfc-2f90-4409-9fd5-46a48fc81ade"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_uF_D_04")
+		(at 44.45 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0436529-4b6f-4f05-b944-58385333d668")
+		(property "Reference" "Conn8"
+			(at 48.26 78.7399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_uF_D_04"
+			(at 48.26 81.2799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_uF_D_04_Horizontal"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddf23da5-f28f-4b19-b91d-385d21506404")
+		)
+		(pin "3"
+			(uuid "22de8054-2fee-4644-8449-d5251cb6f51d")
+		)
+		(pin "4"
+			(uuid "692b2747-ae56-40d3-bfe4-0328ff9b723b")
+		)
+		(pin "1"
+			(uuid "b2c6f4f5-1ad9-46bf-b425-f92687c14fd7")
+		)
+		(instances
+			(project ""
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/874d0dfc-2f90-4409-9fd5-46a48fc81ade"
+					(reference "Conn8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b47826-ca27-40c8-9718-cc2191a60239")
+		(property "Reference" "#PWR057"
+			(at 35.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "787482c0-d769-48e6-ad23-07cd620cbb02")
+		)
+		(instances
+			(project ""
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/874d0dfc-2f90-4409-9fd5-46a48fc81ade"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
