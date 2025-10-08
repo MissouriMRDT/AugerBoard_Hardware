@@ -1644,6 +1644,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 110.49) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025e8ea7-5bd0-481f-9d80-a52aed4a9c4f")
+	)
+	(wire
+		(pts
 			(xy 109.22 120.65) (xy 114.3 120.65)
 		)
 		(stroke
@@ -1651,6 +1661,16 @@
 			(type default)
 		)
 		(uuid "08910483-6d16-4b36-8fb2-d3dda568cfb3")
+	)
+	(wire
+		(pts
+			(xy 154.94 118.11) (xy 160.02 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7eb5ea-8e96-423c-a664-af4e4dde2052")
 	)
 	(wire
 		(pts
@@ -1854,6 +1874,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 113.03) (xy 160.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f6b8f4-821f-43b6-99ab-f0f6798182ef")
+	)
+	(wire
+		(pts
+			(xy 154.94 115.57) (xy 160.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44ba73f-a318-4039-a7fc-f5433c943da2")
+	)
+	(wire
+		(pts
 			(xy 154.94 54.61) (xy 160.02 54.61)
 		)
 		(stroke
@@ -1913,6 +1953,17 @@
 		)
 		(uuid "02d91f09-7515-44cc-a3a4-765c31bfedf3")
 	)
+	(hierarchical_label "RE"
+		(shape output)
+		(at 160.02 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "174d7fab-b7e3-42ae-95e2-58c116ff24a2")
+	)
 	(hierarchical_label "ServoPWM2"
 		(shape output)
 		(at 109.22 97.79 180)
@@ -1923,6 +1974,17 @@
 			(justify right)
 		)
 		(uuid "1af320de-a7b1-441d-b744-6101ec99034f")
+	)
+	(hierarchical_label "DE"
+		(shape output)
+		(at 160.02 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20b2473e-28c9-446f-bad7-b15ec3ccf762")
 	)
 	(hierarchical_label "ServoPWM6"
 		(shape output)
@@ -2034,6 +2096,17 @@
 		)
 		(uuid "8cba254d-4f99-469d-a583-720cf8427ac1")
 	)
+	(hierarchical_label "RO"
+		(shape input)
+		(at 160.02 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ffe5b6a-7178-4c82-8fe9-dd542ba3b52b")
+	)
 	(hierarchical_label "ServoPWM5"
 		(shape output)
 		(at 160.02 80.01 0)
@@ -2066,6 +2139,17 @@
 			(justify right)
 		)
 		(uuid "ba69609e-7851-4c44-b6da-cf3189116bfb")
+	)
+	(hierarchical_label "DI"
+		(shape output)
+		(at 160.02 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c879dadf-2317-4eae-b39b-1232854a829f")
 	)
 	(hierarchical_label "RXD"
 		(shape input)
