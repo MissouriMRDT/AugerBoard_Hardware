@@ -67,6 +67,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56613863-795d-476a-ac32-e115d45339a5")
+	)
+	(wire
+		(pts
 			(xy 161.29 93.98) (xy 166.37 93.98)
 		)
 		(stroke
@@ -167,6 +177,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7ad00d-fefc-4937-bb6c-a450966b1554")
+	)
+	(wire
+		(pts
 			(xy 160.02 74.93) (xy 160.02 80.01)
 		)
 		(stroke
@@ -227,7 +247,7 @@
 	)
 	(sheet
 		(at 125.73 80.01)
-		(size 35.56 34.29)
+		(size 35.56 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -251,7 +271,7 @@
 			)
 		)
 		(property "Sheetfile" "teensy.kicad_sch"
-			(at 125.73 114.8846 0)
+			(at 125.73 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,6 +492,26 @@
 		(pin "RO" input
 			(at 161.29 93.98 0)
 			(uuid "511452b1-90ad-42ee-afe0-39a74301d9f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Moisture" input
+			(at 161.29 99.06 0)
+			(uuid "6b819d6c-828b-4835-b024-28e2d8e445a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp" input
+			(at 161.29 101.6 0)
+			(uuid "d7a9a2fa-2a74-419d-8c9f-dd05a1d825c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,7 +837,7 @@
 	)
 	(sheet
 		(at 101.6 100.33)
-		(size 19.05 13.97)
+		(size 19.05 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -821,7 +861,7 @@
 			)
 		)
 		(property "Sheetfile" "test_buttons.kicad_sch"
-			(at 101.6 114.8846 0)
+			(at 101.6 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,8 +918,8 @@
 		)
 	)
 	(sheet
-		(at 146.05 119.38)
-		(size 15.24 11.43)
+		(at 125.73 129.54)
+		(size 35.56 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -894,7 +934,7 @@
 		)
 		(uuid "874d0dfc-2f90-4409-9fd5-46a48fc81ade")
 		(property "Sheetname" "AF interface"
-			(at 146.05 118.6684 0)
+			(at 125.73 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +943,7 @@
 			)
 		)
 		(property "Sheetfile" "AFI.kicad_sch"
-			(at 146.05 131.3946 0)
+			(at 125.73 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,50 +960,8 @@
 		)
 	)
 	(sheet
-		(at 125.73 119.38)
-		(size 15.24 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a5c2b2a2-3752-449e-a565-debe21d8b508")
-		(property "Sheetname" "VESC"
-			(at 125.73 118.6684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "VESC.kicad_sch"
-			(at 125.73 131.3946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "AugerBoard"
-				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 166.37 80.01)
-		(size 20.32 34.29)
+		(size 20.32 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -987,7 +985,7 @@
 			)
 		)
 		(property "Sheetfile" "soil_sensors_npk.kicad_sch"
-			(at 166.37 114.8846 0)
+			(at 166.37 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,6 +1026,26 @@
 		(pin "RO" output
 			(at 166.37 93.98 180)
 			(uuid "83e354b2-0938-4be8-8c5e-36697cdad799")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Moisture" output
+			(at 166.37 99.06 180)
+			(uuid "4d1acafc-2fea-428b-afe0-ded6f80a2697")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp" output
+			(at 166.37 101.6 180)
+			(uuid "fbc645ef-f6db-4e01-b057-d647ab0e4521")
 			(effects
 				(font
 					(size 1.27 1.27)
