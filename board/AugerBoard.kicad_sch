@@ -669,7 +669,7 @@
 				(justify right)
 			)
 		)
-		(pin "AFLED1" output
+		(pin "AFLED340" output
 			(at 160.02 125.73 270)
 			(uuid "54414b54-fffe-4c2d-bc25-817c867ffb08")
 			(effects
@@ -679,7 +679,7 @@
 				(justify left)
 			)
 		)
-		(pin "AFLED2" output
+		(pin "AFLED405" output
 			(at 157.48 125.73 270)
 			(uuid "bd8a1d12-466c-40b5-9e7f-402cc26064bc")
 			(effects
@@ -689,7 +689,7 @@
 				(justify left)
 			)
 		)
-		(pin "AFLED3" output
+		(pin "AFLED490" output
 			(at 154.94 125.73 270)
 			(uuid "9c441ddc-917b-451e-8dde-deec6e20d970")
 			(effects
@@ -1281,7 +1281,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AFLED1" input
+		(pin "AFLED340" input
 			(at 160.02 130.81 90)
 			(uuid "b5f3c6e8-d6d7-41ba-9dbe-e404287c389f")
 			(effects
@@ -1291,7 +1291,7 @@
 				(justify right)
 			)
 		)
-		(pin "AFLED2" input
+		(pin "AFLED405" input
 			(at 157.48 130.81 90)
 			(uuid "111dc1a3-1a15-427d-81ae-956f7c1b7777")
 			(effects
@@ -1301,7 +1301,7 @@
 				(justify right)
 			)
 		)
-		(pin "AFLED3" input
+		(pin "AFLED490" input
 			(at 154.94 130.81 90)
 			(uuid "e30f6fa2-cee0-4d1c-8a35-ce5957e2485c")
 			(effects

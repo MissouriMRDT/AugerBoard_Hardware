@@ -2187,7 +2187,7 @@
 		)
 		(uuid "0e4c1052-9d1e-4ec0-9cc8-5dc3063a6366")
 	)
-	(hierarchical_label "AFLED3"
+	(hierarchical_label "AFLED405"
 		(shape output)
 		(at 170.18 99.06 0)
 		(effects
@@ -2198,7 +2198,7 @@
 		)
 		(uuid "10031576-a5ec-4abd-9d23-d5cc184d4e90")
 	)
-	(hierarchical_label "AFLED2"
+	(hierarchical_label "AFLED490"
 		(shape output)
 		(at 170.18 101.6 0)
 		(effects
@@ -2264,7 +2264,7 @@
 		)
 		(uuid "29723e5b-bc84-456d-b68c-38dd589866e4")
 	)
-	(hierarchical_label "AFLED1"
+	(hierarchical_label "AFLED340"
 		(shape output)
 		(at 170.18 93.98 0)
 		(effects

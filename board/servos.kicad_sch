@@ -446,7 +446,7 @@
 		)
 		(uuid e9d4af47-39e8-460a-8398-05b1bb4bd380)
 	)
-	(text "AF Focus Lens"
+	(text "AF Filter Lens"
 		(exclude_from_sim no)
 		(at 97.028 16.002 0)
 		(effects
