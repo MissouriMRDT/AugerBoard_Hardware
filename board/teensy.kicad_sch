@@ -1679,10 +1679,6 @@
 		(uuid "90067425-371b-4aee-af51-f87e640f8cf1")
 	)
 	(no_connect
-		(at 165.1 40.64)
-		(uuid "96491b43-292d-4ec8-9be8-2cbb26bdfb4d")
-	)
-	(no_connect
 		(at 165.1 48.26)
 		(uuid "966dadf1-6a0d-4075-b640-76e0546d8563")
 	)
@@ -1713,6 +1709,16 @@
 	(no_connect
 		(at 165.1 91.44)
 		(uuid "e4116975-5d8a-4398-9d17-b391f53767a4")
+	)
+	(wire
+		(pts
+			(xy 165.1 40.64) (xy 166.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b13172-9bbf-4c15-8d99-34e1de4f8c7a")
 	)
 	(wire
 		(pts
@@ -1953,6 +1959,16 @@
 			(type default)
 		)
 		(uuid "86e8e451-2b6a-4e43-a0cb-c225b7d48320")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 166.37 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8e90c7-dbd4-4b66-8c14-8ed565ad957c")
 	)
 	(wire
 		(pts
@@ -2642,7 +2658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_DEV-16771"
+		(property "Footprint" "MRDT_Shields:Teensy_4_1_Ethernet"
 			(at 198.12 96.52 0)
 			(effects
 				(font
@@ -3042,6 +3058,72 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/23b17310-6f85-4d9a-8e16-579a52ef7695"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea74e508-fed5-44fd-af9d-3a41b45303f8")
+		(property "Reference" "#PWR064"
+			(at 166.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 166.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceaaf077-3d5b-4cbe-aa3c-91ab49daa82c")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/23b17310-6f85-4d9a-8e16-579a52ef7695"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
