@@ -5,6 +5,145 @@
 	(uuid "30ba4d34-7a74-49df-b4e2-b70b50ef31bf")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Converter_DCDC:OKI-78SR-3.3_1.5-W36H-C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OKI-78SR-3.3_1.5-W36H-C"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_OKI-78SR_Horizontal"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://power.murata.com/data/power/oki-78sr.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dc-dc murata Step-Down DC/DC-Regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*Murata*OKI*78SR*Horizontal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OKI-78SR-3.3_1.5-W36H-C_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OKI-78SR-3.3_1.5-W36H-C_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Converter_DCDC:OKI-78SR-5_1.5-W36H-C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1627,7 +1766,43 @@
 		)
 	)
 	(rectangle
-		(start 12.7 12.7)
+		(start 181.61 12.7)
+		(end 227.33 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d35ee91-d859-47b9-98bc-c96109b95135)
+	)
+	(rectangle
+		(start 181.61 64.77)
+		(end 227.33 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f337a01-e9fd-4c9c-8dc2-8625243cb138)
+	)
+	(rectangle
+		(start 101.6 128.27)
+		(end 151.13 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 707038d6-853e-44a7-bb5a-f03f15c7cdc2)
+	)
+	(rectangle
+		(start 13.97 12.7)
 		(end 78.74 64.77)
 		(stroke
 			(width 0)
@@ -1637,6 +1812,18 @@
 			(type none)
 		)
 		(uuid 76f0a018-83a7-4929-9246-9f33ec751128)
+	)
+	(rectangle
+		(start 227.33 64.77)
+		(end 274.32 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9307ab78-d2c2-4815-a780-58782c45aacd)
 	)
 	(rectangle
 		(start 64.77 64.77)
@@ -1651,6 +1838,18 @@
 		(uuid bb941a32-b69d-4ff0-807f-428166dbafc4)
 	)
 	(rectangle
+		(start 227.33 12.7)
+		(end 274.32 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c5e6dae9-f9f1-4be3-a6ef-5d28304d78e9)
+	)
+	(rectangle
 		(start 13.97 64.77)
 		(end 64.77 195.58)
 		(stroke
@@ -1663,6 +1862,18 @@
 		(uuid db00c2b2-0779-4cde-bc53-90f1586117a8)
 	)
 	(rectangle
+		(start 151.13 128.27)
+		(end 212.09 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e03ba8d3-5da4-49f8-8f19-a5c7b126d589)
+	)
+	(rectangle
 		(start 78.74 12.7)
 		(end 181.61 64.77)
 		(stroke
@@ -1673,6 +1884,18 @@
 			(type none)
 		)
 		(uuid e71f2694-91b0-452b-8fa1-e962311caba9)
+	)
+	(rectangle
+		(start 64.77 128.27)
+		(end 101.6 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ee8b2a5b-066a-4d2a-b1f7-39acd0266c41)
 	)
 	(text "Power In"
 		(exclude_from_sim no)
@@ -1707,6 +1930,39 @@
 		)
 		(uuid "25dff7a1-3b51-40f9-ac67-c64ba777b8fc")
 	)
+	(text "Spare Servo LED"
+		(exclude_from_sim no)
+		(at 125.222 134.366 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "2c06c274-1a2a-4687-b4cc-623d5758f029")
+	)
+	(text "Soil Cache Spare LED"
+		(exclude_from_sim no)
+		(at 204.724 68.072 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "39fd8385-3e5f-4727-9921-d2d7f77dedf7")
+	)
+	(text "OKI 3.3V"
+		(exclude_from_sim no)
+		(at 181.864 132.588 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "46de42bc-7f80-4a13-bb70-efd2e80b748d")
+	)
 	(text "Gantry Motor"
 		(exclude_from_sim no)
 		(at 39.116 67.564 0)
@@ -1717,6 +1973,17 @@
 			)
 		)
 		(uuid "5197095e-a3d2-4f13-a96e-4cfd7492cbcc")
+	)
+	(text "AF Filter Lens LED"
+		(exclude_from_sim no)
+		(at 253.238 16.764 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "5bfebd4f-13ab-4cfe-bfa4-db9a9b899dbe")
 	)
 	(text "Power LEDs"
 		(exclude_from_sim no)
@@ -1729,6 +1996,17 @@
 		)
 		(uuid "778c6743-7bfb-4012-943c-c70a9eef047d")
 	)
+	(text "AF Spare Servo LED"
+		(exclude_from_sim no)
+		(at 83.312 134.874 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "79847e41-d3a1-495e-827f-7c3d53d36039")
+	)
 	(text "Gantry LED"
 		(exclude_from_sim no)
 		(at 83.312 67.564 0)
@@ -1740,7 +2018,29 @@
 		)
 		(uuid "7ae81f2e-2b03-4157-8e80-ccde8c579bff")
 	)
-	(text "OKI"
+	(text "Soil Trapdoor LED"
+		(exclude_from_sim no)
+		(at 205.74 18.034 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "92623843-c05c-4194-abc8-cf94a3782c8b")
+	)
+	(text "Spare Servo LED"
+		(exclude_from_sim no)
+		(at 251.206 68.326 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "9c5f5b00-c97f-46c7-823e-f9f2aae6a339")
+	)
+	(text "OKI 5V"
 		(exclude_from_sim no)
 		(at 107.696 16.002 0)
 		(effects
@@ -1780,6 +2080,24 @@
 		(uuid "0a21c2e8-3ad1-43e8-95c7-5f591cb05286")
 	)
 	(junction
+		(at 160.02 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a859edb-eb82-4b25-8f83-35cb1a8a816c")
+	)
+	(junction
+		(at 201.93 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6247c859-5437-4fba-8017-62f695f5bbb3")
+	)
+	(junction
+		(at 181.61 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c90c62-8d89-4f45-bc6b-36779bf683a9")
+	)
+	(junction
 		(at 92.71 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1790,6 +2108,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f11270ee-4147-4602-bfae-f2b296097c62")
+	)
+	(wire
+		(pts
+			(xy 132.08 144.78) (xy 132.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03103800-4d25-41de-a068-893e3b3c5282")
 	)
 	(wire
 		(pts
@@ -1833,6 +2161,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 114.3) (xy 257.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe667a9-8885-4f60-af2b-57d2e95901d1")
+	)
+	(wire
+		(pts
 			(xy 46.99 142.24) (xy 46.99 144.78)
 		)
 		(stroke
@@ -1853,6 +2191,36 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 143.51) (xy 160.02 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c2ce42-5e4f-46c4-86b7-c43b05ee050d")
+	)
+	(wire
+		(pts
+			(xy 132.08 154.94) (xy 132.08 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19aa4b4b-6d1b-45ae-90b5-c1d60991a295")
+	)
+	(wire
+		(pts
+			(xy 160.02 156.21) (xy 181.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c957a7-bb8f-4568-a66d-52127e8a0938")
+	)
+	(wire
+		(pts
 			(xy 153.67 110.49) (xy 156.21 110.49)
 		)
 		(stroke
@@ -1860,6 +2228,16 @@
 			(type default)
 		)
 		(uuid "1ae1abd5-7da0-4f31-ab74-82679b3bb34a")
+	)
+	(wire
+		(pts
+			(xy 87.63 156.21) (xy 87.63 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23624eed-9cc5-4e0b-9aab-8550b3fb00f7")
 	)
 	(wire
 		(pts
@@ -1883,6 +2261,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 143.51) (xy 201.93 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c53c8cc-2e81-4575-b220-107fc1299e0f")
+	)
+	(wire
+		(pts
+			(xy 210.82 93.98) (xy 210.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8335e9-2b83-48b8-b77f-63e72fe7a008")
+	)
+	(wire
+		(pts
 			(xy 40.64 82.55) (xy 46.99 82.55)
 		)
 		(stroke
@@ -1903,6 +2301,46 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 170.18) (xy 124.46 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31094474-a938-41dd-803b-80c8971a3ed0")
+	)
+	(wire
+		(pts
+			(xy 201.93 143.51) (xy 201.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35485a0d-74f1-4071-918c-9ffcd5f930e6")
+	)
+	(wire
+		(pts
+			(xy 256.54 45.72) (xy 256.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37559e99-3d01-476e-8d48-73b8300289a8")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.82) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388b10cb-c694-4852-8824-9dbc51cdcc15")
+	)
+	(wire
+		(pts
 			(xy 143.51 52.07) (xy 143.51 53.34)
 		)
 		(stroke
@@ -1910,6 +2348,16 @@
 			(type default)
 		)
 		(uuid "406e5d0b-12c0-48f0-8be2-71ae6a2ebcc7")
+	)
+	(wire
+		(pts
+			(xy 207.01 36.83) (xy 207.01 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43aea81b-6eae-4a1c-aaa0-2e288f9c30b2")
 	)
 	(wire
 		(pts
@@ -1953,6 +2401,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 109.22) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cd200e-36f6-4ee8-9abb-ce0354ace8d5")
+	)
+	(wire
+		(pts
 			(xy 87.63 104.14) (xy 87.63 105.41)
 		)
 		(stroke
@@ -1970,6 +2428,16 @@
 			(type default)
 		)
 		(uuid "54c8b149-f5d0-4908-bd18-3ed0add6fc41")
+	)
+	(wire
+		(pts
+			(xy 246.38 52.07) (xy 248.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e6e7a0-6e61-4d40-89a7-249f3bca0c4d")
 	)
 	(wire
 		(pts
@@ -2033,6 +2501,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 45.72) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e17dfa-d23b-4868-86ff-dca4e6729412")
+	)
+	(wire
+		(pts
 			(xy 55.88 30.48) (xy 55.88 33.02)
 		)
 		(stroke
@@ -2093,6 +2571,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 143.51) (xy 173.99 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d963b72-903f-4fb2-9218-c5cf6e41d618")
+	)
+	(wire
+		(pts
+			(xy 196.85 52.07) (xy 199.39 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f89553d-e7ef-4425-b1ed-3582b60f7649")
+	)
+	(wire
+		(pts
 			(xy 46.99 82.55) (xy 46.99 80.01)
 		)
 		(stroke
@@ -2100,6 +2598,26 @@
 			(type default)
 		)
 		(uuid "82b103ea-04dc-451e-a626-7978cf726b47")
+	)
+	(wire
+		(pts
+			(xy 210.82 102.87) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f910a5-c6cd-4d36-81aa-fd85123b28ed")
+	)
+	(wire
+		(pts
+			(xy 257.81 102.87) (xy 257.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9e6ff5-5f2c-4994-be21-951b7536a66d")
 	)
 	(wire
 		(pts
@@ -2113,6 +2631,46 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 171.45) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2ad0ce-0a1d-4ef1-90ad-168a7d685db4")
+	)
+	(wire
+		(pts
+			(xy 257.81 93.98) (xy 257.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f961b00-7ae1-40a6-b6b3-7e64c16574fd")
+	)
+	(wire
+		(pts
+			(xy 181.61 157.48) (xy 181.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff1ba34-3b59-483d-83d5-5321326ca2ea")
+	)
+	(wire
+		(pts
+			(xy 256.54 26.67) (xy 256.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93257b0e-7d19-476d-b764-5ef2cdf9dae4")
+	)
+	(wire
+		(pts
 			(xy 40.64 142.24) (xy 46.99 142.24)
 		)
 		(stroke
@@ -2120,6 +2678,16 @@
 			(type default)
 		)
 		(uuid "947d55bc-d259-4c73-95c0-c23e79aec821")
+	)
+	(wire
+		(pts
+			(xy 87.63 146.05) (xy 87.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c496965-0069-4abf-9139-d37e0344999d")
 	)
 	(wire
 		(pts
@@ -2153,6 +2721,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 114.3) (xy 210.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39adf7d-ff53-430c-8be4-0c8bb9a47c63")
+	)
+	(wire
+		(pts
 			(xy 40.64 170.18) (xy 46.99 170.18)
 		)
 		(stroke
@@ -2160,6 +2738,26 @@
 			(type default)
 		)
 		(uuid "a71cb433-8965-47f4-96cc-40a1d8c61c68")
+	)
+	(wire
+		(pts
+			(xy 256.54 36.83) (xy 256.54 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade74490-e94c-470d-a98a-70db97c7c894")
+	)
+	(wire
+		(pts
+			(xy 132.08 163.83) (xy 132.08 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae34858a-cd19-4a3c-97cc-a72bae65564f")
 	)
 	(wire
 		(pts
@@ -2173,6 +2771,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 176.53) (xy 87.63 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b268a778-a973-4059-9565-e123ca6dc0d9")
+	)
+	(wire
+		(pts
 			(xy 40.64 185.42) (xy 46.99 185.42)
 		)
 		(stroke
@@ -2180,6 +2788,36 @@
 			(type default)
 		)
 		(uuid "b661671d-31a5-4286-b6ee-bf7a17eb1392")
+	)
+	(wire
+		(pts
+			(xy 132.08 175.26) (xy 132.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a2b0b5-5848-463e-936a-31261c5be151")
+	)
+	(wire
+		(pts
+			(xy 256.54 57.15) (xy 256.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ad55bd-f307-44c8-adc7-b4cdbabcae74")
+	)
+	(wire
+		(pts
+			(xy 181.61 151.13) (xy 181.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d84a78-9cd0-489b-b764-9926f435117e")
 	)
 	(polyline
 		(pts
@@ -2243,6 +2881,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 109.22) (xy 250.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d288c9-535f-4add-b3a1-a52b599a2e2a")
+	)
+	(wire
+		(pts
 			(xy 87.63 85.09) (xy 87.63 87.63)
 		)
 		(stroke
@@ -2250,6 +2898,16 @@
 			(type default)
 		)
 		(uuid "c9c6f884-64e7-43b1-891e-a57d7bd60438")
+	)
+	(wire
+		(pts
+			(xy 207.01 57.15) (xy 207.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd192c8c-3020-4da0-993f-a58a449b25eb")
 	)
 	(wire
 		(pts
@@ -2273,6 +2931,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 156.21) (xy 201.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1bb169b-d855-412b-b409-991e0cba1806")
+	)
+	(wire
+		(pts
+			(xy 160.02 137.16) (xy 160.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d00b05-1248-4263-9abf-05dff3e4d2d9")
+	)
+	(wire
+		(pts
 			(xy 115.57 39.37) (xy 123.19 39.37)
 		)
 		(stroke
@@ -2290,6 +2968,16 @@
 			(type default)
 		)
 		(uuid "e5f58883-d83c-428f-a111-def6eb995caf")
+	)
+	(wire
+		(pts
+			(xy 87.63 165.1) (xy 87.63 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5b8251-716e-4f5a-aa77-c0409802fe61")
 	)
 	(wire
 		(pts
@@ -2323,6 +3011,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 83.82) (xy 257.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97eb239-9577-4e39-934a-eef4542db5b6")
+	)
+	(wire
+		(pts
+			(xy 207.01 26.67) (xy 207.01 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f7e520-9c86-4a80-9d92-39ad15e87a3d")
+	)
+	(wire
+		(pts
 			(xy 163.83 95.25) (xy 163.83 96.52)
 		)
 		(stroke
@@ -2350,6 +3058,16 @@
 			(type default)
 		)
 		(uuid "fd141469-045c-4759-8a3e-cce3d59d3bb0")
+	)
+	(wire
+		(pts
+			(xy 189.23 143.51) (xy 201.93 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe54281b-1033-4b6e-82f1-389c4434b065")
 	)
 	(polyline
 		(pts
@@ -2383,6 +3101,39 @@
 		)
 		(uuid "2ae2cef6-5f4d-45b8-967a-4d1bd41ba830")
 	)
+	(hierarchical_label "AFSpareLED"
+		(shape input)
+		(at 77.47 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b7fd2f4-628f-4ff5-a69b-b883fa696f96")
+	)
+	(hierarchical_label "SoilTDLED"
+		(shape input)
+		(at 196.85 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55e3ff8d-94fa-41b3-aebc-513562bcce9a")
+	)
+	(hierarchical_label "AFFLED"
+		(shape input)
+		(at 246.38 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63121b14-b45d-4501-9ac2-cd739a033572")
+	)
 	(hierarchical_label "SpareLED"
 		(shape input)
 		(at 153.67 110.49 180)
@@ -2393,6 +3144,109 @@
 			(justify right)
 		)
 		(uuid "7e2ade05-e2b0-4a26-962f-a57131cbe2c1")
+	)
+	(hierarchical_label "SpareServoLED2"
+		(shape input)
+		(at 121.92 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f97af16-f0d8-47c7-bc8d-b5225655df32")
+	)
+	(hierarchical_label "CacheSpareLED"
+		(shape input)
+		(at 200.66 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5ccf518-90a2-4749-bb6f-5b16e0eddc17")
+	)
+	(hierarchical_label "SpareServoLED1"
+		(shape input)
+		(at 247.65 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef214bfe-ca9b-42cf-b9e8-387f8642ba56")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 87.63 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "007484ad-45c3-41b0-8afd-9a78d78ae9e5")
+		(property "Reference" "R9"
+			(at 90.17 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 90.17 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 88.646 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa761db1-9167-4812-bc04-deb51ee39826")
+		)
+		(pin "1"
+			(uuid "1412dfbe-413e-4ee8-8cca-ed57e4dc7a6d")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -2755,6 +3609,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 257.81 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e9a868d-ae21-4bf5-aea1-9f255dffa596")
+		(property "Reference" "#PWR070"
+			(at 257.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40893952-3dc8-46bb-975e-91c1fd1445b0")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 30.48 100.33 0)
 		(unit 1)
@@ -2826,6 +3746,138 @@
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "Conn11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "235d1427-cc6c-4b18-9468-cf2632277f6d")
+		(property "Reference" "#PWR072"
+			(at 207.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26b44641-de77-4af5-9eba-535398ff2538")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 207.01 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "258a496c-1db5-4156-a42b-a3cb94247396")
+		(property "Reference" "#PWR071"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 207.01 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8d565db-c7ab-412b-bb36-b86905ef3f58")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3041,6 +4093,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 201.93 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ee7c81-e67e-499b-a959-204a0926746b")
+		(property "Reference" "#PWR078"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 201.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd0b489d-d426-4913-b3d6-241ec04e6242")
+		)
+		(instances
+			(project ""
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Converter_DCDC:OKI-78SR-5_1.5-W36H-C")
 		(at 107.95 39.37 0)
 		(unit 1)
@@ -3107,6 +4225,82 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 255.27 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "366ca8f2-b499-4f1d-b8d1-50f47440755b")
+		(property "Reference" "Q6"
+			(at 261.62 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 261.62 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 260.35 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 260.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 255.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "be78e3e6-2af3-4043-b65e-02302280b752")
+		)
+		(pin "2"
+			(uuid "8c3ca2c1-2b8f-4773-9e84-9231a7e28ff5")
+		)
+		(pin "1"
+			(uuid "bd2ab9d2-5f43-419a-a53c-b93da08483b9")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3249,6 +4443,353 @@
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dc56b67-cf15-448b-a9c1-3bca2647a152")
+		(property "Reference" "#PWR068"
+			(at 132.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4288e3a-006b-47a6-9b6c-d17b6bd54091")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 160.02 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd55f07-7c0c-4e6f-8142-f1bbb959c462")
+		(property "Reference" "#PWR077"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 160.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4de13887-a0c9-4c98-8875-d426057d84df")
+		)
+		(instances
+			(project ""
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e320612-33cc-4bf9-8294-7079c7b93b25")
+		(property "Reference" "#PWR079"
+			(at 181.61 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8e7ec5b-b337-4e07-a7ee-87ba4998aed0")
+		)
+		(instances
+			(project ""
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 207.01 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a28776-f871-4a83-95bd-c0a5b165e20a")
+		(property "Reference" "R12"
+			(at 209.55 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 209.55 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 208.026 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 207.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86a9fd3e-88c4-4668-9aff-61d728a60380")
+		)
+		(pin "1"
+			(uuid "b34fc158-e593-487d-956b-45ceea0b037a")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 207.01 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "454e0fcb-90dc-43de-a08e-39c087950846")
+		(property "Reference" "D10"
+			(at 210.82 42.2274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 210.82 44.7674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0a1936c-2197-4cb6-9e22-2b87e248c97a")
+		)
+		(pin "2"
+			(uuid "59b093b0-4494-4bc4-ad36-db2a921d24f3")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -3409,6 +4950,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 256.54 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49798847-b979-4eb1-8346-829d18941512")
+		(property "Reference" "R13"
+			(at 259.08 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 259.08 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 257.556 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 256.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "630412f0-5219-48ff-b851-9d9ef39c2be6")
+		)
+		(pin "1"
+			(uuid "d1cfb1d0-faae-40a3-bafe-186760efd9b2")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.95 53.34 0)
 		(unit 1)
@@ -3469,6 +5080,82 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 129.54 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d31f933-00e3-4c0d-87a5-371360800789")
+		(property "Reference" "Q5"
+			(at 135.89 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 135.89 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 134.62 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 134.62 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ee30f2db-ceff-4b96-bf61-1247a1c6d392")
+		)
+		(pin "2"
+			(uuid "97a1e013-79bd-410f-a20b-1b134c8f4c22")
+		)
+		(pin "1"
+			(uuid "5627c0e7-35cc-49e4-af57-01a031d7f571")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -3613,6 +5300,72 @@
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "Conn14")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5012c21d-877c-44f9-b191-9bd02f58e618")
+		(property "Reference" "#PWR066"
+			(at 87.63 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "994db790-0c96-4549-b087-52dfa9c5d99f")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR066")
+					(unit 1)
 				)
 			)
 		)
@@ -3763,6 +5516,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "564b1bc7-68a6-45db-b510-8db34103b558")
+		(property "Reference" "#PWR065"
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 87.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61a7d034-dda2-4476-9649-f4b9b93917e9")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 30.48 85.09 0)
 		(unit 2)
@@ -3835,6 +5654,285 @@
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "Conn11")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 257.81 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a8c7696-4a4b-4719-b971-a16301523989")
+		(property "Reference" "R11"
+			(at 260.35 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 260.35 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 258.826 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5a9335b-80d2-4dd5-97bd-c150860014e3")
+		)
+		(pin "1"
+			(uuid "3164d285-7e74-4915-bdfa-d6826f644816")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 256.54 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62a68dd7-5203-4145-9132-5f3a24cc0dea")
+		(property "Reference" "#PWR073"
+			(at 256.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 256.54 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "270a39ed-b716-477c-96dd-fd1fa493ed97")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:OKI-78SR-3.3_1.5-W36H-C")
+		(at 181.61 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6548e174-389d-42f8-af2d-f9f515afbe6f")
+		(property "Reference" "U4"
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OKI-78SR-3.3_1.5-W36H-C"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_OKI-78SR_Horizontal"
+			(at 182.88 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://power.murata.com/data/power/oki-78sr.pdf"
+			(at 181.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal"
+			(at 181.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c7ebd0c-e2d1-424a-97ed-154444a985d4")
+		)
+		(pin "2"
+			(uuid "94729e17-d834-4bce-9b4d-091ea6a2aa78")
+		)
+		(pin "3"
+			(uuid "9f3a9bb5-d2d0-4263-8700-c050870d93af")
+		)
+		(instances
+			(project ""
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67163091-1e63-4e02-abbb-47988c8476a9")
+		(property "Reference" "C4"
+			(at 163.83 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 163.83 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.9852 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67eebc72-63c4-45ed-9add-c73effde64a0")
+		)
+		(pin "2"
+			(uuid "a7fa2bb9-aa3e-4ab3-9d56-7720dfbb7ec0")
+		)
+		(instances
+			(project ""
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "C4")
+					(unit 1)
 				)
 			)
 		)
@@ -4102,6 +6200,85 @@
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 210.82 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7499a29a-24aa-42fc-9daf-cf048b265b13")
+		(property "Reference" "D12"
+			(at 214.63 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 214.63 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 210.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 210.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84f3c0c6-22b0-43f8-b1e5-327e6ce4cf25")
+		)
+		(pin "2"
+			(uuid "cb270dc7-4986-481f-bb79-d67a61a2b74d")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4393,6 +6570,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 85.09 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "868db2ab-055f-4aa5-9c42-a75c15ddc007")
+		(property "Reference" "Q4"
+			(at 91.44 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 91.44 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 90.17 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 85.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4b421ac2-0f6e-4ab4-b993-6f43244f3def")
+		)
+		(pin "2"
+			(uuid "99046ba7-82d6-4a63-89d3-c7b2cfb3df07")
+		)
+		(pin "1"
+			(uuid "3ebe8fb5-0aa2-4884-a2e6-c98673f8e5a8")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c0c3e11-9564-4e54-9bab-3187e6644168")
+		(property "Reference" "#PWR067"
+			(at 132.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 132.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3f26603-f6e9-4834-9947-764f5f8ebf81")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 30.48 172.72 0)
 		(unit 2)
@@ -4676,6 +6995,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "981494dc-e816-4fea-a241-8d4cd996696b")
+		(property "Reference" "R10"
+			(at 134.62 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 134.62 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 133.096 151.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b26b61b2-8573-4aa0-848e-c32a773d102e")
+		)
+		(pin "1"
+			(uuid "763abe6a-13db-44c0-9438-d91967e5e8af")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 123.19 46.99 0)
 		(unit 1)
@@ -4822,6 +7211,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 132.08 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cb01c7e-169d-4db1-828c-309d88ef6e7e")
+		(property "Reference" "D8"
+			(at 135.89 160.3374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 135.89 162.8774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1596b799-9cbb-4d16-b34a-a094aa3195d4")
+		)
+		(pin "2"
+			(uuid "c730d6f6-d297-45b3-bbae-bafd484f2e65")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 53.34 0)
 		(unit 1)
@@ -4954,6 +7422,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 201.93 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98a599b-49a8-442d-815e-9278669b4c73")
+		(property "Reference" "C5"
+			(at 205.74 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 205.74 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.8952 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 201.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac2e0efd-6f44-4718-a193-24328d9dcf42")
+		)
+		(pin "2"
+			(uuid "467bdfae-9ffd-48f0-bcff-4571eb1e7a92")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 46.99 80.01 0)
 		(unit 1)
@@ -5020,6 +7558,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 87.63 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b32de316-29e2-4c5b-a7e3-bf86d9003592")
+		(property "Reference" "D7"
+			(at 91.44 161.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 91.44 164.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 87.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 87.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a9558da-3fd7-4a2d-92f3-f211b39902cd")
+		)
+		(pin "2"
+			(uuid "7f98b27b-3e19-45b1-81c2-9f1247caca41")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 124.46 85.09 0)
 		(unit 1)
@@ -5080,6 +7697,72 @@
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 257.81 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c1c2fa-a3e3-4bf7-a8b3-23dcb3cc085a")
+		(property "Reference" "#PWR069"
+			(at 257.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 257.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a807fe1a-c065-4827-9335-c1f3c2496f2a")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -5305,6 +7988,148 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 210.82 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2f47304-da91-4a31-addd-5efd4d0b3459")
+		(property "Reference" "#PWR075"
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 210.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61a6247d-d869-4064-8e2a-24e697e402b6")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 208.28 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7fed092-2fcb-4249-a19e-91a073d37e90")
+		(property "Reference" "Q9"
+			(at 214.63 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 214.63 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 213.36 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0665ce2f-f80c-4fa4-9150-1149ec37093d")
+		)
+		(pin "2"
+			(uuid "9cb9e0f9-97b4-4af0-8d86-e70722390639")
+		)
+		(pin "1"
+			(uuid "795cc988-fbab-4aaa-84d2-1ca126ccb7d4")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 46.99 0)
 		(unit 1)
@@ -5365,6 +8190,152 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 254 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd0569ff-fbc8-467f-8a82-60a7477f68a6")
+		(property "Reference" "Q8"
+			(at 260.35 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 260.35 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 259.08 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 254 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d7c9ad36-e132-4358-ba71-9650a70e4389")
+		)
+		(pin "2"
+			(uuid "3310878f-9a20-4f60-9ff6-8afdba165a40")
+		)
+		(pin "1"
+			(uuid "3d378592-501a-49d0-bfe9-6dff1b8e67b6")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 210.82 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd125ece-07af-45a5-b7c3-0797ccd32d6d")
+		(property "Reference" "R14"
+			(at 213.36 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 213.36 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 211.836 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3508e183-bf80-4442-a27b-8fcac78ba44e")
+		)
+		(pin "1"
+			(uuid "949205ed-4245-4084-b104-2c69fdc18872")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5665,6 +8636,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 210.82 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5dddd62-75b6-4dd9-8ec0-7a9c272c2e28")
+		(property "Reference" "#PWR076"
+			(at 210.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7186a8e-8baa-4afa-a827-3fab17f8e011")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 168.91 33.02 0)
 		(unit 1)
@@ -5797,6 +8834,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 256.54 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f97f9a67-ad1e-40cd-ad99-b2ee031f7dd1")
+		(property "Reference" "#PWR074"
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5cfbe3a-0a7b-46ee-8690-adcc8c203a92")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 33.02 0)
 		(unit 1)
@@ -5857,6 +8960,240 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 257.81 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdb21d1d-207d-4b94-8053-958bc3595a0a")
+		(property "Reference" "D9"
+			(at 261.62 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 261.62 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 257.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 257.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 257.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f13494a-e70a-49cc-a073-76aa7f22aa6b")
+		)
+		(pin "2"
+			(uuid "27a53b8f-a1e1-4e71-a1d0-355193729b7c")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 256.54 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe7dc419-d6c3-4d22-8c79-c3850f9fc8a1")
+		(property "Reference" "D11"
+			(at 260.35 42.2274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 260.35 44.7674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8ab7496-5e81-4e9f-a20f-9a45dad8215b")
+		)
+		(pin "2"
+			(uuid "6749efd2-3159-487b-a430-b69564032c6e")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 204.47 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "febe59a0-8897-44e0-a630-6a769ddffdbc")
+		(property "Reference" "Q7"
+			(at 210.82 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 210.82 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 209.55 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 209.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "93d94d27-461a-4b5c-b718-e40ee689d8fd")
+		)
+		(pin "2"
+			(uuid "04fa898c-1ba5-49e6-a083-a6f2cc30379d")
+		)
+		(pin "1"
+			(uuid "377af613-32b4-47ce-826e-9051956840ba")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/3b4d7bd3-b617-4540-8dc9-414a3afad923"
+					(reference "Q7")
 					(unit 1)
 				)
 			)

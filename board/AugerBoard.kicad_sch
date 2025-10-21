@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 147.32 125.73) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecfe125-d6a4-4524-b933-46b7c239ce04")
+	)
+	(wire
+		(pts
 			(xy 101.6 109.22) (xy 106.68 109.22)
 		)
 		(stroke
@@ -47,13 +57,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 74.93) (xy 132.08 80.01)
+			(xy 144.78 125.73) (xy 144.78 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f4f90d3-c13e-4936-8051-ad80ff1cc701")
+		(uuid "4ccaa09e-6ebe-4e70-828f-d663ca621550")
 	)
 	(wire
 		(pts
@@ -97,6 +107,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 125.73) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db9ac05-6a87-4945-8df0-23c7f9d19433")
+	)
+	(wire
+		(pts
 			(xy 101.6 101.6) (xy 106.68 101.6)
 		)
 		(stroke
@@ -127,13 +147,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 154.94 130.81)
+			(xy 124.46 125.73) (xy 124.46 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65cc8f12-ca53-4121-bfba-b0072562adba")
+	)
+	(wire
+		(pts
+			(xy 139.7 125.73) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dd3396-780a-4f84-b032-9e472866daeb")
 	)
 	(wire
 		(pts
@@ -157,7 +187,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 125.73) (xy 160.02 130.81)
+			(xy 129.54 125.73) (xy 129.54 130.81)
 		)
 		(stroke
 			(width 0)
@@ -177,13 +207,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 74.93) (xy 129.54 80.01)
+			(xy 160.02 125.73) (xy 160.02 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c469a61-2210-4e6c-be71-f38cee967b28")
+		(uuid "91cce40f-e43e-4f9b-897f-d2f93c1b6db0")
 	)
 	(wire
 		(pts
@@ -204,6 +234,16 @@
 			(type default)
 		)
 		(uuid "9a866b9e-a2e6-430d-bc4c-3d29dfd8dc83")
+	)
+	(wire
+		(pts
+			(xy 152.4 125.73) (xy 152.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e941b42-efc0-4896-9c15-24e9226678e2")
 	)
 	(wire
 		(pts
@@ -237,16 +277,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 134.62 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d05ad9-8641-4b28-9907-48f833fe0fba")
-	)
-	(wire
-		(pts
 			(xy 144.78 74.93) (xy 144.78 80.01)
 		)
 		(stroke
@@ -277,6 +307,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 125.73) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd619cfb-91e8-4c49-8562-d400a7c199c1")
+	)
+	(wire
+		(pts
 			(xy 160.02 74.93) (xy 160.02 80.01)
 		)
 		(stroke
@@ -294,6 +334,16 @@
 			(type default)
 		)
 		(uuid "db322dfb-47a1-47a3-bb95-94cb349ac112")
+	)
+	(wire
+		(pts
+			(xy 149.86 125.73) (xy 149.86 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5bae5c-682b-4dc8-bbc1-69ed9250bd09")
 	)
 	(wire
 		(pts
@@ -327,6 +377,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 125.73) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbf44d5-b496-43c1-bd11-e87021716d23")
+	)
+	(wire
+		(pts
 			(xy 101.6 116.84) (xy 106.68 116.84)
 		)
 		(stroke
@@ -347,7 +407,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 157.48 130.81)
+			(xy 127 125.73) (xy 127 130.81)
 		)
 		(stroke
 			(width 0)
@@ -640,37 +700,37 @@
 			)
 		)
 		(pin "GantryLED" output
-			(at 134.62 80.01 90)
+			(at 154.94 125.73 270)
 			(uuid "9b7cc589-ecf1-43e0-b6f0-c74050037370")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SpareLED" output
-			(at 132.08 80.01 90)
+			(at 157.48 125.73 270)
 			(uuid "a902a8b6-5f9e-46de-9467-2b2fc63cdd95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VescLED" output
-			(at 129.54 80.01 90)
+			(at 160.02 125.73 270)
 			(uuid "e1cdac87-fd14-4c05-a0a8-c768df3b8c4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "AFLED340" output
-			(at 160.02 125.73 270)
+			(at 129.54 125.73 270)
 			(uuid "54414b54-fffe-4c2d-bc25-817c867ffb08")
 			(effects
 				(font
@@ -680,7 +740,7 @@
 			)
 		)
 		(pin "AFLED405" output
-			(at 157.48 125.73 270)
+			(at 127 125.73 270)
 			(uuid "bd8a1d12-466c-40b5-9e7f-402cc26064bc")
 			(effects
 				(font
@@ -690,7 +750,7 @@
 			)
 		)
 		(pin "AFLED490" output
-			(at 154.94 125.73 270)
+			(at 124.46 125.73 270)
 			(uuid "9c441ddc-917b-451e-8dde-deec6e20d970")
 			(effects
 				(font
@@ -752,6 +812,66 @@
 		(pin "SpareSW2" input
 			(at 106.68 124.46 180)
 			(uuid "7a5889c6-a60c-464f-91b3-5cf1b7f4370d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFFLED" output
+			(at 152.4 125.73 270)
+			(uuid "ecf489b4-0d6f-4987-aee5-545a6a600300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFSpareLED" output
+			(at 149.86 125.73 270)
+			(uuid "ae174309-e447-4a3e-bb75-ad94fbcdf055")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CacheSPareLED" output
+			(at 147.32 125.73 270)
+			(uuid "5ef971a4-fc79-4923-a1c2-66a1cd8d528d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ServoSpareLED1" output
+			(at 144.78 125.73 270)
+			(uuid "33903931-5f1a-48d3-a7b2-91c3753a4d71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ServoSpareLED2" output
+			(at 142.24 125.73 270)
+			(uuid "54198e9e-bc36-4125-a3fd-f07395fe0c33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SoilTDLED" output
+			(at 139.7 125.73 270)
+			(uuid "a311e412-a9ab-4913-814c-1d216f96a0d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,8 +1052,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 59.69)
-		(size 29.21 15.24)
+		(at 137.16 130.81)
+		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -948,7 +1068,7 @@
 		)
 		(uuid "3b4d7bd3-b617-4540-8dc9-414a3afad923")
 		(property "Sheetname" "Power"
-			(at 105.9684 74.93 90)
+			(at 136.4484 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +1077,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 136.4746 74.93 90)
+			(at 161.8746 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,33 +1086,93 @@
 			)
 		)
 		(pin "GantryLED" input
-			(at 134.62 74.93 270)
+			(at 154.94 130.81 90)
 			(uuid "4e0cf512-2399-4d99-b87a-3666acc6512d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SpareLED" input
-			(at 132.08 74.93 270)
+			(at 157.48 130.81 90)
 			(uuid "3f9debe1-d6d2-4e5f-a109-35af2a7cefb3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VescLED" input
-			(at 129.54 74.93 270)
+			(at 160.02 130.81 90)
 			(uuid "4c559f86-0fe9-4d0e-8125-73114a92417f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "AFFLED" input
+			(at 152.4 130.81 90)
+			(uuid "1504721d-437f-4fbc-b9f6-01508d3b6919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFSpareLED" input
+			(at 149.86 130.81 90)
+			(uuid "93a30528-ae2e-4352-b555-e83b57439ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CacheSpareLED" input
+			(at 147.32 130.81 90)
+			(uuid "012656ff-bc37-4e6b-9cfb-b08c1e6c1794")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SoilTDLED" input
+			(at 144.78 130.81 90)
+			(uuid "4564c25a-0d3a-4de6-93de-e5ff083d665e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SpareServoLED1" input
+			(at 142.24 130.81 90)
+			(uuid "443fef3c-cff7-4e73-995b-99486b2e0643")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SpareServoLED2" input
+			(at 139.7 130.81 90)
+			(uuid "b333e6b0-6a1c-4103-958d-22609f0cafea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1248,8 +1428,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 130.81)
-		(size 54.61 11.43)
+		(at 118.11 130.81)
+		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1264,7 +1444,7 @@
 		)
 		(uuid "874d0dfc-2f90-4409-9fd5-46a48fc81ade")
 		(property "Sheetname" "AF interface"
-			(at 105.9684 142.24 90)
+			(at 117.3984 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1453,7 @@
 			)
 		)
 		(property "Sheetfile" "AFI.kicad_sch"
-			(at 161.8746 142.24 90)
+			(at 131.3946 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1462,7 @@
 			)
 		)
 		(pin "AFLED340" input
-			(at 160.02 130.81 90)
+			(at 129.54 130.81 90)
 			(uuid "b5f3c6e8-d6d7-41ba-9dbe-e404287c389f")
 			(effects
 				(font
@@ -1292,7 +1472,7 @@
 			)
 		)
 		(pin "AFLED405" input
-			(at 157.48 130.81 90)
+			(at 127 130.81 90)
 			(uuid "111dc1a3-1a15-427d-81ae-956f7c1b7777")
 			(effects
 				(font
@@ -1302,7 +1482,7 @@
 			)
 		)
 		(pin "AFLED490" input
-			(at 154.94 130.81 90)
+			(at 124.46 130.81 90)
 			(uuid "e30f6fa2-cee0-4d1c-8a35-ce5957e2485c")
 			(effects
 				(font
