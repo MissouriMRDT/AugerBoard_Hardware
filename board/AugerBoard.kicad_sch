@@ -57,16 +57,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 125.73) (xy 144.78 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ccaa09e-6ebe-4e70-828f-d663ca621550")
-	)
-	(wire
-		(pts
 			(xy 161.29 99.06) (xy 166.37 99.06)
 		)
 		(stroke
@@ -107,16 +97,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 125.73) (xy 142.24 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5db9ac05-6a87-4945-8df0-23c7f9d19433")
-	)
-	(wire
-		(pts
 			(xy 101.6 101.6) (xy 106.68 101.6)
 		)
 		(stroke
@@ -154,16 +134,6 @@
 			(type default)
 		)
 		(uuid "65cc8f12-ca53-4121-bfba-b0072562adba")
-	)
-	(wire
-		(pts
-			(xy 139.7 125.73) (xy 139.7 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68dd3396-780a-4f84-b032-9e472866daeb")
 	)
 	(wire
 		(pts
@@ -287,6 +257,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 125.73) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c221f95c-9e23-45c0-b077-ee0fef18e60d")
+	)
+	(wire
+		(pts
+			(xy 144.78 125.73) (xy 144.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51050b3-7579-4ffb-b816-069591ee39e8")
+	)
+	(wire
+		(pts
 			(xy 101.6 114.3) (xy 106.68 114.3)
 		)
 		(stroke
@@ -294,6 +284,16 @@
 			(type default)
 		)
 		(uuid "c67e4173-350e-4292-9ad7-a4a0dcd8515a")
+	)
+	(wire
+		(pts
+			(xy 142.24 125.73) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98285c2-ea50-467b-a34c-538c1204f70b")
 	)
 	(wire
 		(pts
@@ -709,7 +709,7 @@
 				(justify left)
 			)
 		)
-		(pin "SpareLED" output
+		(pin "SpareMotorLED" output
 			(at 157.48 125.73 270)
 			(uuid "a902a8b6-5f9e-46de-9467-2b2fc63cdd95")
 			(effects
@@ -839,7 +839,7 @@
 				(justify left)
 			)
 		)
-		(pin "CacheSPareLED" output
+		(pin "CacheSpareLED" output
 			(at 147.32 125.73 270)
 			(uuid "5ef971a4-fc79-4923-a1c2-66a1cd8d528d")
 			(effects
@@ -888,8 +888,8 @@
 		)
 	)
 	(sheet
-		(at 140.97 59.69)
-		(size 20.32 15.24)
+		(at 106.68 59.69)
+		(size 54.61 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -904,7 +904,7 @@
 		)
 		(uuid "2e8a1a4c-679b-4e28-aa1a-22908ea877e1")
 		(property "Sheetname" "Communications"
-			(at 140.2584 74.93 90)
+			(at 105.9684 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1095,7 @@
 				(justify right)
 			)
 		)
-		(pin "SpareLED" input
+		(pin "SpareMotorLED" input
 			(at 157.48 130.81 90)
 			(uuid "3f9debe1-d6d2-4e5f-a109-35af2a7cefb3")
 			(effects
@@ -1146,7 +1146,7 @@
 			)
 		)
 		(pin "SoilTDLED" input
-			(at 144.78 130.81 90)
+			(at 139.7 130.81 90)
 			(uuid "4564c25a-0d3a-4de6-93de-e5ff083d665e")
 			(effects
 				(font
@@ -1156,7 +1156,7 @@
 			)
 		)
 		(pin "SpareServoLED1" input
-			(at 142.24 130.81 90)
+			(at 144.78 130.81 90)
 			(uuid "443fef3c-cff7-4e73-995b-99486b2e0643")
 			(effects
 				(font
@@ -1166,7 +1166,7 @@
 			)
 		)
 		(pin "SpareServoLED2" input
-			(at 139.7 130.81 90)
+			(at 142.24 130.81 90)
 			(uuid "b333e6b0-6a1c-4103-958d-22609f0cafea")
 			(effects
 				(font

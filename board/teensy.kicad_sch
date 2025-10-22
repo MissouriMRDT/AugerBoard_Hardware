@@ -2228,7 +2228,7 @@
 		)
 		(uuid "0db6b4c6-57c5-4dc2-a94f-3ed58b699741")
 	)
-	(hierarchical_label "SpareLED"
+	(hierarchical_label "SpareMotorLED"
 		(shape output)
 		(at 170.18 83.82 0)
 		(effects
@@ -2635,7 +2635,7 @@
 		)
 		(uuid "cd11fec7-de5b-4a3a-99eb-b46ce672ca69")
 	)
-	(hierarchical_label "CacheSPareLED"
+	(hierarchical_label "CacheSpareLED"
 		(shape output)
 		(at 119.38 78.74 180)
 		(effects
