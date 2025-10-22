@@ -1292,7 +1292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4095d0ec-da19-44f9-a1d2-2ca5c7515b37")
-		(property "Reference" "SW5"
+		(property "Reference" "SW4"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -1344,7 +1344,7 @@
 		(instances
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
-					(reference "SW5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -1557,7 +1557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d8c542d-1b56-4495-a509-67e56dd504ce")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -1609,7 +1609,7 @@
 		(instances
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -1693,7 +1693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "724c7d0d-e01c-4005-b7c0-3d67d3581fc9")
-		(property "Reference" "SW10"
+		(property "Reference" "SW9"
 			(at 78.74 137.16 0)
 			(effects
 				(font
@@ -1745,7 +1745,7 @@
 		(instances
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -1827,7 +1827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "989888ec-2631-430d-9f9a-0c69d0bfc117")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 78.74 114.3 0)
 			(effects
 				(font
@@ -1879,7 +1879,7 @@
 		(instances
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e34e3845-7490-448a-8ec8-c89f19567332")
-		(property "Reference" "SW4"
+		(property "Reference" "SW10"
 			(at 45.72 20.32 0)
 			(effects
 				(font
@@ -2218,7 +2218,7 @@
 		(instances
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
-					(reference "SW4")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -2234,7 +2234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f040fcf3-7839-4d01-9810-64af460a50ad")
-		(property "Reference" "SW7"
+		(property "Reference" "SW6"
 			(at 78.74 71.12 0)
 			(effects
 				(font
@@ -2286,7 +2286,7 @@
 		(instances
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2302,7 +2302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0c7bee1-77a5-415a-952a-f942e64d75b1")
-		(property "Reference" "SW8"
+		(property "Reference" "SW7"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -2354,7 +2354,7 @@
 		(instances
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
-					(reference "SW8")
+					(reference "SW7")
 					(unit 1)
 				)
 			)

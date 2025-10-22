@@ -4185,7 +4185,7 @@
 				)
 			)
 		)
-		(property "Value" "OKI-78SR-5_1.5-W36H-C"
+		(property "Value" "OKI 5V"
 			(at 107.188 35.814 0)
 			(effects
 				(font
@@ -5821,7 +5821,7 @@
 				)
 			)
 		)
-		(property "Value" "OKI-78SR-3.3_1.5-W36H-C"
+		(property "Value" "OKI 3V3"
 			(at 156.21 35.56 0)
 			(effects
 				(font
@@ -5904,7 +5904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 141.9352 50.8 0)
 			(effects
 				(font
@@ -7458,7 +7458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 172.4152 50.8 0)
 			(effects
 				(font
