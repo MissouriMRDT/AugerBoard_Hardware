@@ -5,6 +5,245 @@
 	(uuid "fc9b3da3-f066-4d3f-b1bf-54c892ce1f72")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_MountingPin_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1327,6 +1566,10 @@
 		(color 0 0 0 0)
 		(uuid "82ef9fd9-37fd-4250-82e2-b3f80b8ea629")
 	)
+	(no_connect
+		(at 43.18 138.43)
+		(uuid "c779e2eb-b416-4b53-8616-5a8982f9f5a6")
+	)
 	(wire
 		(pts
 			(xy 29.21 125.73) (xy 29.21 124.46)
@@ -1339,13 +1582,33 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 95.25) (xy 40.64 95.25)
+			(xy 36.83 130.81) (xy 38.1 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18aad0cb-c50f-4c6f-8ac5-8969c52f6477")
+		(uuid "0c747901-12d6-4a50-824a-731cd05fb003")
+	)
+	(wire
+		(pts
+			(xy 39.37 92.71) (xy 40.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e0176f-5930-41b4-bc12-51281a18fc8d")
+	)
+	(wire
+		(pts
+			(xy 40.64 95.25) (xy 29.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e784e81-6b41-4807-b26d-cb9f5693d36c")
 	)
 	(wire
 		(pts
@@ -1356,26 +1619,6 @@
 			(type default)
 		)
 		(uuid "2603ed45-b641-47e3-9b3f-d987a2702664")
-	)
-	(wire
-		(pts
-			(xy 36.83 128.27) (xy 38.1 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f0be0c8-a3ce-4d99-9f1f-6d33be4e8700")
-	)
-	(wire
-		(pts
-			(xy 29.21 92.71) (xy 40.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ca6436-5007-4aad-8f38-652d7325fc58")
 	)
 	(wire
 		(pts
@@ -1409,6 +1652,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 128.27) (xy 29.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a092cb0-2e12-4485-8378-860cdb96e968")
+	)
+	(wire
+		(pts
 			(xy 76.2 45.72) (xy 82.55 45.72)
 		)
 		(stroke
@@ -1439,17 +1692,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 130.81) (xy 29.21 133.35)
+			(xy 29.21 128.27) (xy 29.21 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a1173fb-cce5-417d-9695-e530a36c6a38")
+		(uuid "6641dab8-7e25-4b8a-a3b9-2ce890ff8f0e")
 	)
 	(wire
 		(pts
-			(xy 29.21 91.44) (xy 29.21 92.71)
+			(xy 29.21 91.44) (xy 29.21 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1549,16 +1802,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 130.81) (xy 29.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c000ec83-8f25-4f16-80b5-c100867550c3")
-	)
-	(wire
-		(pts
 			(xy 78.74 48.26) (xy 82.55 48.26)
 		)
 		(stroke
@@ -1649,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 76.2 45.72)
+			(xy 76.2 45.72) (xy 76.2 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1902,7 @@
 	)
 	(hierarchical_label "Temp"
 		(shape output)
-		(at 36.83 128.27 180)
+		(at 36.83 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1692,7 +1935,7 @@
 	)
 	(hierarchical_label "Moisture"
 		(shape output)
-		(at 39.37 95.25 180)
+		(at 39.37 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,7 +1994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_uF_D_04_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
 			(at 87.63 49.53 0)
 			(effects
 				(font
@@ -1794,82 +2037,6 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/f1c20728-7c40-49e0-910a-0c2b6b14cbc0"
 					(reference "Conn16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:Molex_uF_D_04")
-		(at 43.18 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a8aedb7-b034-420c-bd5f-8f1646cb1c77")
-		(property "Reference" "Conn17"
-			(at 46.99 128.2699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex_uF_D_04"
-			(at 46.99 130.8099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_uF_D_04_Horizontal"
-			(at 43.18 134.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 134.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b02d84d-4166-4993-98f9-e74868aa3910")
-		)
-		(pin "2"
-			(uuid "c79a8695-50f8-4ddb-b1d5-477c27c013df")
-		)
-		(pin "3"
-			(uuid "9c3ac693-7dbc-43b4-a190-f30d205c808c")
-		)
-		(pin "4"
-			(uuid "b340bb3c-400a-4968-84ce-346c4ac3dbbd")
-		)
-		(instances
-			(project ""
-				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/f1c20728-7c40-49e0-910a-0c2b6b14cbc0"
-					(reference "Conn17")
 					(unit 1)
 				)
 			)
@@ -2090,6 +2257,85 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/f1c20728-7c40-49e0-910a-0c2b6b14cbc0"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 43.18 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d32c174-cb37-452a-8dcc-88c3f1329f74")
+		(property "Reference" "J2"
+			(at 45.72 128.6255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_MountingPin"
+			(at 45.72 131.1655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b9766ef-a0ad-4eef-b1bb-cc0a779bb5e4")
+		)
+		(pin "2"
+			(uuid "ffab0024-541c-49d3-ace9-e0ff518d9203")
+		)
+		(pin "4"
+			(uuid "19942aad-482f-4370-aa80-e194685e66c9")
+		)
+		(pin "3"
+			(uuid "f97a4cc2-c06f-4d27-9c8f-5a3e140d0275")
+		)
+		(pin "MP"
+			(uuid "e8550bcc-bfd7-43f9-b41d-d9c30b464c87")
+		)
+		(instances
+			(project ""
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/f1c20728-7c40-49e0-910a-0c2b6b14cbc0"
+					(reference "J2")
 					(unit 1)
 				)
 			)

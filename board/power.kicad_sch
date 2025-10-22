@@ -5829,7 +5829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_OKI-78SR_Horizontal"
+		(property "Footprint" "MRDT_Devices:OKI_Horizontal"
 			(at 157.48 45.72 0)
 			(effects
 				(font
