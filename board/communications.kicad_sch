@@ -2068,16 +2068,40 @@
 		(uuid "2ecf366e-77a5-4aef-9266-375bed54e357")
 	)
 	(junction
+		(at 123.19 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "343d18f1-7871-47f3-a623-6f80259cca32")
+	)
+	(junction
+		(at 130.81 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6284b94d-9dab-404d-b2cb-46258eda33e7")
+	)
+	(junction
 		(at 48.26 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "806bc4fe-ec44-45af-993b-af4e8f0eecf3")
 	)
 	(junction
+		(at 127 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2eb945a-5dfc-4142-82fb-cbacc9bcca22")
+	)
+	(junction
 		(at 27.94 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc7fca8c-f839-4807-8939-418c7284d932")
+	)
+	(junction
+		(at 134.62 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f60625aa-8fd7-46ff-8aea-278400254835")
 	)
 	(junction
 		(at 160.02 76.2)
@@ -2109,6 +2133,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 95.25) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c0ac2c-6d95-4161-b068-63b1f0d85cda")
+	)
+	(wire
+		(pts
 			(xy 160.02 88.9) (xy 170.18 88.9)
 		)
 		(stroke
@@ -2119,7 +2153,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 72.39) (xy 127 97.79)
+			(xy 134.62 95.25) (xy 134.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109f9929-335b-49c0-9532-57671e7629e2")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 127 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2156,6 +2200,16 @@
 			(type default)
 		)
 		(uuid "2cddf452-ca59-47dd-9f80-ef4661fe0f5e")
+	)
+	(wire
+		(pts
+			(xy 123.19 58.42) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381e0823-b59b-47d0-bff1-0140251a88fc")
 	)
 	(wire
 		(pts
@@ -2199,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 54.61) (xy 123.19 87.63)
+			(xy 123.19 54.61) (xy 123.19 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2269,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 137.16 82.55)
+			(xy 134.62 82.55) (xy 137.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 77.47) (xy 137.16 77.47)
+			(xy 130.81 77.47) (xy 137.16 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2319,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 48.26) (xy 132.08 48.26)
+			(xy 123.19 48.26) (xy 130.81 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2349,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 104.14) (xy 133.35 82.55)
+			(xy 134.62 104.14) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2376,6 +2430,16 @@
 			(type default)
 		)
 		(uuid "86e904cc-60ce-49db-bd62-9ed4d95fc792")
+	)
+	(wire
+		(pts
+			(xy 130.81 58.42) (xy 130.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887ffb6a-72db-46c9-9da3-fb91ebb76f88")
 	)
 	(wire
 		(pts
@@ -2489,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 104.14) (xy 133.35 104.14)
+			(xy 123.19 104.14) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2629,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 132.08 77.47)
+			(xy 130.81 48.26) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2957,6 +3021,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 130.81 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17c995a7-df54-450c-88b4-811211098466")
+		(property "Reference" "R15"
+			(at 130.81 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 130.81 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 130.556 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31afc19f-a4c7-496c-9b62-4822d91e1ee8")
+		)
+		(pin "2"
+			(uuid "098dbebe-af70-4a41-85ad-c515f67d0da5")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/2e8a1a4c-679b-4e28-aa1a-22908ea877e1"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Switches:SLW-913535-2A-SMT")
 		(at 144.78 80.01 180)
 		(unit 1)
@@ -3204,76 +3336,6 @@
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/2e8a1a4c-679b-4e28-aa1a-22908ea877e1"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 160.02 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4374698a-2a45-453e-aae6-3f9e272c7ec4")
-		(property "Reference" "R4"
-			(at 162.56 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 162.56 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 161.036 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 160.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ba1a81d-a47d-4261-be66-61f4ea902ea3")
-		)
-		(pin "2"
-			(uuid "dcd54fd4-a8b7-4ac3-9d32-01f47022e389")
-		)
-		(instances
-			(project ""
-				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/2e8a1a4c-679b-4e28-aa1a-22908ea877e1"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3933,6 +3995,74 @@
 			(project ""
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/2e8a1a4c-679b-4e28-aa1a-22908ea877e1"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 127 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc63b920-c892-4892-af93-9cd5443e84ac")
+		(property "Reference" "R16"
+			(at 127 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 127 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 126.746 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34bd2d3d-17ec-45be-96cc-66a559ffc6fd")
+		)
+		(pin "2"
+			(uuid "f2c3476e-1558-4a39-bf5a-f10aa5fede92")
+		)
+		(instances
+			(project "AugerBoard"
+				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/2e8a1a4c-679b-4e28-aa1a-22908ea877e1"
+					(reference "R16")
 					(unit 1)
 				)
 			)
