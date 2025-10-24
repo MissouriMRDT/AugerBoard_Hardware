@@ -57,6 +57,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 74.93) (xy 134.62 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d79c79-5759-4def-9e62-00309652daae")
+	)
+	(wire
+		(pts
 			(xy 161.29 99.06) (xy 166.37 99.06)
 		)
 		(stroke
@@ -207,6 +217,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 74.93) (xy 137.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b57d9cc-b127-4ec5-a75f-146c7c984ad5")
+	)
+	(wire
+		(pts
 			(xy 152.4 125.73) (xy 152.4 130.81)
 		)
 		(stroke
@@ -294,6 +314,16 @@
 			(type default)
 		)
 		(uuid "c98285c2-ea50-467b-a34c-538c1204f70b")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.93) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c997c88c-4d6a-49b3-aa54-eb083331c1ea")
 	)
 	(wire
 		(pts
@@ -559,7 +589,7 @@
 				(justify right)
 			)
 		)
-		(pin "RXD" input
+		(pin "RXD1" input
 			(at 154.94 80.01 90)
 			(uuid "d69d1a94-a5c8-4cd4-b85a-4536932615ed")
 			(effects
@@ -569,7 +599,7 @@
 				(justify right)
 			)
 		)
-		(pin "STBY" output
+		(pin "STBY1" output
 			(at 157.48 80.01 90)
 			(uuid "c8fc6dff-7ad1-4aa6-ac78-ac2736c20e9a")
 			(effects
@@ -579,7 +609,7 @@
 				(justify right)
 			)
 		)
-		(pin "TXD" output
+		(pin "TXD1" output
 			(at 160.02 80.01 90)
 			(uuid "85c4f6da-b3a6-44d6-9d82-2c14b33a1de3")
 			(effects
@@ -879,6 +909,36 @@
 				(justify left)
 			)
 		)
+		(pin "RXD2" input
+			(at 139.7 80.01 90)
+			(uuid "c1c17019-b4d4-4c74-a510-a98dd1824c78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY2" output
+			(at 137.16 80.01 90)
+			(uuid "3fb63fc0-d058-4161-bdac-26ead0bdc92c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD2" output
+			(at 134.62 80.01 90)
+			(uuid "e4cfef93-3f9f-4b6b-aea1-de8a9648994a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de"
@@ -971,7 +1031,7 @@
 				(justify left)
 			)
 		)
-		(pin "RXD" output
+		(pin "RXD1" output
 			(at 154.94 74.93 270)
 			(uuid "0578657c-ab67-4d55-a976-20ab31bfbbca")
 			(effects
@@ -981,7 +1041,7 @@
 				(justify left)
 			)
 		)
-		(pin "STBY" input
+		(pin "STBY1" input
 			(at 157.48 74.93 270)
 			(uuid "70c41906-9766-47fe-9d46-c51c5545c96a")
 			(effects
@@ -991,9 +1051,39 @@
 				(justify left)
 			)
 		)
-		(pin "TXD" input
+		(pin "TXD1" input
 			(at 160.02 74.93 270)
 			(uuid "fe0bb7f7-36ca-44e7-8abb-f0bf192ce922")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD2" output
+			(at 139.7 74.93 270)
+			(uuid "62e87df2-0f51-42e4-9bc6-16a04d79fd8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STBY2" input
+			(at 137.16 74.93 270)
+			(uuid "81e697d3-dfef-4013-a9ee-f1f004fcea54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD2" input
+			(at 134.62 74.93 270)
+			(uuid "9ea72540-d6bb-44fb-9df8-5f2e493bf954")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,4 +1697,26 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "SOIC8_4P9X3P9MC_MCH.kicad_mod")
+			(type other)
+			(data |KLUv/WBEF9UXAHbZUCAQlR5qERaago/66eHUDmaTBIqQsbasZPr4FCIiAEKA4koARwBHAIhqXvYi
+				SAjQNQZv6CnEA/T8IryZ3AEBCvTeRet4/jbO7z1mcqpOOSeV1L2v0/k/k8NEYWEpLDKHRckc1XIL
+				ikYE+va63Nnfx00BM0rX+j2N1mX25NT06T/q9OTb+7jJ9dae435yj2g2XSQeqO012rfxPC5dOhwM
+				DgYI9Ne8z8999h36belwG0d73hs7o5o8CAFWlDeT0aKqpTJKz+ytA01OQWhnpJv39rrWZhlvPfl7
+				3SarmHUrZuO8l7yiVfnFJhZpBUuGAsMAMZAE0PNrzwUf/D0b/KEoG4AAdbHLVsu6oqRQo/Hit8YO
+				fem8lJV3a59942iHE/qGO9ZVpW8dp0ot42lrdemVcNqbSUrt3Co7V/VaNVKvV2L3RnkDgM2ogRoh
+				EpGClCSFwjIGUE4gIze1OWIwJIaiEKwAQhCGgCFgIgEhRNCEEyIgSEAI3A6SqpGNmn+nliT5bHv0
+				oWM7Ec0/NuHDDEEYsE0JLaqBZXBgKoFhhk+MCg6h5y6zKh6E5gxQ18irSHqRmlhavhtph3OR/m6K
+				YnX+HudchUFvnGs1WuaLz5tcE6R+NwmeLIlV4nAfEmXF6Q/Q8V2BD+NGa1y9gELEXwvr5pda+eWY
+				6BSk//ZFSP6J4UrnWB3rBCgC/9s4ehmx9pkDyWFDirwBRpGdIH/aBk+iR17EMikN7qcSQKT2PW+A
+				lQazKVbvRickKlBaxewrkeELBC2OHQYpS0T0s09WfcHIR79y7WKEzL9WLTfdz6jtKdizU1tasfY/
+				M2tDVzEPXsXjDvhdn76eBBDwgr/b2J8qMrBAWhwbsWCrdXwdvuDu2seysadGEBb3l5p+XCPyRx25
+				AIjoam7UmVOzfbcBXcCrFrnBcTFYaGCuN/kMzA6YGaT++CXJLIit6ztmQ7xR0y+IhqIsovDo0iT6
+				gAhgnGD6BjjSs4CtjzpknOzZKbbyH2Sl3zV1lbVXAQ==|
+			)
+			(checksum "A817AA0AA84CA29AFBD6893BF1836AEB")
+		)
+	)
 )

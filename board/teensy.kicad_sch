@@ -1518,14 +1518,6 @@
 		(uuid "36a383a7-1c2c-44f3-8cd9-071e317df3ae")
 	)
 	(no_connect
-		(at 124.46 124.46)
-		(uuid "01d61e15-c50f-4686-bb07-242f079d7b7a")
-	)
-	(no_connect
-		(at 124.46 127)
-		(uuid "2adb7a9e-62d2-49c2-bc2d-38c4a3936e11")
-	)
-	(no_connect
 		(at 165.1 45.72)
 		(uuid "45572209-67a7-4a52-acb6-04ae2abf7bc6")
 	)
@@ -1552,10 +1544,6 @@
 	(no_connect
 		(at 124.46 63.5)
 		(uuid "9ddcd025-6647-4dda-8b6a-a2c8a47d988d")
-	)
-	(no_connect
-		(at 124.46 121.92)
-		(uuid "ae2fdd8b-da3f-4ef6-b844-9e941ee190e0")
 	)
 	(no_connect
 		(at 165.1 68.58)
@@ -1761,6 +1749,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545c11c0-a4a7-4fd8-8f26-9f8b92aa1653")
+	)
+	(wire
+		(pts
 			(xy 120.65 55.88) (xy 124.46 55.88)
 		)
 		(stroke
@@ -1961,6 +1959,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 127) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bf6884-bdae-4c35-ba96-d7bd33cdce9d")
+	)
+	(wire
+		(pts
 			(xy 165.1 124.46) (xy 168.91 124.46)
 		)
 		(stroke
@@ -1998,6 +2006,16 @@
 			(type default)
 		)
 		(uuid "e30b45fc-dd88-41e6-9ea8-22ebf157c624")
+	)
+	(wire
+		(pts
+			(xy 120.65 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb87c8c2-e222-4cb4-8693-0636b004d100")
 	)
 	(wire
 		(pts
@@ -2203,6 +2221,17 @@
 		)
 		(uuid "422f56f2-ce77-428b-b54f-ecd992f64e4d")
 	)
+	(hierarchical_label "RXD2"
+		(shape input)
+		(at 120.65 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b799d54-9f51-43d7-973b-b176555b30cb")
+	)
 	(hierarchical_label "SpareSW2"
 		(shape input)
 		(at 120.65 83.82 180)
@@ -2313,7 +2342,7 @@
 		)
 		(uuid "85342c7b-0f2c-4e38-8a43-e183422363af")
 	)
-	(hierarchical_label "TXD"
+	(hierarchical_label "TXD1"
 		(shape output)
 		(at 120.65 71.12 180)
 		(effects
@@ -2412,7 +2441,7 @@
 		)
 		(uuid "ac18f220-fe6a-49bb-ac84-aebefa693821")
 	)
-	(hierarchical_label "STBY"
+	(hierarchical_label "STBY1"
 		(shape output)
 		(at 120.65 96.52 180)
 		(effects
@@ -2456,7 +2485,7 @@
 		)
 		(uuid "c879dadf-2317-4eae-b39b-1232854a829f")
 	)
-	(hierarchical_label "RXD"
+	(hierarchical_label "RXD1"
 		(shape input)
 		(at 120.65 68.58 180)
 		(effects
@@ -2488,6 +2517,28 @@
 			(justify left)
 		)
 		(uuid "d71b49d0-401d-4d29-ab5a-5a8943b1b1b6")
+	)
+	(hierarchical_label "TXD2"
+		(shape output)
+		(at 120.65 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db834025-dbae-40ca-a2cf-8d44f45a3eb2")
+	)
+	(hierarchical_label "STBY2"
+		(shape output)
+		(at 120.65 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9d3b477-feca-4269-aa95-3b0db64e419f")
 	)
 	(hierarchical_label "SpareSW1"
 		(shape input)
