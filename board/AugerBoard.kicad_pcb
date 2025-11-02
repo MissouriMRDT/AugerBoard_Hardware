@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./")
 		)
 	)
 	(net 0 "")
@@ -6941,7 +6941,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/slw-913535-2a-smt.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7238,6 +7238,18 @@
 			(uuid "a13bf3a9-d511-4016-9c24-c9e485909953")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/blayd/OneDrive/Documents/GitHub/AugerBoard_Hardware/lib/SLW-913535-2A-SMT/SLW-913535-2A-SMT.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
@@ -23070,6 +23082,162 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "356abddc-cc45-4632-94be-04623163e86c")
+		(pts
+			(xy 154.94 152.4) (xy 68.58 152.4)
+		)
+		(height 10.16)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix " mils")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3400 mils"
+			(at 111.76 160.7312 0)
+			(layer "User.1")
+			(uuid "356abddc-cc45-4632-94be-04623163e86c")
+			(effects
+				(font
+					(size 1.524 1.524)
+					(thickness 0.3048)
+					(bold yes)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "823b2676-4c37-49c5-a7ce-8e44c0c60076")
+		(pts
+			(xy 160.02 157.48) (xy 63.5 157.48)
+		)
+		(height 10.16)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix " mils")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3800 mils"
+			(at 111.76 165.8112 0)
+			(layer "User.1")
+			(uuid "823b2676-4c37-49c5-a7ce-8e44c0c60076")
+			(effects
+				(font
+					(size 1.524 1.524)
+					(thickness 0.3048)
+					(bold yes)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "b0124e02-f6da-442f-b484-519e4987a6e8")
+		(pts
+			(xy 154.94 152.4) (xy 154.94 63.5)
+		)
+		(height 10.16)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix " mils")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3500 mils"
+			(at 163.2712 107.95 90)
+			(layer "User.1")
+			(uuid "b0124e02-f6da-442f-b484-519e4987a6e8")
+			(effects
+				(font
+					(size 1.524 1.524)
+					(thickness 0.3048)
+					(bold yes)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "c6e578c1-148b-4d18-b402-db2c298789a6")
+		(pts
+			(xy 160.02 58.42) (xy 160.02 157.48)
+		)
+		(height 10.16)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix " mils")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3900 mils"
+			(at 168.3512 107.95 90)
+			(layer "User.1")
+			(uuid "c6e578c1-148b-4d18-b402-db2c298789a6")
+			(effects
+				(font
+					(size 1.524 1.524)
+					(thickness 0.3048)
+					(bold yes)
+				)
+			)
 		)
 	)
 	(via

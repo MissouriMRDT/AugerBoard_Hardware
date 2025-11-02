@@ -2056,6 +2056,12 @@
 		(uuid "15afb404-b545-4617-911c-695aa0aea9c0")
 	)
 	(junction
+		(at 162.56 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c6befaf-becb-49f9-a51a-c8bd1853c4dc")
+	)
+	(junction
 		(at 57.15 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2102,12 +2108,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f60625aa-8fd7-46ff-8aea-278400254835")
-	)
-	(junction
-		(at 160.02 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdf02835-260b-4123-93bc-ed4e626997d7")
 	)
 	(no_connect
 		(at 41.91 30.48)
@@ -2213,16 +2213,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 162.56 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40301738-f684-4069-9e63-2f876788316c")
-	)
-	(wire
-		(pts
 			(xy 52.07 50.8) (xy 52.07 52.07)
 		)
 		(stroke
@@ -2230,16 +2220,6 @@
 			(type default)
 		)
 		(uuid "4274b3c7-c72c-4f93-8f79-80fe0b6d0be3")
-	)
-	(wire
-		(pts
-			(xy 160.02 74.93) (xy 170.18 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44422e26-fb65-4bc2-a56f-9e980a52a55c")
 	)
 	(wire
 		(pts
@@ -2263,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 160.02 74.93)
+			(xy 162.56 74.93) (xy 162.56 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2403,6 +2383,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 74.93) (xy 170.18 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa9057f-cebf-47aa-991d-7b1c7ed2e0f9")
+	)
+	(wire
+		(pts
 			(xy 134.62 104.14) (xy 134.62 95.25)
 		)
 		(stroke
@@ -2410,16 +2400,6 @@
 			(type default)
 		)
 		(uuid "7e85e4de-dcbb-4ea4-a5e6-05c969535211")
-	)
-	(wire
-		(pts
-			(xy 154.94 74.93) (xy 154.94 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a682e8-9f23-471d-b73e-8cb3a6bbe317")
 	)
 	(wire
 		(pts
@@ -2460,16 +2440,6 @@
 			(type default)
 		)
 		(uuid "92d510eb-fece-4d6b-88da-981d55897808")
-	)
-	(wire
-		(pts
-			(xy 154.94 76.2) (xy 160.02 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "965ce9c6-41fc-4a8e-aa24-3d458e6255af")
 	)
 	(wire
 		(pts
@@ -2613,16 +2583,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 162.56 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c789bcae-50a0-4312-86db-0737b4b0b55c")
-	)
-	(wire
-		(pts
 			(xy 100.33 55.88) (xy 105.41 55.88)
 		)
 		(stroke
@@ -2663,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 74.93) (xy 154.94 74.93)
+			(xy 152.4 74.93) (xy 162.56 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/slw-913535-2a-smt.pdf"
 			(at 144.78 80.01 0)
 			(effects
 				(font
