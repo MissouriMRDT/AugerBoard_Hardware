@@ -4027,7 +4027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_2002412000_02_MOL"
+		(property "Footprint" "footprints:CONN_SD-76825-0100_02_MOL"
 			(at 35.56 180.34 0)
 			(effects
 				(font
@@ -5210,7 +5210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_2002412000_02_MOL"
+		(property "Footprint" "footprints:CONN_SD-76825-0100_02_MOL"
 			(at 36.83 90.17 0)
 			(effects
 				(font
@@ -6536,7 +6536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_2002412000_02_MOL"
+		(property "Footprint" "footprints:CONN_SD-76825-0100_02_MOL"
 			(at 44.45 41.91 0)
 			(effects
 				(font
@@ -8647,7 +8647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_2002412000_02_MOL"
+		(property "Footprint" "footprints:CONN_SD-76825-0100_02_MOL"
 			(at 35.56 138.43 0)
 			(effects
 				(font

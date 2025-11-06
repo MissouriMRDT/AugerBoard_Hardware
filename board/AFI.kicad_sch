@@ -971,7 +971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_2002412000_02_MOL"
+		(property "Footprint" "footprints:CONN_SD-76825-0100_02_MOL"
 			(at 34.29 40.64 0)
 			(effects
 				(font
