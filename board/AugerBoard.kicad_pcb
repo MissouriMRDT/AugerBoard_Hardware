@@ -5432,6 +5432,17 @@
 				(xyz 90 0 0)
 			)
 		)
+		(model "C:/Users/blayd/OneDrive/Documents/GitHub/MRDT_KiCAD_Libraries/3D Files/MRDT_Connctors/Molex_SL_03_Vertical.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 		(layer "F.Cu")
