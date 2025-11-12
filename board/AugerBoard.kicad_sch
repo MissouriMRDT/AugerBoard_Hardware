@@ -37,6 +37,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 125.73) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199d7d9e-a1c7-4428-9f2a-2b737991acd5")
+	)
+	(wire
+		(pts
 			(xy 101.6 111.76) (xy 106.68 111.76)
 		)
 		(stroke
@@ -529,7 +539,7 @@
 				(justify left)
 			)
 		)
-		(pin "SparePWM1" output
+		(pin "SciGimbalPan" output
 			(at 106.68 91.44 180)
 			(uuid "af09dfd1-53e7-4bf6-b574-3bfb6cbb21c1")
 			(effects
@@ -619,7 +629,7 @@
 				(justify right)
 			)
 		)
-		(pin "SparePWM2" output
+		(pin "SciGimbalTilt" output
 			(at 106.68 93.98 180)
 			(uuid "51910579-69bb-4834-b841-97f337f05e69")
 			(effects
@@ -829,7 +839,7 @@
 				(justify left)
 			)
 		)
-		(pin "SpareSW1" input
+		(pin "GimbalPanSW" input
 			(at 106.68 121.92 180)
 			(uuid "3c8b1216-fb7b-4e05-ab9b-2d4e77679dd8")
 			(effects
@@ -839,7 +849,7 @@
 				(justify left)
 			)
 		)
-		(pin "SpareSW2" input
+		(pin "GimbalTiltSW" input
 			(at 106.68 124.46 180)
 			(uuid "7a5889c6-a60c-464f-91b3-5cf1b7f4370d")
 			(effects
@@ -879,7 +889,7 @@
 				(justify left)
 			)
 		)
-		(pin "ServoSpareLED1" output
+		(pin "GimbalPanLED" output
 			(at 144.78 125.73 270)
 			(uuid "33903931-5f1a-48d3-a7b2-91c3753a4d71")
 			(effects
@@ -889,7 +899,7 @@
 				(justify left)
 			)
 		)
-		(pin "ServoSpareLED2" output
+		(pin "GimbalTiltLED" output
 			(at 142.24 125.73 270)
 			(uuid "54198e9e-bc36-4125-a3fd-f07395fe0c33")
 			(effects
@@ -937,6 +947,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "AFWhiteLED" output
+			(at 132.08 125.73 270)
+			(uuid "9fd10b7d-f1e5-47ea-88b1-2522134f8a15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1245,9 +1265,9 @@
 				(justify right)
 			)
 		)
-		(pin "SpareServoLED1" input
+		(pin "GimbalPanLED" input
 			(at 144.78 130.81 90)
-			(uuid "443fef3c-cff7-4e73-995b-99486b2e0643")
+			(uuid "2a9ca97a-b5e9-4a99-a901-963666480b01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,9 +1275,9 @@
 				(justify right)
 			)
 		)
-		(pin "SpareServoLED2" input
+		(pin "GimbalTiltLED" input
 			(at 142.24 130.81 90)
-			(uuid "b333e6b0-6a1c-4103-958d-22609f0cafea")
+			(uuid "12ccb99e-3c9e-4bf1-a0da-a2c818c52f0b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,9 +1367,9 @@
 				(justify right)
 			)
 		)
-		(pin "SparePWM1" input
+		(pin "SciGimbalPan" input
 			(at 101.6 91.44 0)
-			(uuid "dcbc84c6-619e-4565-9ee8-3abd7b6d03fd")
+			(uuid "c922337b-72b9-4042-b788-8a7de923a5e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,9 +1377,9 @@
 				(justify right)
 			)
 		)
-		(pin "SparePWM2" input
+		(pin "SciGimbalTilt" input
 			(at 101.6 93.98 0)
-			(uuid "55034f9a-cf8b-41f6-9b06-d551f25a2167")
+			(uuid "b23e323c-46c8-406b-81f7-3093b3a31db2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,9 +1509,9 @@
 				(justify right)
 			)
 		)
-		(pin "SpareSW1" output
+		(pin "GimbalPanSW" output
 			(at 101.6 121.92 0)
-			(uuid "8387d0f5-c86b-4973-8045-b0b01619e825")
+			(uuid "77fbf773-e772-4a4f-b983-86d778e72cc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,9 +1519,9 @@
 				(justify right)
 			)
 		)
-		(pin "SpareSW2" output
+		(pin "GimbalTiltSW" output
 			(at 101.6 124.46 0)
-			(uuid "92033c9e-1252-4fa0-a516-e68f8d8e95b5")
+			(uuid "d987f56d-9abd-4f76-bb00-9b5530605627")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1539,7 @@
 	)
 	(sheet
 		(at 118.11 130.81)
-		(size 12.7 11.43)
+		(size 15.24 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1534,7 +1554,7 @@
 		)
 		(uuid "874d0dfc-2f90-4409-9fd5-46a48fc81ade")
 		(property "Sheetname" "AF interface"
-			(at 117.3984 142.24 90)
+			(at 117.3984 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1563,7 @@
 			)
 		)
 		(property "Sheetfile" "AFI.kicad_sch"
-			(at 131.3946 142.24 90)
+			(at 133.9346 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,6 +1594,16 @@
 		(pin "AFLED490" input
 			(at 124.46 130.81 90)
 			(uuid "e30f6fa2-cee0-4d1c-8a35-ce5957e2485c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFWhiteLED" input
+			(at 132.08 130.81 90)
+			(uuid "b0a43dce-d745-4ad5-b6c6-f3e8a6bd1518")
 			(effects
 				(font
 					(size 1.27 1.27)

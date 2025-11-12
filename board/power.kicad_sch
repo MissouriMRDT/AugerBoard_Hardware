@@ -2115,7 +2115,7 @@
 		)
 		(uuid "25dff7a1-3b51-40f9-ac67-c64ba777b8fc")
 	)
-	(text "Spare Servo LED"
+	(text "Gimbal Tilt LED"
 		(exclude_from_sim no)
 		(at 125.222 134.366 0)
 		(effects
@@ -2214,7 +2214,7 @@
 		)
 		(uuid "92623843-c05c-4194-abc8-cf94a3782c8b")
 	)
-	(text "Spare Servo LED"
+	(text "Gimbal Pan LED"
 		(exclude_from_sim no)
 		(at 251.206 68.326 0)
 		(effects
@@ -3340,7 +3340,7 @@
 		)
 		(uuid "7e2ade05-e2b0-4a26-962f-a57131cbe2c1")
 	)
-	(hierarchical_label "SpareServoLED2"
+	(hierarchical_label "GimbalTiltLED"
 		(shape input)
 		(at 121.92 170.18 180)
 		(effects
@@ -3362,7 +3362,7 @@
 		)
 		(uuid "a5ccf518-90a2-4749-bb6f-5b16e0eddc17")
 	)
-	(hierarchical_label "SpareServoLED1"
+	(hierarchical_label "GimbalPanLED"
 		(shape input)
 		(at 247.65 109.22 180)
 		(effects

@@ -490,7 +490,7 @@
 		)
 		(uuid "8001952b-cf20-448c-be0d-3236c8914d27")
 	)
-	(text "Spare"
+	(text "Science Gimbal Pan"
 		(exclude_from_sim no)
 		(at 96.266 49.784 0)
 		(effects
@@ -501,7 +501,7 @@
 		)
 		(uuid "b64498a7-e709-40db-9d2a-f5ee1704cccb")
 	)
-	(text "Spare"
+	(text "Science Gimbal Tilt"
 		(exclude_from_sim no)
 		(at 151.13 50.038 0)
 		(effects
@@ -520,7 +520,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "39b2b050-c108-4375-84a8-15cdcb0a2681")
+		(uuid "147a6103-e639-4094-8b0b-dfd53ccbbc11")
 	)
 	(wire
 		(pts
@@ -812,7 +812,7 @@
 		)
 		(uuid "f775e238-9d5d-476a-9a3e-9306286bbd01")
 	)
-	(hierarchical_label "SparePWM2"
+	(hierarchical_label "SciGimbalTilt"
 		(shape input)
 		(at 142.24 67.31 180)
 		(effects
@@ -867,7 +867,7 @@
 		)
 		(uuid "a2244c61-00ba-4d90-9a23-5eec63d70d0b")
 	)
-	(hierarchical_label "SparePWM1"
+	(hierarchical_label "SciGimbalPan"
 		(shape input)
 		(at 87.63 67.31 180)
 		(effects

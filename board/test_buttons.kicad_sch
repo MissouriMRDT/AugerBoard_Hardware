@@ -660,7 +660,7 @@
 		)
 		(uuid "78fec96d-afd0-43aa-b1b3-2946e7f0e59b")
 	)
-	(text "Spare"
+	(text "Science Gimbal Pan"
 		(exclude_from_sim no)
 		(at 76.454 110.49 0)
 		(effects
@@ -693,7 +693,7 @@
 		)
 		(uuid "ce7a0314-9039-414d-bd42-40e886c34ac5")
 	)
-	(text "Spare"
+	(text "Science Gimbal Tilt"
 		(exclude_from_sim no)
 		(at 76.708 132.334 0)
 		(effects
@@ -756,7 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 144.78) (xy 73.66 144.78)
+			(xy 71.12 144.78) (xy 76.2 144.78)
 		)
 		(stroke
 			(width 0)
@@ -776,7 +776,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 121.92) (xy 90.17 121.92)
+			(xy 86.36 121.92) (xy 92.71 121.92)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +806,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 144.78) (xy 90.17 144.78)
+			(xy 86.36 144.78) (xy 92.71 144.78)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 121.92) (xy 73.66 121.92)
+			(xy 71.12 121.92) (xy 76.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -974,9 +974,9 @@
 		)
 		(uuid "ffcbeba5-e607-487b-92ed-728d2fde07ba")
 	)
-	(hierarchical_label "SpareSW1"
+	(hierarchical_label "GimbalPanSW"
 		(shape output)
-		(at 68.58 121.92 180)
+		(at 71.12 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1029,9 +1029,9 @@
 		)
 		(uuid "5d5bfdd7-568d-459e-9202-86625488c646")
 	)
-	(hierarchical_label "SpareSW2"
+	(hierarchical_label "GimbalTiltSW"
 		(shape output)
-		(at 68.58 144.78 180)
+		(at 71.12 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1484,7 +1484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 144.78 0)
+		(at 92.71 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1493,7 +1493,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a94a223-b726-40cf-86d6-f23cf72d099d")
 		(property "Reference" "#PWR063"
-			(at 90.17 151.13 0)
+			(at 92.71 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1502,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 149.86 0)
+			(at 92.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 144.78 0)
+			(at 92.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 144.78 0)
+			(at 92.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 144.78 0)
+			(at 92.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1685,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 78.74 144.78 0)
+		(at 81.28 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1694,7 +1694,7 @@
 		(fields_autoplaced yes)
 		(uuid "724c7d0d-e01c-4005-b7c0-3d67d3581fc9")
 		(property "Reference" "SW9"
-			(at 78.74 137.16 0)
+			(at 81.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1702,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 78.74 139.7 0)
+			(at 81.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1710,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
-			(at 78.74 139.7 0)
+			(at 81.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 139.7 0)
+			(at 81.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1728,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 78.74 144.78 0)
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1819,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 78.74 121.92 0)
+		(at 81.28 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1828,7 +1828,7 @@
 		(fields_autoplaced yes)
 		(uuid "989888ec-2631-430d-9f9a-0c69d0bfc117")
 		(property "Reference" "SW8"
-			(at 78.74 114.3 0)
+			(at 81.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1836,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 78.74 116.84 0)
+			(at 81.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
-			(at 78.74 116.84 0)
+			(at 81.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 116.84 0)
+			(at 81.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1862,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 78.74 121.92 0)
+			(at 81.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1955,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 121.92 0)
+		(at 92.71 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1964,7 +1964,7 @@
 		(fields_autoplaced yes)
 		(uuid "b95e95c7-bdf6-4ca1-a7e3-0cd49f240475")
 		(property "Reference" "#PWR062"
-			(at 90.17 128.27 0)
+			(at 92.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +1973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 127 0)
+			(at 92.71 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 121.92 0)
+			(at 92.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 121.92 0)
+			(at 92.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 121.92 0)
+			(at 92.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

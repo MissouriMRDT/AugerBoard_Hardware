@@ -1522,10 +1522,6 @@
 		(uuid "45572209-67a7-4a52-acb6-04ae2abf7bc6")
 	)
 	(no_connect
-		(at 124.46 91.44)
-		(uuid "5205760d-6b6b-4848-84f0-d410c9740b47")
-	)
-	(no_connect
 		(at 165.1 71.12)
 		(uuid "59d27d59-dc7b-4544-b30d-990ce983b052")
 	)
@@ -1779,16 +1775,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 168.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce0361c-5a5c-48d9-9666-7d3f7345f8af")
-	)
-	(wire
-		(pts
 			(xy 120.65 99.06) (xy 124.46 99.06)
 		)
 		(stroke
@@ -1939,6 +1925,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b809b1-c719-4d1c-a368-9214063776e8")
+	)
+	(wire
+		(pts
 			(xy 120.65 81.28) (xy 124.46 81.28)
 		)
 		(stroke
@@ -2026,6 +2022,16 @@
 			(type default)
 		)
 		(uuid "ec3da68b-d99f-4f53-abba-2f2987bcbf60")
+	)
+	(wire
+		(pts
+			(xy 120.65 91.44) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec686529-543b-4500-ae8c-db86b229a508")
 	)
 	(wire
 		(pts
@@ -2166,7 +2172,7 @@
 		)
 		(uuid "245a2327-bf4b-4ab0-ba27-23fe19ae014c")
 	)
-	(hierarchical_label "SparePWM2"
+	(hierarchical_label "SciGimbalTilt"
 		(shape output)
 		(at 168.91 78.74 0)
 		(effects
@@ -2176,6 +2182,17 @@
 			(justify left)
 		)
 		(uuid "29723e5b-bc84-456d-b68c-38dd589866e4")
+	)
+	(hierarchical_label "AFWhiteLED"
+		(shape output)
+		(at 120.65 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c845a21-9df9-4652-b925-609da662ccc5")
 	)
 	(hierarchical_label "AFLED340"
 		(shape output)
@@ -2232,7 +2249,7 @@
 		)
 		(uuid "4b799d54-9f51-43d7-973b-b176555b30cb")
 	)
-	(hierarchical_label "SpareSW2"
+	(hierarchical_label "GimbalTiltSW"
 		(shape input)
 		(at 120.65 83.82 180)
 		(effects
@@ -2331,7 +2348,7 @@
 		)
 		(uuid "82f0cb70-4073-4e31-b8f0-843d740dec59")
 	)
-	(hierarchical_label "ServoSpareLED1"
+	(hierarchical_label "GimbalPanLED"
 		(shape output)
 		(at 168.91 124.46 0)
 		(effects
@@ -2386,7 +2403,7 @@
 		)
 		(uuid "9a912359-41d7-4348-bdc8-68375710c57e")
 	)
-	(hierarchical_label "ServoSpareLED2"
+	(hierarchical_label "GimbalTiltLED"
 		(shape output)
 		(at 120.65 73.66 180)
 		(effects
@@ -2397,7 +2414,7 @@
 		)
 		(uuid "9cf4f4be-47bb-473b-89a9-9553bcdf426b")
 	)
-	(hierarchical_label "SparePWM1"
+	(hierarchical_label "SciGimbalPan"
 		(shape output)
 		(at 168.91 127 0)
 		(effects
@@ -2540,7 +2557,7 @@
 		)
 		(uuid "e9d3b477-feca-4269-aa95-3b0db64e419f")
 	)
-	(hierarchical_label "SpareSW1"
+	(hierarchical_label "GimbalPanSW"
 		(shape input)
 		(at 168.91 88.9 0)
 		(effects
