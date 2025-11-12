@@ -852,16 +852,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 86.36) (xy 39.37 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27920998-1933-4f0a-a9df-555c081ea852")
-	)
-	(wire
-		(pts
 			(xy 50.8 40.64) (xy 34.29 40.64)
 		)
 		(stroke
@@ -872,13 +862,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 87.63) (xy 35.56 86.36)
+			(xy 16.51 83.82) (xy 39.37 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4087c548-ab34-41a4-82d0-4aef1d6716c7")
+		(uuid "4ba6a92e-1690-4086-96a8-5598ae571ac4")
 	)
 	(wire
 		(pts
@@ -902,13 +892,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 83.82) (xy 39.37 83.82)
+			(xy 30.48 86.36) (xy 39.37 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87b73fb8-dad4-4dfe-b457-8e5b34ee8954")
+		(uuid "68a78751-ad96-46e5-aaf5-b376ad0f5002")
+	)
+	(wire
+		(pts
+			(xy 16.51 83.82) (xy 16.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907e4887-8438-4536-bf14-8a0c216e71ae")
 	)
 	(wire
 		(pts
@@ -942,14 +942,14 @@
 	)
 	(hierarchical_label "AFWhiteLED"
 		(shape input)
-		(at 30.48 83.82 180)
+		(at 30.48 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2d8f166e-18e0-401a-b283-a0417c434758")
+		(uuid "28d23a51-318e-4b79-a431-cb1767d4e02b")
 	)
 	(hierarchical_label "AFLED405"
 		(shape input)
@@ -1188,7 +1188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 87.63 0)
+		(at 16.51 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1197,7 +1197,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4b47826-ca27-40c8-9718-cc2191a60239")
 		(property "Reference" "#PWR057"
-			(at 35.56 93.98 0)
+			(at 16.51 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 92.71 0)
+			(at 16.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 87.63 0)
+			(at 16.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 87.63 0)
+			(at 16.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 87.63 0)
+			(at 16.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
