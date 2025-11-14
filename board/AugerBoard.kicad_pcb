@@ -28588,12 +28588,12 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3800 mils"
-			(at 111.760001 164.154 0)
+			(at 111.760001 163.63 0)
 			(layer "User.1")
 			(uuid "1df91842-94ba-44be-a2a5-6950ce59d2a5")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.524 1.524)
 					(thickness 0.2)
 					(bold yes)
 				)
@@ -28703,12 +28703,12 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3400 mils"
-			(at 111.76 159.074 0)
+			(at 111.76 158.55 0)
 			(layer "User.1")
 			(uuid "7e86615f-622f-40e2-81c2-e13452f598d2")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.524 1.524)
 					(thickness 0.2)
 					(bold yes)
 				)
@@ -28780,12 +28780,12 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3100 mils"
-			(at 163.9 110.49 90)
+			(at 163.376 110.49 90)
 			(layer "User.1")
 			(uuid "a4b45841-fe5c-465a-a02f-e14a4ff9998a")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.524 1.524)
 					(thickness 0.2)
 					(bold yes)
 				)
@@ -28820,12 +28820,12 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3500 mils"
-			(at 168.98 110.49 90)
+			(at 168.456 110.49 90)
 			(layer "User.1")
 			(uuid "a9beb3af-555c-4056-83ef-fd80baa7caa9")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.524 1.524)
 					(thickness 0.2)
 					(bold yes)
 				)
