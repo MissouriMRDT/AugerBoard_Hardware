@@ -808,7 +808,7 @@
 	)
 	(rectangle
 		(start 12.7 58.42)
-		(end 68.58 93.98)
+		(end 68.58 95.25)
 		(stroke
 			(width 0)
 			(type default)
@@ -842,16 +842,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 81.28) (xy 39.37 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc1e4de-2e01-4911-b42c-a7f1b6237cfb")
-	)
-	(wire
-		(pts
 			(xy 50.8 40.64) (xy 34.29 40.64)
 		)
 		(stroke
@@ -862,13 +852,23 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 83.82) (xy 39.37 83.82)
+			(xy 31.75 86.36) (xy 39.37 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ba6a92e-1690-4086-96a8-5598ae571ac4")
+		(uuid "3cd7d6a1-9e58-49b2-b6e6-59438943655c")
+	)
+	(wire
+		(pts
+			(xy 30.48 81.28) (xy 39.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c0d1b9-8b29-43f0-b5ac-00c5f4158d85")
 	)
 	(wire
 		(pts
@@ -882,6 +882,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 76.2) (xy 39.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7e385c-118c-4fa1-9ed7-5abe6016e02e")
+	)
+	(wire
+		(pts
 			(xy 50.8 38.1) (xy 34.29 38.1)
 		)
 		(stroke
@@ -892,17 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 86.36) (xy 39.37 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68a78751-ad96-46e5-aaf5-b376ad0f5002")
-	)
-	(wire
-		(pts
-			(xy 16.51 83.82) (xy 16.51 86.36)
+			(xy 31.75 86.36) (xy 31.75 88.9)
 		)
 		(stroke
 			(width 0)
@@ -912,13 +912,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 76.2) (xy 39.37 76.2)
+			(xy 30.48 83.82) (xy 39.37 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cf9f27f-309c-4404-affb-bf176197dea8")
+		(uuid "9f7965e0-275f-4f58-8a2a-eb998b4d7898")
 	)
 	(wire
 		(pts
@@ -938,11 +938,11 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e986e497-e18e-456e-bfc4-e8f8e1d4a291")
+		(uuid "eca051fb-ff91-45b4-9b39-e0b0365a4fe7")
 	)
 	(hierarchical_label "AFWhiteLED"
 		(shape input)
-		(at 30.48 86.36 180)
+		(at 30.48 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -953,7 +953,7 @@
 	)
 	(hierarchical_label "AFLED405"
 		(shape input)
-		(at 30.48 78.74 180)
+		(at 30.48 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -964,7 +964,7 @@
 	)
 	(hierarchical_label "AFLED490"
 		(shape input)
-		(at 30.48 81.28 180)
+		(at 30.48 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -975,7 +975,7 @@
 	)
 	(hierarchical_label "AFLED340"
 		(shape input)
-		(at 30.48 76.2 180)
+		(at 30.48 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1188,7 +1188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 16.51 86.36 0)
+		(at 31.75 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1197,7 +1197,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4b47826-ca27-40c8-9718-cc2191a60239")
 		(property "Reference" "#PWR057"
-			(at 16.51 92.71 0)
+			(at 31.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 16.51 91.44 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 86.36 0)
+			(at 31.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 86.36 0)
+			(at 31.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 16.51 86.36 0)
+			(at 31.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
