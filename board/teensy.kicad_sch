@@ -2196,7 +2196,7 @@
 		)
 		(uuid "2c845a21-9df9-4652-b925-609da662ccc5")
 	)
-	(hierarchical_label "AFLED340"
+	(hierarchical_label "AFLED365"
 		(shape output)
 		(at 120.65 76.2 180)
 		(effects

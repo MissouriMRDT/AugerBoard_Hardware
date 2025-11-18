@@ -769,7 +769,7 @@
 				(justify left)
 			)
 		)
-		(pin "AFLED340" output
+		(pin "AFLED365" output
 			(at 129.54 125.73 270)
 			(uuid "54414b54-fffe-4c2d-bc25-817c867ffb08")
 			(effects
@@ -1571,7 +1571,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AFLED340" input
+		(pin "AFLED365" input
 			(at 129.54 130.81 90)
 			(uuid "b5f3c6e8-d6d7-41ba-9dbe-e404287c389f")
 			(effects

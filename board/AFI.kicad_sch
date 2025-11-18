@@ -973,7 +973,7 @@
 		)
 		(uuid "b112533b-2700-475d-8ff5-531bcb9f9e16")
 	)
-	(hierarchical_label "AFLED340"
+	(hierarchical_label "AFLED365"
 		(shape input)
 		(at 30.48 78.74 180)
 		(effects
