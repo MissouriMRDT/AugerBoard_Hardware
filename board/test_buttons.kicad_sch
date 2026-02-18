@@ -594,7 +594,7 @@
 		)
 		(uuid a5a42271-2076-43cf-be05-c6ed6ca244f2)
 	)
-	(text "Soil Cache Spare"
+	(text "Spare 2"
 		(exclude_from_sim no)
 		(at 76.708 89.154 0)
 		(effects
@@ -605,7 +605,7 @@
 		)
 		(uuid "01c3ed30-4795-4ab7-81d1-4d1dc3600f50")
 	)
-	(text "AF Spare"
+	(text "Spare 1"
 		(exclude_from_sim no)
 		(at 76.708 67.31 0)
 		(effects
@@ -649,7 +649,7 @@
 		)
 		(uuid "784b83b1-b014-4e7e-8cc8-37553871a852")
 	)
-	(text "Spare Motor"
+	(text "Spare 12V"
 		(exclude_from_sim no)
 		(at 34.544 89.154 0)
 		(effects
@@ -1040,7 +1040,7 @@
 		)
 		(uuid "73674ba5-96df-49a2-ab6a-a7f027880916")
 	)
-	(hierarchical_label "SCacheSpareSW"
+	(hierarchical_label "SpareSW2"
 		(shape output)
 		(at 72.39 100.33 180)
 		(effects
@@ -1073,7 +1073,7 @@
 		)
 		(uuid "ad82ba23-6d73-4ddd-96a3-0e0f28a8b6d7")
 	)
-	(hierarchical_label "AFSpareSW"
+	(hierarchical_label "SpareSW1"
 		(shape output)
 		(at 68.58 78.74 180)
 		(effects

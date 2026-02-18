@@ -2660,7 +2660,7 @@
 		)
 		(uuid "05d8754d-75e1-47a9-9986-2d0c2b90d573")
 	)
-	(text "Spare Motor LED"
+	(text "Spare 12V LED"
 		(exclude_from_sim no)
 		(at 162.56 67.564 0)
 		(effects
@@ -2693,7 +2693,7 @@
 		)
 		(uuid "2c06c274-1a2a-4687-b4cc-623d5758f029")
 	)
-	(text "Soil Cache Spare LED"
+	(text "Spare LED 1"
 		(exclude_from_sim no)
 		(at 204.724 68.072 0)
 		(effects
@@ -2748,7 +2748,7 @@
 		)
 		(uuid "778c6743-7bfb-4012-943c-c70a9eef047d")
 	)
-	(text "AF Spare Servo LED"
+	(text "Spare LED 2"
 		(exclude_from_sim no)
 		(at 83.312 134.874 0)
 		(effects
@@ -4101,7 +4101,7 @@
 		)
 		(uuid "2ae2cef6-5f4d-45b8-967a-4d1bd41ba830")
 	)
-	(hierarchical_label "AFSpareLED"
+	(hierarchical_label "SpareLED2"
 		(shape input)
 		(at 77.47 171.45 180)
 		(effects
@@ -4134,7 +4134,7 @@
 		)
 		(uuid "63121b14-b45d-4501-9ac2-cd739a033572")
 	)
-	(hierarchical_label "SpareMotorLED"
+	(hierarchical_label "Spare12VLED"
 		(shape input)
 		(at 157.48 110.49 180)
 		(effects
@@ -4156,7 +4156,7 @@
 		)
 		(uuid "9f97af16-f0d8-47c7-bc8d-b5225655df32")
 	)
-	(hierarchical_label "CacheSpareLED"
+	(hierarchical_label "SpareLED1"
 		(shape input)
 		(at 200.66 109.22 180)
 		(effects

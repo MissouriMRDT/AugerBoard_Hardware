@@ -468,7 +468,7 @@
 		)
 		(uuid "7532f960-8c05-4d58-8cd5-f93b3a722d39")
 	)
-	(text "AF Spare"
+	(text "Spare Servo 1"
 		(exclude_from_sim no)
 		(at 37.846 50.038 0)
 		(effects
@@ -479,7 +479,7 @@
 		)
 		(uuid "776084c2-7fbf-4fac-afbc-d965f91d3d91")
 	)
-	(text "Soil Cache Spare"
+	(text "Spare Servo 2"
 		(exclude_from_sim no)
 		(at 151.892 15.494 0)
 		(effects
@@ -845,7 +845,7 @@
 		)
 		(uuid "7fe37680-ee82-4a4b-bd52-8fba6d9e68f9")
 	)
-	(hierarchical_label "AFSparePWM"
+	(hierarchical_label "SparePWM1"
 		(shape input)
 		(at 34.29 67.31 180)
 		(effects
@@ -856,7 +856,7 @@
 		)
 		(uuid "95915e3b-b03b-4602-87ba-ceb6d95a5c4f")
 	)
-	(hierarchical_label "SoilCacheSparePWM"
+	(hierarchical_label "SparePWM2"
 		(shape input)
 		(at 144.78 34.29 180)
 		(effects

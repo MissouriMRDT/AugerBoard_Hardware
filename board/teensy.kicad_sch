@@ -1520,8 +1520,20 @@
 		(uuid "36a383a7-1c2c-44f3-8cd9-071e317df3ae")
 	)
 	(no_connect
+		(at 124.46 91.44)
+		(uuid "20829c84-dd3c-4169-a451-f981c3e4725e")
+	)
+	(no_connect
+		(at 124.46 111.76)
+		(uuid "33e0fd1f-5e3c-4c39-8026-bb24f95f24b3")
+	)
+	(no_connect
 		(at 165.1 45.72)
 		(uuid "45572209-67a7-4a52-acb6-04ae2abf7bc6")
+	)
+	(no_connect
+		(at 124.46 104.14)
+		(uuid "524c0c54-7155-417b-a5a6-1c4220418747")
 	)
 	(no_connect
 		(at 165.1 71.12)
@@ -1552,6 +1564,10 @@
 		(uuid "e0584972-dede-44bd-a06b-469528b6efd5")
 	)
 	(no_connect
+		(at 165.1 109.22)
+		(uuid "f51bcb6b-e4f6-41d6-8a5a-75290c13d415")
+	)
+	(no_connect
 		(at 165.1 40.64)
 		(uuid "f7ceb88e-4f3d-4cbb-9573-6e9d70074580")
 	)
@@ -1564,16 +1580,6 @@
 			(type default)
 		)
 		(uuid "03eb3426-10b4-4801-85b1-b850e8232be0")
-	)
-	(wire
-		(pts
-			(xy 120.65 129.54) (xy 124.46 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049f8b68-a48c-4c8c-b644-80b111c6b657")
 	)
 	(wire
 		(pts
@@ -1657,16 +1663,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 111.76) (xy 124.46 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c91f3d-6f1b-4dbc-8302-f1fd7f6b3a9c")
-	)
-	(wire
-		(pts
 			(xy 165.1 91.44) (xy 168.91 91.44)
 		)
 		(stroke
@@ -1684,16 +1680,6 @@
 			(type default)
 		)
 		(uuid "2b81ab8a-2860-439c-a383-a230c0efe0ab")
-	)
-	(wire
-		(pts
-			(xy 165.1 109.22) (xy 168.91 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "316ceb9e-7adf-4561-ac20-9eceb5e231d2")
 	)
 	(wire
 		(pts
@@ -1747,16 +1733,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 124.46) (xy 124.46 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "545c11c0-a4a7-4fd8-8f26-9f8b92aa1653")
-	)
-	(wire
-		(pts
 			(xy 120.65 55.88) (xy 124.46 55.88)
 		)
 		(stroke
@@ -1767,6 +1743,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f0b8bb-f557-484a-8e6d-d007a180692f")
+	)
+	(wire
+		(pts
 			(xy 165.1 119.38) (xy 168.91 119.38)
 		)
 		(stroke
@@ -1774,6 +1760,26 @@
 			(type default)
 		)
 		(uuid "5636a798-c662-4e83-8a13-ddd6ca35a046")
+	)
+	(wire
+		(pts
+			(xy 120.65 127) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be599aa-7563-4e56-9a3f-f9cbcef6f367")
+	)
+	(wire
+		(pts
+			(xy 120.65 129.54) (xy 124.46 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601927f5-535c-472d-af2e-cda6da024a93")
 	)
 	(wire
 		(pts
@@ -1907,6 +1913,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 129.54) (xy 168.91 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c939939-600b-4698-a00f-2c58a2b8e1a9")
+	)
+	(wire
+		(pts
 			(xy 165.1 88.9) (xy 168.91 88.9)
 		)
 		(stroke
@@ -1953,17 +1969,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bac4ffd6-5444-4527-b6b0-ccd32a36f24e")
-	)
-	(wire
-		(pts
-			(xy 120.65 127) (xy 124.46 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3bf6884-bdae-4c35-ba96-d7bd33cdce9d")
+		(uuid "c0f618b0-69da-47de-8229-4a3b5f9cbbf9")
 	)
 	(wire
 		(pts
@@ -1997,16 +2003,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 129.54) (xy 168.91 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e30b45fc-dd88-41e6-9ea8-22ebf157c624")
-	)
-	(wire
-		(pts
 			(xy 120.65 121.92) (xy 124.46 121.92)
 		)
 		(stroke
@@ -2027,16 +2023,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 91.44) (xy 124.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec686529-543b-4500-ae8c-db86b229a508")
-	)
-	(wire
-		(pts
 			(xy 120.65 116.84) (xy 124.46 116.84)
 		)
 		(stroke
@@ -2054,16 +2040,6 @@
 			(type default)
 		)
 		(uuid "f446f615-63e3-411b-8527-c08d4099ff79")
-	)
-	(wire
-		(pts
-			(xy 120.65 104.14) (xy 124.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f539cbdb-29a6-453e-a40f-145d13c1ecc0")
 	)
 	(wire
 		(pts
@@ -2097,7 +2073,7 @@
 		)
 		(uuid "0db6b4c6-57c5-4dc2-a94f-3ed58b699741")
 	)
-	(hierarchical_label "SpareMotorLED"
+	(hierarchical_label "Spare12VLED"
 		(shape output)
 		(at 168.91 76.2 0)
 		(effects
@@ -2130,17 +2106,6 @@
 		)
 		(uuid "104af164-bb3a-4cee-8733-c10887870398")
 	)
-	(hierarchical_label "RE"
-		(shape output)
-		(at 120.65 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "174d7fab-b7e3-42ae-95e2-58c116ff24a2")
-	)
 	(hierarchical_label "AFLensPWM"
 		(shape output)
 		(at 168.91 99.06 0)
@@ -2151,17 +2116,6 @@
 			(justify left)
 		)
 		(uuid "1af320de-a7b1-441d-b744-6101ec99034f")
-	)
-	(hierarchical_label "DE"
-		(shape output)
-		(at 120.65 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20b2473e-28c9-446f-bad7-b15ec3ccf762")
 	)
 	(hierarchical_label "AFLensSW"
 		(shape input)
@@ -2187,7 +2141,7 @@
 	)
 	(hierarchical_label "AFWhiteLED"
 		(shape output)
-		(at 120.65 91.44 180)
+		(at 120.65 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2240,14 +2194,14 @@
 		)
 		(uuid "422f56f2-ce77-428b-b54f-ecd992f64e4d")
 	)
-	(hierarchical_label "RXD2"
+	(hierarchical_label "RXD1"
 		(shape input)
-		(at 120.65 127 180)
+		(at 168.91 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4b799d54-9f51-43d7-973b-b176555b30cb")
 	)
@@ -2264,7 +2218,7 @@
 	)
 	(hierarchical_label "VescLED"
 		(shape output)
-		(at 120.65 129.54 180)
+		(at 120.65 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2284,7 +2238,7 @@
 		)
 		(uuid "64ec6ffc-25cb-489b-af99-535c72772491")
 	)
-	(hierarchical_label "AFSparePWM"
+	(hierarchical_label "SparePWM1"
 		(shape output)
 		(at 120.65 81.28 180)
 		(effects
@@ -2361,7 +2315,7 @@
 		)
 		(uuid "85342c7b-0f2c-4e38-8a43-e183422363af")
 	)
-	(hierarchical_label "TXD1"
+	(hierarchical_label "TXD2"
 		(shape output)
 		(at 120.65 71.12 180)
 		(effects
@@ -2374,27 +2328,16 @@
 	)
 	(hierarchical_label "GantryLED"
 		(shape output)
-		(at 168.91 129.54 0)
+		(at 120.65 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8d21b727-3201-42de-a895-08927402b2be")
 	)
-	(hierarchical_label "RO"
-		(shape input)
-		(at 168.91 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8ffe5b6a-7178-4c82-8fe9-dd542ba3b52b")
-	)
-	(hierarchical_label "SCacheSpareSW"
+	(hierarchical_label "SpareSW2"
 		(shape input)
 		(at 120.65 114.3 180)
 		(effects
@@ -2427,7 +2370,7 @@
 		)
 		(uuid "a232e3eb-df1b-4adc-8c7f-4ccdcea34043")
 	)
-	(hierarchical_label "AFSpareLED"
+	(hierarchical_label "SpareLED1"
 		(shape output)
 		(at 120.65 88.9 180)
 		(effects
@@ -2438,7 +2381,7 @@
 		)
 		(uuid "a7acf4f3-bae2-47df-a52a-4d1dfc599508")
 	)
-	(hierarchical_label "AFSpareSW"
+	(hierarchical_label "SpareSW1"
 		(shape input)
 		(at 120.65 86.36 180)
 		(effects
@@ -2460,7 +2403,7 @@
 		)
 		(uuid "ac18f220-fe6a-49bb-ac84-aebefa693821")
 	)
-	(hierarchical_label "STBY1"
+	(hierarchical_label "STBY2"
 		(shape output)
 		(at 120.65 96.52 180)
 		(effects
@@ -2471,7 +2414,7 @@
 		)
 		(uuid "b4468e3a-c63a-4c7e-8954-4fcf6fc2af8b")
 	)
-	(hierarchical_label "SoilCacheSparePWM"
+	(hierarchical_label "SparePWM2"
 		(shape output)
 		(at 120.65 78.74 180)
 		(effects
@@ -2493,18 +2436,7 @@
 		)
 		(uuid "c5fd0bcd-3834-424a-b938-ac83e38f61c6")
 	)
-	(hierarchical_label "DI"
-		(shape output)
-		(at 120.65 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c879dadf-2317-4eae-b39b-1232854a829f")
-	)
-	(hierarchical_label "RXD1"
+	(hierarchical_label "RXD2"
 		(shape input)
 		(at 120.65 68.58 180)
 		(effects
@@ -2526,7 +2458,7 @@
 		)
 		(uuid "cd11fec7-de5b-4a3a-99eb-b46ce672ca69")
 	)
-	(hierarchical_label "CacheSpareLED"
+	(hierarchical_label "SpareLED2"
 		(shape output)
 		(at 168.91 121.92 0)
 		(effects
@@ -2537,9 +2469,9 @@
 		)
 		(uuid "d71b49d0-401d-4d29-ab5a-5a8943b1b1b6")
 	)
-	(hierarchical_label "TXD2"
+	(hierarchical_label "TXD1"
 		(shape output)
-		(at 120.65 124.46 180)
+		(at 120.65 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2548,7 +2480,7 @@
 		)
 		(uuid "db834025-dbae-40ca-a2cf-8d44f45a3eb2")
 	)
-	(hierarchical_label "STBY2"
+	(hierarchical_label "STBY1"
 		(shape output)
 		(at 120.65 121.92 180)
 		(effects

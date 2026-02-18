@@ -97,16 +97,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 93.98) (xy 166.37 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5996821a-66d0-4016-8fb8-c9060ec6d4ec")
-	)
-	(wire
-		(pts
 			(xy 154.94 74.93) (xy 154.94 80.01)
 		)
 		(stroke
@@ -204,16 +194,6 @@
 			(type default)
 		)
 		(uuid "91cce40f-e43e-4f9b-897f-d2f93c1b6db0")
-	)
-	(wire
-		(pts
-			(xy 161.29 91.44) (xy 166.37 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98733179-0a81-465d-bf63-6570263657a6")
 	)
 	(wire
 		(pts
@@ -387,26 +367,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 86.36) (xy 166.37 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db5f8497-20fc-46e6-a3db-8e88695e661e")
-	)
-	(wire
-		(pts
-			(xy 161.29 88.9) (xy 166.37 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e384e75d-68b4-46ac-bb3e-5ff18e8d863d")
-	)
-	(wire
-		(pts
 			(xy 147.32 74.93) (xy 147.32 80.01)
 		)
 		(stroke
@@ -519,7 +479,7 @@
 				(justify left)
 			)
 		)
-		(pin "SoilCacheSparePWM" output
+		(pin "SparePWM1" output
 			(at 106.68 86.36 180)
 			(uuid "634f2743-0628-4285-81b6-96819650a5d1")
 			(effects
@@ -529,7 +489,7 @@
 				(justify left)
 			)
 		)
-		(pin "AFSparePWM" output
+		(pin "SparePWM2" output
 			(at 106.68 88.9 180)
 			(uuid "db681700-4463-4f48-aa63-ba9be072671d")
 			(effects
@@ -679,46 +639,6 @@
 				(justify left)
 			)
 		)
-		(pin "DE" output
-			(at 161.29 86.36 0)
-			(uuid "cb004599-2c2d-40ac-a830-cafd818e24da")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DI" output
-			(at 161.29 88.9 0)
-			(uuid "a0243f03-0535-41ab-b6fd-89cad9bbb9b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RE" output
-			(at 161.29 91.44 0)
-			(uuid "1ac15de7-ceee-4713-8613-70a7cf9d3b05")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RO" input
-			(at 161.29 93.98 0)
-			(uuid "511452b1-90ad-42ee-afe0-39a74301d9f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Moisture" input
 			(at 161.29 99.06 0)
 			(uuid "6b819d6c-828b-4835-b024-28e2d8e445a4")
@@ -749,7 +669,7 @@
 				(justify left)
 			)
 		)
-		(pin "SpareMotorLED" output
+		(pin "Spare12VLED" output
 			(at 157.48 125.73 270)
 			(uuid "a902a8b6-5f9e-46de-9467-2b2fc63cdd95")
 			(effects
@@ -819,7 +739,7 @@
 				(justify left)
 			)
 		)
-		(pin "AFSpareSW" input
+		(pin "SpareSW1" input
 			(at 106.68 116.84 180)
 			(uuid "33362ae7-87c7-4e5f-8755-a6a79bc599b9")
 			(effects
@@ -829,7 +749,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCacheSpareSW" input
+		(pin "SpareSW2" input
 			(at 106.68 119.38 180)
 			(uuid "9003a1a9-a9c2-4612-a717-90fdd9dcadf4")
 			(effects
@@ -869,7 +789,7 @@
 				(justify left)
 			)
 		)
-		(pin "AFSpareLED" output
+		(pin "SpareLED1" output
 			(at 149.86 125.73 270)
 			(uuid "ae174309-e447-4a3e-bb75-ad94fbcdf055")
 			(effects
@@ -879,7 +799,7 @@
 				(justify left)
 			)
 		)
-		(pin "CacheSpareLED" output
+		(pin "SpareLED2" output
 			(at 147.32 125.73 270)
 			(uuid "5ef971a4-fc79-4923-a1c2-66a1cd8d528d")
 			(effects
@@ -1205,7 +1125,7 @@
 				(justify right)
 			)
 		)
-		(pin "SpareMotorLED" input
+		(pin "Spare12VLED" input
 			(at 157.48 130.81 90)
 			(uuid "3f9debe1-d6d2-4e5f-a109-35af2a7cefb3")
 			(effects
@@ -1235,7 +1155,7 @@
 				(justify right)
 			)
 		)
-		(pin "AFSpareLED" input
+		(pin "SpareLED1" input
 			(at 149.86 130.81 90)
 			(uuid "93a30528-ae2e-4352-b555-e83b57439ec5")
 			(effects
@@ -1245,7 +1165,7 @@
 				(justify right)
 			)
 		)
-		(pin "CacheSpareLED" input
+		(pin "SpareLED2" input
 			(at 147.32 130.81 90)
 			(uuid "012656ff-bc37-4e6b-9cfb-b08c1e6c1794")
 			(effects
@@ -1347,7 +1267,7 @@
 				(justify right)
 			)
 		)
-		(pin "SoilCacheSparePWM" input
+		(pin "SparePWM1" input
 			(at 101.6 86.36 0)
 			(uuid "5c8da884-f1cf-43af-b517-60cb2bdc0939")
 			(effects
@@ -1357,7 +1277,7 @@
 				(justify right)
 			)
 		)
-		(pin "AFSparePWM" input
+		(pin "SparePWM2" input
 			(at 101.6 88.9 0)
 			(uuid "fd45b9d9-bd08-441c-b2a8-2783a8eedcc5")
 			(effects
@@ -1489,7 +1409,7 @@
 				(justify right)
 			)
 		)
-		(pin "AFSpareSW" output
+		(pin "SpareSW1" output
 			(at 101.6 116.84 0)
 			(uuid "8eb52239-fad6-4b1d-8b89-b043fad5b698")
 			(effects
@@ -1499,7 +1419,7 @@
 				(justify right)
 			)
 		)
-		(pin "SCacheSpareSW" output
+		(pin "SpareSW2" output
 			(at 101.6 119.38 0)
 			(uuid "f5d97f9b-03e5-4494-bf1c-d802d68326b4")
 			(effects
@@ -1635,7 +1555,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f1c20728-7c40-49e0-910a-0c2b6b14cbc0")
-		(property "Sheetname" "Soil Sensors & NPK"
+		(property "Sheetname" "Soil Sensors"
 			(at 166.37 79.2984 0)
 			(effects
 				(font
@@ -1651,46 +1571,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "DE" input
-			(at 166.37 86.36 180)
-			(uuid "2667b670-e697-468a-be8c-3ced7b528340")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DI" input
-			(at 166.37 88.9 180)
-			(uuid "46879e2e-c487-4f0f-a0c2-600910bb3aad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RE" input
-			(at 166.37 91.44 180)
-			(uuid "7dfdb2c4-d573-44c8-bbb3-840668763b38")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RO" output
-			(at 166.37 93.98 180)
-			(uuid "83e354b2-0938-4be8-8c5e-36697cdad799")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "Moisture" output

@@ -2068,16 +2068,16 @@
 		(uuid "210a9151-ec62-4238-8d44-e02885c19625")
 	)
 	(junction
-		(at 44.45 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ecf366e-77a5-4aef-9266-375bed54e357")
-	)
-	(junction
 		(at 123.19 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "343d18f1-7871-47f3-a623-6f80259cca32")
+	)
+	(junction
+		(at 41.91 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "417c971c-4f1a-4194-8d9c-5023cf98f018")
 	)
 	(junction
 		(at 130.81 58.42)
@@ -2120,16 +2120,6 @@
 	(no_connect
 		(at 39.37 30.48)
 		(uuid "f58260f6-b676-41af-9699-56793824c063")
-	)
-	(wire
-		(pts
-			(xy 44.45 50.8) (xy 44.45 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b5b337-6ccc-43d6-8deb-aedcb34710ce")
 	)
 	(wire
 		(pts
@@ -2373,6 +2363,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 50.8) (xy 44.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6652e953-b17d-4630-b053-7d293b32e24d")
+	)
+	(wire
+		(pts
+			(xy 41.91 63.5) (xy 49.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c282f44-0866-4e2b-835a-41f9fd843657")
+	)
+	(wire
+		(pts
 			(xy 127 72.39) (xy 137.16 72.39)
 		)
 		(stroke
@@ -2433,6 +2443,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 50.8) (xy 41.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a16643-553b-4fea-84d0-881e07ecb747")
+	)
+	(wire
+		(pts
 			(xy 111.76 33.02) (xy 111.76 39.37)
 		)
 		(stroke
@@ -2473,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 44.45 63.5)
+			(xy 38.1 63.5) (xy 41.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2560,16 +2580,6 @@
 			(type default)
 		)
 		(uuid "c45ebdf3-20e5-4717-9a5e-7a0700c4ef59")
-	)
-	(wire
-		(pts
-			(xy 41.91 50.8) (xy 41.91 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c507f181-0be5-4e4d-8290-86c4f10c3d1d")
 	)
 	(wire
 		(pts
@@ -2683,16 +2693,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 63.5) (xy 44.45 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5b74a5-c7f6-4a58-ae25-eb216220971e")
-	)
-	(wire
-		(pts
 			(xy 34.29 40.64) (xy 27.94 40.64)
 		)
 		(stroke
@@ -2701,7 +2701,7 @@
 		)
 		(uuid "fe0e70d2-5d30-4c38-8580-67b238cd55b8")
 	)
-	(hierarchical_label "STBY2"
+	(hierarchical_label "STBY1"
 		(shape input)
 		(at 100.33 97.79 180)
 		(effects
@@ -2747,7 +2747,7 @@
 	)
 	(hierarchical_label "T-"
 		(shape input)
-		(at 41.91 52.07 270)
+		(at 44.45 52.07 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2756,7 +2756,7 @@
 		)
 		(uuid "74a4047b-2b62-44a1-926e-6096a6b60f1c")
 	)
-	(hierarchical_label "TXD2"
+	(hierarchical_label "TXD1"
 		(shape input)
 		(at 100.33 102.87 180)
 		(effects
@@ -2767,7 +2767,7 @@
 		)
 		(uuid "8287ed2a-b3b1-4067-bf71-4b3fcf75d03b")
 	)
-	(hierarchical_label "RXD2"
+	(hierarchical_label "RXD1"
 		(shape output)
 		(at 100.33 105.41 180)
 		(effects
@@ -2778,7 +2778,7 @@
 		)
 		(uuid "83651048-9bf1-4eda-8e30-c6ef61344da2")
 	)
-	(hierarchical_label "RXD1"
+	(hierarchical_label "RXD2"
 		(shape output)
 		(at 100.33 55.88 180)
 		(effects
@@ -2800,7 +2800,7 @@
 		)
 		(uuid "9c0dc7d1-374a-4eea-ab34-eae0b74c0be0")
 	)
-	(hierarchical_label "TXD1"
+	(hierarchical_label "TXD2"
 		(shape input)
 		(at 100.33 53.34 180)
 		(effects
@@ -2811,7 +2811,7 @@
 		)
 		(uuid "a5c46888-6e82-468d-ab6b-849edd842981")
 	)
-	(hierarchical_label "STBY1"
+	(hierarchical_label "STBY2"
 		(shape input)
 		(at 100.33 48.26 180)
 		(effects
