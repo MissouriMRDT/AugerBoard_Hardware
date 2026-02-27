@@ -1629,16 +1629,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 116.84) (xy 168.91 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0addb104-04c1-4a1d-899a-78f1fa1547eb")
-	)
-	(wire
-		(pts
 			(xy 165.1 58.42) (xy 168.91 58.42)
 		)
 		(stroke
@@ -2079,13 +2069,23 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 116.84) (xy 168.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bf2217-122b-4b43-b3ec-d9b265633b2a")
+	)
+	(wire
+		(pts
 			(xy 165.1 114.3) (xy 168.91 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8488133-2956-4d2c-a0c7-1d0915767f1b")
+		(uuid "f93b3d9b-b7f5-4a71-b158-8e8ccba6e2a8")
 	)
 	(hierarchical_label "SpareSW_12V"
 		(shape input)
@@ -2100,7 +2100,7 @@
 	)
 	(hierarchical_label "Moisture"
 		(shape input)
-		(at 168.91 114.3 0)
+		(at 168.91 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2298,7 +2298,7 @@
 	)
 	(hierarchical_label "Temp"
 		(shape input)
-		(at 168.91 116.84 0)
+		(at 168.91 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
