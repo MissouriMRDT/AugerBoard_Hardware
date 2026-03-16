@@ -16448,6 +16448,17 @@
 				(xyz 90 -0 -0)
 			)
 		)
+		(model "${KIPRJMOD}/../../MRDT_KiCAD_Libraries/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MRDT_Devices:SOP-8_TOS-L"
 		(layer "F.Cu")
