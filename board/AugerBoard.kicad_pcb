@@ -6186,7 +6186,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9f0bf804-e9c4-430b-a015-39aa9f51aadc")
+			(uuid "33ec5042-9849-42e4-8a9b-2b02da92e129")
 		)
 		(fp_line
 			(start -2.54 -2.54)
@@ -6196,7 +6196,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "009c789c-047a-45ee-8789-53e2146e71e4")
+			(uuid "ddaef529-da12-4d9c-ba88-78248fd30a87")
 		)
 		(fp_line
 			(start -2.54 -2.54)
@@ -6206,7 +6206,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7f127edb-4e14-4772-af87-7cfed2f6d055")
+			(uuid "64dd66a3-c1f0-4c72-a79c-6f2eb0673970")
 		)
 		(fp_line
 			(start -2.54 -2.54)
@@ -6216,7 +6216,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fd602b80-59d0-4fe9-b476-178ee270f898")
+			(uuid "0f014e99-2666-40c2-8012-2d714f048ae2")
 		)
 		(fp_line
 			(start 4.953 -3.81)
@@ -6226,7 +6226,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "755a7533-13d6-4398-bc64-d5ba1bdf5279")
+			(uuid "6513f104-7556-425b-9e56-5fdafd60bbb3")
 		)
 		(fp_line
 			(start 4.953 -2.54)
@@ -6236,7 +6236,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e4ecc824-5324-46c3-a7ed-893feb63503f")
+			(uuid "aa282cd8-8d13-4416-b7bc-38a37b5d03c8")
 		)
 		(fp_line
 			(start 4.953 2.54)
@@ -6246,7 +6246,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "be0af164-6a3a-4ab5-91ec-23638891b86d")
+			(uuid "093f44b2-2d5a-4ade-b276-159b519ddcd0")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -6269,21 +6269,9 @@
 			(uuid "a68c2ffa-8b4d-400e-b486-628d5ac23926")
 		)
 		(embedded_fonts no)
-		(model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../MRDT_KiCAD_Libraries/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
 			(offset
 				(xyz -2.5 -2.5 13)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 90 0 0)
-			)
-		)
-		(model "${MRDT_KICAD_LIBRARIES}/../MRDT_KiCAD_Libraries/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
-			(offset
-				(xyz -2.54 -2.54 13.081)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -16342,7 +16330,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c948304b-4fe3-4dd9-b99f-a04e4f2498fb")
+			(uuid "ddd7fb11-41af-43e8-8a47-b6dcfcec9229")
 		)
 		(fp_line
 			(start -2.54 -2.54)
@@ -16352,7 +16340,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "68a8fc2f-21c4-42ec-9fbc-7a646885bc00")
+			(uuid "41227cb0-abbc-4923-bb0c-b3e6098939d8")
 		)
 		(fp_line
 			(start -2.54 -2.54)
@@ -16362,7 +16350,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f8ff0b19-a8d4-4541-bb80-e69d26c147d3")
+			(uuid "7bf84ec1-22c0-4c15-999d-75c234605c4c")
 		)
 		(fp_line
 			(start -2.54 -2.54)
@@ -16372,7 +16360,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "537b539b-e92f-4a5e-b307-7958045371c6")
+			(uuid "3c716781-dd2b-43f8-868f-57bd4916e377")
 		)
 		(fp_line
 			(start 4.953 -3.81)
@@ -16382,7 +16370,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "723c1bf4-c8d3-4f31-96b0-071b8c467673")
+			(uuid "4d45327a-676a-46f6-8ee3-1ef812c95e30")
 		)
 		(fp_line
 			(start 4.953 -2.54)
@@ -16392,7 +16380,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b3d1412a-d9dc-463c-85eb-28ff33ed69e0")
+			(uuid "6f324538-bf8d-48b3-9499-4bd86db0414a")
 		)
 		(fp_line
 			(start 4.953 2.54)
@@ -16402,7 +16390,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4857b238-3d1b-460e-8269-4886e2c64216")
+			(uuid "3d02973f-186b-49e7-9079-46f9d046801a")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -16425,8 +16413,7 @@
 			(uuid "e16bb782-32d2-4942-bb52-6465bbb26df3")
 		)
 		(embedded_fonts no)
-		(model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../MRDT_KiCAD_Libraries/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
 			(offset
 				(xyz -2.5 -2.5 13)
 			)
@@ -16434,29 +16421,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
-			)
-		)
-		(model "${MRDT_KICAD_LIBRARIES}/../MRDT_KiCAD_Libraries/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
-			(offset
-				(xyz -2.54 -2.54 13.081)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
 				(xyz 90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/../../MRDT_KiCAD_Libraries/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
