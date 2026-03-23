@@ -1046,7 +1046,7 @@
 			(uuid "0cbbecb9-802c-44b8-ac6e-5ce205fe663f")
 		)
 		(instances
-			(project ""
+			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/874d0dfc-2f90-4409-9fd5-46a48fc81ade"
 					(reference "J3")
 					(unit 1)
@@ -1244,7 +1244,7 @@
 			(uuid "787482c0-d769-48e6-ad23-07cd620cbb02")
 		)
 		(instances
-			(project ""
+			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/874d0dfc-2f90-4409-9fd5-46a48fc81ade"
 					(reference "#PWR057")
 					(unit 1)
@@ -1323,7 +1323,7 @@
 			(uuid "3ca536ca-8961-404c-b988-8d9283138848")
 		)
 		(instances
-			(project ""
+			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/874d0dfc-2f90-4409-9fd5-46a48fc81ade"
 					(reference "Conn1")
 					(unit 1)

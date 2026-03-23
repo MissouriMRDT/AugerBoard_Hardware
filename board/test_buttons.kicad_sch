@@ -1408,7 +1408,7 @@
 			(uuid "2e63c965-bac3-4e51-93ba-828ccca082f1")
 		)
 		(instances
-			(project ""
+			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
 					(reference "#PWR025")
 					(unit 1)
@@ -1809,7 +1809,7 @@
 			(uuid "a3220e65-fb31-4000-bf51-a2758adef2ba")
 		)
 		(instances
-			(project ""
+			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
 					(reference "#PWR028")
 					(unit 1)
@@ -1945,7 +1945,7 @@
 			(uuid "c3509990-57d8-496b-82d5-2cf1f9e13b0b")
 		)
 		(instances
-			(project ""
+			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
 					(reference "SW1")
 					(unit 1)
@@ -2077,7 +2077,7 @@
 			(uuid "1a051257-8c0b-4b03-a2a6-c6c74df73116")
 		)
 		(instances
-			(project ""
+			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
 					(reference "#PWR029")
 					(unit 1)
@@ -2216,7 +2216,7 @@
 			(uuid "58268d19-d0df-409d-985d-bc60e5cc4e25")
 		)
 		(instances
-			(project ""
+			(project "AugerBoard"
 				(path "/05fd3c2e-b986-4426-9c38-2a77d5c929de/590fcba9-6f33-46c6-897e-fddc0210fa05"
 					(reference "SW10")
 					(unit 1)

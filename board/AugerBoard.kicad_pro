@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "AugerBoard_Gerbs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "R:/marsrover/Technical/MRDT 2026/PART_DATA/BOARDS/STEP files/AugerBoard.step",
